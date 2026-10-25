@@ -1,0 +1,137 @@
+{
+  "project": "dorothy",
+  "version": "2.0.0",
+  "default_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "recommended_params": {
+    "steps": 30,
+    "guidance_scale": 7.5,
+    "sampler": "DPM++ 2M Karras",
+    "clip_skip": 2,
+    "resolutions": {
+      "landscape_16_9": { "width": 1376, "height": 768 },
+      "portrait_3_4": { "width": 896, "height": 1152 },
+      "square_1_1": { "width": 1024, "height": 1024 }
+    }
+  },
+  "character_definitions": {
+    "dorothy": {
+      "name": "Dorothy",
+      "age": "9 years old",
+      "role": "Curious Junior Maker & AI Explorer",
+      "hair": "wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute front bangs",
+      "eyes": "large warm amber-brown eyes, rosy cheeks, bright joyful smile",
+      "outfit": "classic blue denim overalls dungarees with front pocket and brass buttons, 'STEM HERO' round badge on chest, orange and yellow horizontal striped t-shirt underneath, rolled-up pant cuffs, white ankle socks, vibrant red canvas sneakers",
+      "core_prompt": "Dorothy, an adorable 9-year-old anime girl, wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute bangs, warm amber-brown eyes, rosy cheeks, cheerful bright smile. Wearing classic blue denim overalls with rolled cuffs and a 'STEM HERO' badge, orange and yellow striped t-shirt, white socks, red canvas sneakers"
+    },
+    "hojin": {
+      "name": "Professor Hojin",
+      "role": "Engineering & AI Professor, Maker Mentor",
+      "age": "late 40s",
+      "hair": "stylish neatly parted salt-and-pepper short black hair with natural silver highlights",
+      "glasses": "thin round metal wire-rim eyeglasses",
+      "eyes": "kind intelligent warm brown eyes with gentle smile lines, encouraging warm smile",
+      "outfit": "dark navy collared short-sleeved polo shirt, classic medium blue straight denim jeans, iconic grey New Balance sneakers",
+      "core_prompt": "Professor Hojin, a dignified and friendly Korean engineering professor in his late 40s, neatly parted stylish salt-and-pepper short black hair, thin round wire-frame eyeglasses, kind intelligent warm brown eyes with gentle smile lines, encouraging warm smile. Wearing a signature dark navy collared short-sleeved polo shirt, classic blue denim jeans, and grey New Balance athletic sneakers"
+    },
+    "jiny": {
+      "name": "Jiny",
+      "role": "Head Lab Assistant Cat & Code Reviewer",
+      "species": "Korean Shorthair Tuxedo Cat",
+      "pattern": "black and white tuxedo cow pattern fur, black ears, white blaze on forehead",
+      "eyes": "intelligent olive green eyes, cute pink nose",
+      "accessories": "red collar with small golden bell, tiny round wireframe assistant spectacles perched on nose",
+      "core_prompt": "Jiny the lab assistant cat, charming black-and-white tuxedo cat with cow pattern fur, olive green intelligent eyes, pink nose, red collar with golden bell, wearing tiny round metal assistant spectacles on its nose"
+    },
+    "toto": {
+      "name": "Toto",
+      "role": "Maker Companion & Hardware Assistant Puppy",
+      "species": "Bichon Frise and Maltese mix puppy",
+      "fur": "cloud-like fluffy cream-white wavy fur, floppy ears",
+      "face": "glossy black button nose, sparkling round black eyes, happy open-mouth puppy smile with pink tongue",
+      "accessories": "sky-blue bandana neckerchief tied around neck",
+      "core_prompt": "Toto the fluffy cream-white puppy, bichon maltese mix, cloud-like soft wavy fur, floppy ears, black button nose, sparkling black eyes, cheerful sky-blue bandana around neck, wagging fluffy tail happily"
+    }
+  },
+  "style_presets": {
+    "2d_anime_storybook": {
+      "positive_prefix": "Studio Ghibli anime style, 2D animation aesthetic, clean crisp anime line art, vibrant soft flat cel shading, cinematic storybook lighting, masterpiece, highly detailed",
+      "negative_prompt": "3d, photorealistic, realistic rendering, cgi, oil painting, rough sketch, grayscale, monochrome, deformed anatomy, bad hands, missing fingers, extra limbs, mutated fingers, poorly drawn face, blurry, low quality, artifact, text watermark, signature, garbled letters, kanji, hiragana, katakana, dark moody atmosphere, horrifying, horror"
+    }
+  },
+  "templates": {
+    "dorothy_federated_learning_raspberry_pi": {
+      "description": "도로시가 라즈베리파이 클러스터로 개인정보보호 연합학습을 실험하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {dorothy_core} sitting at a lab desk, excitedly observing a cluster of three small green Raspberry Pi boards connected with ethernet cables and blinking LEDs, training a distributed federated learning model. {jiny_core} sits next to the monitor inspecting the decentralized loss graphs. {toto_core} happily sits under the desk holding a loose ethernet cable. High-tech cozy classroom maker lab.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "dorothy_docker_containers_fastapi": {
+      "description": "도로시가 Dockerfile과 docker-compose로 웹 서버와 DB를 컨테이너로 빌드하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {dorothy_core} at her dual-monitor developer desk, cheering with both fists pumped in the air as a Docker container build succeeds with a cheerful blue Docker whale logo on the screen alongside FastAPI code. {jiny_core} nods approvingly from the keyboard. Warm glowing maker lab background.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "dorothy_database_sql_mysql_postgres": {
+      "description": "도로시가 MySQL과 PostgreSQL 데이터베이스 스키마와 SQL 쿼리를 공부하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {dorothy_core} pointing a pencil at an ERD database diagram and SQL table schemas (PostgreSQL and MySQL) on a large computer screen, learning database normalization and indexing. {hojin_core} stands beside her pointing encouragingly at the query optimization plan.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "dorothy_java_enterprise_oop": {
+      "description": "도로시가 자바 객체지향 4대 원칙과 클래스 다이어그램을 공부하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {dorothy_core} seated before a glass whiteboard drawing UML class inheritance diagrams and Java interfaces with colorful dry-erase markers. An open Java textbook and a steaming ceramic mug with a coffee bean logo sit on the desk.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "dorothy_php_web_migration": {
+      "description": "도로시가 PHP 레거시 웹 코드를 현대식 REST API 구조로 리팩토링하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {dorothy_core} comparing old PHP code and new Python FastAPI code side by side on a split-screen monitor, holding her chin in deep concentration with a curious maker smile. Beside her is a small purple elephant plush toy.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "hojin_teaching_federated_learning": {
+      "description": "이호진 교수님이 칠판에 분산 엣지 기기와 연합학습 FedAvg 수식을 강의하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {hojin_core} standing in front of a green university lecture chalkboard, drawing distributed client nodes, edge devices, and the mathematical formula for Federated Averaging (FedAvg). Warm intellectual mentor aura.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "jiny_reviewing_docker_code": {
+      "description": "조교 지니가 안경을 쓰고 Dockerfile의 멀티스테이지 캐시 순서를 매섭게 검토하는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {jiny_core} sitting upright on a wooden desk, peering through round spectacles at a terminal screen displaying Dockerfile commands, one paw pointing at a cached layer line. Serious and adorable technical code review.",
+      "negative_prompt": "{negative_prompt}"
+    },
+    "toto_hardware_pi_assistant": {
+      "description": "토토가 라즈베리파이 GPIO 점퍼 와이어를 입에 물고 신나게 달려오는 씬",
+      "aspect_ratio": "1:1",
+      "positive_prompt": "{style_prefix}. {toto_core} trotting happily across a wooden lab floor, carrying a colorful ribbon cable and jumper wires in its mouth to deliver to Dorothy's electronics workbench. Bouncing fluffy fur, sky-blue bandana fluttering.",
+      "negative_prompt": "{negative_prompt}"
+    }
+  },
+  "reference_images": {
+    "dorothy": [
+      "/Users/hojin9/dev/projects/dorothy/data/images/dorothy_character_sheet.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/dorothy_front_view.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/dorothy_side_view.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/dorothy_three_quarter_view.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/dorothy_angles_expressions.jpg"
+    ],
+    "hojin": [
+      "/Users/hojin9/dev/projects/dorothy/data/images/hojin_character_sheet.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/hojin_thumbs_up.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/hojin_lecture_presenter.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/hojin_dorothy_mentoring.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/hojin_lab_lecture.jpg"
+    ],
+    "jiny": [
+      "/Users/hojin9/dev/projects/dorothy/data/images/jiny_character_sheet.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/jiny_profile.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/jiny_lab_assistant.jpg"
+    ],
+    "toto": [
+      "/Users/hojin9/dev/projects/dorothy/data/images/toto_character_sheet.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/toto_profile.jpg",
+      "/Users/hojin9/dev/projects/dorothy/data/images/toto_maker_helper.jpg"
+    ]
+  }
+}
