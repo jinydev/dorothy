@@ -1,1 +1,3 @@
-1robot tinny, 1cat jiny, tuxedo cat with glasses sitting on robot head, cat loaf on robot head, robot smiling with closed led eyes, peaceful, funny, cute companions, robotics workshop background, afternoon sun, anime style, ghibli aesthetic, clean line art
+1robot, cartesian coordinate robot, desktop gantry fabrication system, 3d printing extruder head, depositing layer by layer molten filament, creating miniature robot chassis, warm maker workshop lighting, studio ghibli anime style, clean crisp line art, soft cel shading, educational asset
+
+A desktop Cartesian 3D printer gantry system fabricating a miniature robot chassis layer by layer with glowing extruder and spool filament in a warm workshop.

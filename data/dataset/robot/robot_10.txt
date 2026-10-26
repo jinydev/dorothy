@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, standing on one foot, single leg balance, arms out, triumph, successful reinforcement learning, happy crescent led eyes, glowing heart core, simple background, white background, anime style, ghibli aesthetic, clean line art
+1robot, articulated robotic arm, cobot assistant at wooden maker workbench, holding soldering iron with steady robotic clamp, assisting electronic circuit prototyping, breadboards, jumper wires, cozy maker lab, warm afternoon window sunlight, studio ghibli anime style, clean line art, masterpiece
+
+A collaborative robotic arm acting as a maker assistant, steadily holding a soldering iron beside an electronics breadboard on a wooden workbench in a sunny laboratory.

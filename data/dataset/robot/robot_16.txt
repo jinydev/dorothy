@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, self repair, holding small screwdriver, tightening bolt on arm, maker robot, workbench, spare screws, miniature gears, focused expression, anime style, ghibli aesthetic, clean line art
+1robot, scara robot, selective compliance assembly robot arm, horizontal articulated robot, cylindrical vertical base, two horizontal rotating arms, vertical z-axis ball screw spline, high speed pick and place gripper, isolated, pure solid white background, studio ghibli anime style, clean crisp line art, soft cel shading, masterpiece
+
+An isolated clean 2D anime illustration of a high-speed SCARA assembly robot arm with cylindrical base, dual horizontal articulating links, and vertical spline spindle on a pure white background.

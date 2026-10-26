@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, idea bulb lit, glowing bright yellow light bulb on antenna, eureka moment, raised finger, excited wide led eyes, dynamic gesture, simple background, white background, anime style, ghibli aesthetic, clean line art
+1robot, cartesian coordinate gantry system, automated circuit testing station, multiple test probes contacting golden test pads, oscilloscope screen in background, high tech quality assurance, studio ghibli anime style, clean line art, masterpiece
+
+An automated Cartesian circuit testing robot with fine probe needles inspecting golden PCB contact pads beside an oscilloscope display in a high-tech lab.

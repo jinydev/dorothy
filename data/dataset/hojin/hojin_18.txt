@@ -1,1 +1,3 @@
-1man, hojin, professor, mature male, 40s, dark navy polo shirt, blue jeans, denim pants, glasses, thin round spectacles, short black hair, chalkboard, blackboard, writing with chalk, chalk in hand, reinforcement learning, bellman equation, neural network diagram, classroom, lecture hall, textbooks, turning around, warm smile, anime style, ghibli aesthetic, clean line art
+professor hojin, 1man, solo, korean, early 40s, engineering professor, youthful face, smooth skin, parted salt-and-pepper hair, thin round glasses, writing with chalk on green chalkboard, bellman optimality equation, q-learning formula, turning around with warm smile, lecture hall background, solid dark navy polo shirt, blue jeans, clean line art
+
+Professor Hojin writing reinforcement learning value formulas on a green blackboard and turning back to the class with a supportive, warm teaching smile.

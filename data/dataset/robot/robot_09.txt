@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, getting back up, pushing up with hands, resilient, determined, bright glowing led eyes, brave posture, robotics workshop floor, maker lab background, anime style, ghibli aesthetic, clean line art
+1robot, articulated robotic arm, end effector equipped with 3d depth camera and lidar sensor, laser scanning beam, spatial perception, physical ai perception, flexible arm reaching outward, high precision industrial manipulator, isolated, pure solid white background, studio ghibli anime style, clean line art
+
+A precision robotic arm equipped with a 3D depth camera and LiDAR sensor projecting a soft scanning beam for spatial environmental perception on a pure white background.

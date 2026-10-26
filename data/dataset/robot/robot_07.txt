@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, reinforcement learning, learning to walk, first steps, wobbly balance, one foot forward, arms outstretched for balance, focused led eyes, robotics workshop floor, wooden floor, maker lab, anime style, ghibli aesthetic, clean line art
+1robot, articulated robotic arm, 6-axis cobot, industrial robotic arm, collaborative robot, rotational brass joints, matte silver and white segments, heavy circular base pedestal, 3-finger pneumatic gripper end effector, picking up electronic microchip, precision robotics, isolated, pure solid white background, studio ghibli anime style, clean crisp line art, soft cel shading, masterpiece
+
+An isolated full-view illustration of a 6-axis articulated collaborative robot arm with white and silver segments and brass rotating joints, delicately gripping a microchip with its precision three-finger gripper against a pure solid white background.

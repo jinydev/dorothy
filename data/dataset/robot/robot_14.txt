@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, charging dock, recharging, sitting in charging cradle, power cable plugged in, sleep mode, closed led eyes, gentle breathing pulse on heart core, night lab, starry window, peaceful, anime style, ghibli aesthetic, clean line art
+1robot, cartesian coordinate robot, close up on moving carriage and z-axis vertical slide, optical endstops, stepper motor, aluminum extrusion frame, glowing green status led, precision engineering diagram aesthetic, pure solid white background, studio ghibli anime style, clean line art
+
+An engineering close-up of a Cartesian robot's linear slide carriage, showing optical endstop sensors, stepper motor, and brass lead screw on a pure white background.

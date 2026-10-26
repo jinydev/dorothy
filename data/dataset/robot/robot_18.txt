@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, gridworld maze, floor puzzle mat, obstacle course, autonomous navigation, sensor scanning, green laser line, maker lab, high tech experiment, anime style, ghibli aesthetic, clean line art
+1robot, scara robot, close up on harmonic drive elbow joint and vertical ball screw shaft, brass bolts, precision encoder disc, mechanical robotics engineering, isolated, pure solid white background, studio ghibli anime style, clean line art
+
+A detailed mechanical close-up of a SCARA robot's elbow joint and precision ball screw shaft with brass fasteners and optical encoder markings on a pure white background.

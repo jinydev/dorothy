@@ -1,1 +1,3 @@
-1robot, tinny, ozbot, small humanoid robot, fallen down, sitting on floor, bumped bottom, dizzy spiral led eyes, scratching head with robotic hand, failure recovery, cute expression, wooden workshop floor, anime style, ghibli aesthetic, clean line art
+1robot, articulated robotic arm, 6-axis cobot, multi-joint manipulator, cobot holding dry erase marker pen, drawing neural network graph on whiteboard, intelligent trajectory control, precision servo motors, status ring light glowing teal blue, isolated, pure solid white background, studio ghibli anime style, clean line art, masterpiece
+
+A 6-axis collaborative robotic arm holding a marker pen and drawing a neural network diagram with precise trajectory control, featuring a glowing teal status ring on a pure white background.

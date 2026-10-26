@@ -1,1 +1,3 @@
-professor hojin, 1man, solo, korean, 40s, engineering professor, short salt-and-pepper hair, parted hair, round eyeglasses, kind brown eyes, gentle smile, sitting at desk, laptop, python code, neural network loss graph, engineering office background, bookshelves, arduino on shelf, window, sunlight, dark charcoal navy polo shirt, blue denim jeans, clean anime line art, cel shading
+professor hojin, 1man, solo, korean, early 40s, engineering professor, youthful face, smooth skin, parted salt-and-pepper hair, thin wire glasses, kind brown eyes, gentle smile, sitting at wooden desk, typing on laptop, python code, neural network loss graph on screen, engineering office background, bookshelves, warm sunlight, solid dark navy polo shirt, blue jeans, clean line art
+
+Professor Hojin working on deep learning research at his office desk, typing on a laptop with neural network graphs on the screen in warm ambient sunlight.

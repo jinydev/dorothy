@@ -1,1 +1,3 @@
-1robot tinny, 1man hojin, professor pointing at chalkboard, reinforcement learning diagram, q-learning, bellman equation, robot looking up attentively, student and mentor, lecture hall, warm academic atmosphere, anime style, ghibli aesthetic, clean line art
+1robot, scara robot, high speed assembly line, sorting and placing microcontrollers onto conveyor belt, fast motion blur lines on arm, ultra precise component assembly, smart electronics factory, studio ghibli anime style, clean line art
+
+A SCARA robot arm rapidly sorting and placing microcontrollers onto an assembly conveyor belt with dynamic speed and precision in a modern smart maker factory.

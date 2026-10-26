@@ -1,32 +1,43 @@
 # 🌟 도로시(Dorothy)의 컴퓨팅 과학 & AI 모험
 
 > **"호기심에서 시작해 인공지능과 세상을 잇는 따뜻한 메이커들의 성장 스토리"**  
-> 도로시, 이호진 교수님, 조교 지니, 그리고 반려견 토토가 함께 아두이노부터 딥러닝, 강화학습, 웹 서비스까지 컴퓨팅 과학의 방대한 바다를 탐험하며 성장해 나가는 프리미엄 2D 교육 스토리텔링 프로젝트입니다.
+> 도로시, 이호진 교수님, 조교 지니, 그리고 반려견 토토가 함께 아두이노부터 딥러닝, 강화학습, 피지컬 AI 로보틱스까지 컴퓨팅 과학의 방대한 바다를 탐험하며 성장해 나가는 **프리미엄 2D 교육 스토리텔링 프로젝트**입니다.
 
 ---
 
 ## 📖 1. 프로젝트 개요 (Overview)
 
-**`Dorothy` 프로젝트**는 딱딱하고 추상적인 컴퓨터 과학(CS)과 인공지능(AI) 지식을 따뜻하고 생동감 넘치는 2D 애니메이션 스토리텔링으로 풀어내는 교육 콘텐츠 & 캐릭터 세계관 프로젝트입니다.
+**`Dorothy` 프로젝트**는 딱딱하고 추상적인 컴퓨터 과학(CS)과 인공지능(AI) 지식을 스튜디오 지브리 감성의 따뜻하고 생동감 넘치는 2D 애니메이션 일러스트레이션으로 풀어내는 교육 콘텐츠 & 캐릭터 세계관 저장소입니다.
 
-단순한 지식 전달을 넘어, 아이디어를 직접 아두이노 회로로 연결하고, 웹 서비스로 배포하며, 신경망과 강화학습 에이전트를 학습시키며 마주하는 **시행착오와 문제 해결, 그리고 성장의 기쁨**을 함께 나눕니다.
+* **강의와 교재를 위한 표준 시각화:** 책, 웹 튜토리얼([`jinysite`](file:///Users/hojin9/dev/jinysite)), 슬라이드 강의 자료에 일관된 캐릭터와 화풍을 제공합니다.
+* **자립형 프롬프트 엔진:** 단 하나의 마스터 프롬프트 파일([`prompt.md`](file:///Users/hojin9/dev/projects/dorothy/prompt.md))을 Gemini 등 생성형 AI에 전달하는 것만으로 완벽하게 동일한 유형의 고품질 교육 삽화를 생성할 수 있습니다.
+* **완결된 고품질 LoRA 데이터셋:** 캐릭터 5인방과 36종 강의 파츠(환경, 하드웨어, 소프트웨어, AI 이론, 로고) 등 총 **178세트**의 고해상도 이미지와 이중 레이어 캡션(`.txt`)이 구축되어 있습니다.
 
 ---
 
-## 👥 2. 등장인물 소개 (The Characters)
+## 👥 2. 캐릭터 및 로봇 세계관 (The Characters & Ecosystem)
 
-| 캐릭터 | 역할 / 페르소나 | 비주얼 특징 | 대표 학습 & 상호작용 |
+모든 캐릭터는 고유의 시각 규격, 페르소나, 그리고 14대 컴퓨터 과학 영역별 역할 매트릭스를 지니고 있습니다.
+
+| 캐릭터 | 역할 / 페르소나 | 비주얼 규격 & 핵심 특징 | 대표 상호작용 & 역할 |
 | :--- | :--- | :--- | :--- |
-| **👧 도로시 (Dorothy)** | **호기심 넘치는 주니어 메이커**<br>실패를 두려워하지 않는 당찬 소녀 코더 | • 웨이브 양갈래 머리 (구슬 방울 머리끈)<br>• 주황 줄무늬 티 & "STEM HERO" 데님 오버롤<br>• 레드 캔버스 스니커즈 | 아두이노 센서 실험, 파이썬 코딩, 직접 만든 AI 모델을 실생활에 적용하며 성장하는 주인공 |
-| **👨‍🏫 이호진 교수님 (Prof. Hojin)** | **지적이고 인자한 AI/공학 멘토**<br>스티브 잡스 스타일의 실용적 혁신가 | • 솔트앤페퍼 숏헤어 & 슬림 와이어 안경<br>• 다크 네이비 카라 폴로 셔츠<br>• 클래식 블루 청바지 & 뉴발란스 운동화 | 원리와 흐름을 쉽게 짚어주는 나침반. 딥러닝 수학, 알고리즘, 강화학습 아키텍처의 길잡이 |
-| **🐱 지니 (Jiny)** | **이호진 교수님의 수석 연구실 조교**<br>시크하면서도 똑똑한 츤데레 냥이 | • 블랙&화이트 턱시도/젖소 무늬 코숏<br>• 핑크 코 & 지적인 올리브 그린 눈<br>• 레드 방울 목걸이 & 미니 조교 안경 | 코드 디버깅 감수, 회로 핀 연결 오류를 앞발로 콕 짚어주며 회로도 위에서 식빵 굽기 |
-| **🐶 토토 (Toto)** | **도로시의 단짝 반려견 & 마스코트**<br>지치지 않는 비타민이자 현장 조수 | • 복슬복슬 크림 화이트 털 (비숑-말티즈 믹스)<br>• 검은 단추 코 & 초롱초롱한 눈동자<br>• 선명한 하늘색(Sky-blue) 반다나 | 점퍼 와이어와 작은 부품을 입에 물어다 주는 귀여운 조수. 도로시에게 무한 격려 제공 |
+| **👧 도로시 (Dorothy)** | **호기심 넘치는 주니어 메이커**<br>실패를 두려워하지 않는 당찬 소녀 코더 | • 밤갈색 웨이브 양갈래 머리 (구슬 방울 끈)<br>• 주황 줄무늬 티 & "STEM HERO" 데님 오버롤<br>• 비비드 레드 캔버스 스니커즈 (4.5등신) | 아두이노 센서 실험, 파이썬 코딩, 직접 만든 AI 모델을 실생활에 적용하며 성장하는 주인공 |
+| **👨‍🏫 이호진 교수님 (Prof. Hojin)** | **지적이고 친근한 AI/공학 멘토**<br>스티브 잡스 스타일의 실용적 혁신가 | • 40대 초반 동안(매끈한 피부, 주름 없음)<br>• 솔트앤페퍼 숏헤어 & 슬림 와이어 안경<br>• 무지 다크 네이비 폴로 + 블루진 + 뉴발란스 | 개념의 원리와 흐름을 명쾌하게 짚어주는 나침반. 수식·알고리즘·강화학습 아키텍처의 길잡이 |
+| **🐱 조교 지니 (Jiny)** | **이호진 교수님의 수석 연구실 조교**<br>시크하면서도 똑똑한 츤데레 냥이 | • 한국 단모종 턱시도/젖소 무늬 코숏<br>• 핑크 단추 코 & 지적인 올리브 그린 눈<br>• 레드 방울 목걸이 & 미니 조교 안경 | 코드 디버깅 감수, 회로 핀 연결 오류를 앞발로 콕 짚어주며 모니터 앞이나 회로도 위에서 식빵 굽기 |
+| **🐶 토토 (Toto)** | **도로시의 단짝 반려견 & 마스코트**<br>지치지 않는 비타민이자 현장 조수 | • 복슬복슬 단색 웜밀크 화이트 (`#FBF6EB`)<br>• 얼룩/반점 전혀 없음, 검은 단추 코 & 단추 눈<br>• 산뜻한 하늘색(Sky-blue) 삼각 반다나 | 점퍼 와이어와 작은 부품을 물어다 주는 귀여운 조수. 도로시에게 무한한 용기와 격려 제공 |
+| **🤖 로봇 생태계 (Tinny & Robotics)** | **피지컬 AI 협력자 & 로보틱스**<br>함께 만들고, 일하고, 학습하는 동반자 | • 틴맨(Tinny): 2족보행 양철 휴머노이드<br>• 6축 산업용/교육용 협동 로봇 암<br>• 3축 직교 갠트리 & SCARA 로봇 | 아두이노·라즈베리파이 센서 모터 제어, 강화학습 보행 훈련, 디지털 트윈 및 스마트 팩토리 실습 |
+
+### 🎬 연출 및 캐스팅 골든 룰 (Casting Rules)
+1. **도로시 + 토토:** 언제나 함께 다니는 단짝 콤비 (기본 씬 구성)
+2. **이호진 교수님 & 조교 지니의 등장 시점:** 새로운 지식을 가르치거나, 디버깅 힌트를 주거나, 원리를 설명할 때 등장
+3. **씬당 개체 수 제한:** 한 장면에 고양이(지니) 1마리 + 강아지(토토) 1마리를 초과하여 등장하지 않음 (단일 개체 원칙)
+4. **언어 제한:** 모든 칠판 판서, 모니터 텍스트, 라벨은 **한국어(한글) 또는 영어**만 사용 (일본어 절대 금지)
 
 ---
 
-## 🚀 3. 학습 및 탐구 영역 (14대 컴퓨팅 커리큘럼)
+## 🚀 3. 탐구 및 강의 영역 (14대 컴퓨팅 커리큘럼)
 
-캐릭터 4인방은 피지컬 임베디드부터 분산 인공지능, 현대 클라우드 인프라까지 전방위 기술을 실전 프로젝트로 탐구합니다:
+캐릭터들은 피지컬 임베디드부터 분산 인공지능, 현대 클라우드 인프라까지 전방위 기술을 실전 프로젝트로 탐구합니다:
 
 ```mermaid
 flowchart TD
@@ -44,126 +55,142 @@ flowchart TD
         D3["도커 (Docker)"] --- D4["리눅스 CLI"]
     end
 
-    subgraph AI["🧠 인공지능 & 머신러닝"]
-        AI1["인공지능 & 딥러닝\n(Deep Learning)"] --- AI2["강화학습\n(Reinforcement Learning)"]
-        AI3["연합학습\n(Federated Learning)"]
+    subgraph AI["🧠 인공지능 & 로보틱스"]
+        AI1["인공지능 & 딥러닝"] --- AI2["강화학습 (RL)"]
+        AI3["연합학습 (FL)"] --- AI4["피지컬 AI 로봇"]
     end
 
     HW --> LANG --> DATA --> AI
 ```
 
-### 1) 🔌 피지컬 & 엣지 컴퓨팅 (Arduino & Raspberry Pi)
-* **아두이노:** 브레드보드 회로, 센서/액추에이터(LED, 서보 모터, 초음파), C/C++ 펌웨어 프로그래밍
-* **라즈베리파이:** 리눅스 OS(Raspberry Pi OS) 기반 싱글보드 컴퓨터, 파이썬 GPIO 제어, 카메라 연동 엣지 AI 노드 구축
-
-### 2) 💻 프로그래밍 언어 생태계 (Python, JS, Java, PHP)
-* **파이썬 (Python):** 데이터 사이언스, PyTorch 딥러닝, FastAPI 마이크로서비스 백엔드
-* **자바스크립트 (JavaScript):** 반응형 웹 프론트엔드 UI, 비동기 이벤트 루프, 실시간 차트 대시보드
-* **자바 (Java):** 객체지향 4대 원칙(OOP), JVM 구조, 견고한 스프링부트 엔터프라이즈 아키텍처
-* **PHP:** 웹의 역사와 동적 서버사이드 렌더링, 현대 최신 PHP 8.x 객체지향 및 REST API 연동
-
-### 3) 🗄️ 데이터베이스 & 인프라 (MySQL, PostgreSQL, Docker, Linux)
-* **MySQL & PostgreSQL:** 테이블 정규화, ACID 트랜잭션, B-Tree 인덱스 최적화 및 복잡한 SQL JOIN/JSONB 쿼리 실습
-* **도커 (Docker):** Dockerfile 작성, 멀티 스테이지 빌드, `docker-compose`를 통한 웹+DB+AI 컨테이너 통합 배포
-* **리눅스 (Linux CLI):** Bash 쉘 스크립트, 파일 권한, 프로세스 관리, 헤드리스 엣지 서버 환경 운영
-
-### 4) 🧠 최첨단 인공지능 (AI, 딥러닝, 강화학습, 연합학습)
-* **인공지능 & 딥러닝:** 퍼셉트론부터 다층 신경망, 합성곱 신경망(CNN), 트랜스포머(Transformer)의 직관적 학습
-* **강화학습 (RL):** 마르코프 결정 과정(MDP), 벨만 방정식, Q-Learning 및 DQN 자율주행 모형차 정책 최적화
-* **연합학습 (Federated Learning):** 여러 라즈베리파이 엣지 기기 간 개인정보를 보존하며 가중치(Gradient)만 결합하는 분산 프라이버시 AI
-
-> 💡 각 캐릭터의 성격, 말투 및 14대 기술별 역할 매트릭스는 [CHARACTER_PERSONAS.md](file:///Users/hojin9/dev/projects/dorothy/guides/CHARACTER_PERSONAS.md)에 상세히 기술되어 있습니다.
+* **🔌 피지컬 & 엣지 컴퓨팅:** 아두이노 센서·모터 C++ 제어, 라즈베리파이 리눅스 엣지 AI 노드
+* **💻 프로그래밍 언어:** 파이썬(데이터·PyTorch), 자바스크립트(반응형 웹), 자바(OOP 원칙), PHP(웹 MVC 아키텍처)
+* **🗄️ 데이터 & 인프라:** MySQL & PostgreSQL(정규화, ACID, JSONB, 인덱스 최적화), 도커(컨테이너화), 리눅스 CLI(Bash)
+* **🧠 인공지능 & 피지컬 AI:** 딥러닝(신경망·CNN), 강화학습(MDP·벨만 방정식·정책 최적화), 연합학습(분산 프라이버시 AI), 협동 로봇 자율 제어
 
 ---
 
-## 🎨 4. 비주얼 스타일 가이드 (Visual Style & Art Direction)
+## 📚 4. 마스터 스타일 가이드 (`guides/`)
 
-본 프로젝트의 모든 일러스트와 시각 자료는 **스튜디오 지브리 & 신카이 마코토 감성의 따뜻한 프리미엄 2D 애니메이션 화풍**을 유지합니다.
+캐릭터의 외형 규격, 안티 패턴, 컬러 팔레트, 성격 페르소나 및 14대 기술 매트릭스가 캐릭터별 마스터 가이드에 통합 수록되어 있습니다:
 
-* **소프트 클린 라인아트 (Crisp Clean Line Art):** 부드러운 다크 브라운/차콜 선화로 정돈된 애니메이션 룩 완성
-* **풍부한 웜톤 셀 셰이딩 (Warm Flat Cel Shading):** 인위적인 3D/실사 느낌을 배제하고 포근한 환경광 반영
-* **아날로그 메이커 감성:** 오실로스코프, 납땜기, 전자기판 등도 차갑지 않고 호기심 가득한 아틀리에 분위기로 연출
-
-### 📁 가이드라인 & 표준 문서
-* 🎭 **[캐릭터 심층 페르소나 & 14대 기술 매트릭스 (`CHARACTER_PERSONAS.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/CHARACTER_PERSONAS.md)**
-* 🧩 **[파츠 애셋 및 LoRA 학습 통합 가이드 (`PARTS_AND_LORA_TRAINING_GUIDE.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/PARTS_AND_LORA_TRAINING_GUIDE.md)**
-* 🤖 **[로봇 틴맨 스타일 가이드라인 (`ROBOT_STYLE_GUIDE.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/ROBOT_STYLE_GUIDE.md)**
-* 👧 [도로시 스타일 가이드라인 (`DOROTHY_STYLE_GUIDE.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/DOROTHY_STYLE_GUIDE.md)
-* 👨‍🏫 [이호진 교수님 스타일 가이드라인 (`HOJIN_STYLE_GUIDE.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/HOJIN_STYLE_GUIDE.md)
-* 🐱 [조교 지니 스타일 가이드라인 (`JINY_STYLE_GUIDE.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/JINY_STYLE_GUIDE.md)
-* 🐶 [토토 스타일 가이드라인 (`TOTO_STYLE_GUIDE.md`)](file:///Users/hojin9/dev/projects/dorothy/guides/TOTO_STYLE_GUIDE.md)
+| 가이드 문서 | 대상 | 핵심 수록 내용 |
+| :--- | :--- | :--- |
+| 👧 **[`DOROTHY_STYLE_GUIDE.md`](file:///Users/hojin9/dev/projects/dorothy/guides/DOROTHY_STYLE_GUIDE.md)** | 도로시 | 4.5등신 조형 규격, 4대 헤어스타일, 4대 의상, 주니어 메이커 페르소나 & 14대 학습 매트릭스 |
+| 👨‍🏫 **[`HOJIN_STYLE_GUIDE.md`](file:///Users/hojin9/dev/projects/dorothy/guides/HOJIN_STYLE_GUIDE.md)** | 이호진 교수님 | 40대 초반 동안 앵커(노안 방지), 무지 네이비 폴로, 슬림 안경, 스티브 잡스형 멘토링 매트릭스 |
+| 🐱 **[`JINY_STYLE_GUIDE.md`](file:///Users/hojin9/dev/projects/dorothy/guides/JINY_STYLE_GUIDE.md)** | 조교 지니 | 한국 단모종 턱시도, 올리브 눈, 핑크 코, 미니 안경, 레드 방울 목걸이, 코드리뷰 매트릭스 |
+| 🐶 **[`TOTO_STYLE_GUIDE.md`](file:///Users/hojin9/dev/projects/dorothy/guides/TOTO_STYLE_GUIDE.md)** | 토토 | 안티 드리프트 엔진(단색 웜밀크 화이트, 얼룩 없음, 검은 코/눈), 하늘색 반다나, 하드웨어 보조 매트릭스 |
+| 🤖 **[`ROBOT_STYLE_GUIDE.md`](file:///Users/hojin9/dev/projects/dorothy/guides/ROBOT_STYLE_GUIDE.md)** | 로봇 생태계 | 틴맨(휴머노이드), 6축 협동로봇, 3축 직교 갠트리, SCARA 로봇, 피지컬 AI 협업 매트릭스 |
+| 🧩 **[`PARTS_AND_LORA_TRAINING_GUIDE.md`](file:///Users/hojin9/dev/projects/dorothy/guides/PARTS_AND_LORA_TRAINING_GUIDE.md)** | 파츠 & LoRA | 36종 강의 파츠(환경, 하드웨어, 소프트웨어, AI 이론, 로고) 명세 및 Multi-Concept LoRA 학습 레시피 |
 
 ---
 
-## 📂 5. 프로젝트 디렉토리 구조 (Directory Structure)
+## 🎨 5. 제미나이(Gemini) 마스터 프롬프트 엔진 (`prompt.md`)
+
+[`prompt.md`](file:///Users/hojin9/dev/projects/dorothy/prompt.md)는 **외부 파일 참조 없이 단독으로 Gemini LLM / 생성형 이미지 모델에 입력하여 완벽한 일관성의 교육 일러스트를 출력하는 단일 마스터 프롬프트 엔진**입니다.
+
+### 5블록 프롬프트 공식 (The 5-Block Formula)
+```text
+[Block 1: Master Style Core (Ghibli 2D, soft clean lines, cel shading, no 3D)]
++ [Block 2: Character Anchor (Dorothy / Hojin / Jiny / Toto / Robot exact visual tokens)]
++ [Block 3: Scene & Technology Interaction (Arduino, PyTorch, Docker, RL Blackboard, etc.)]
++ [Block 4: Lighting & Atmospheric Composition (Golden hour, warm amber glow, clean depth)]
++ [Block 5: Negative Guardrail (No Japanese characters, no 3D render, no wrinkles on Hojin, no spots on Toto)]
+```
+
+[`prompt.md`](file:///Users/hojin9/dev/projects/dorothy/prompt.md) 내에는 **즉시 복사하여 사용할 수 있는 6대 실전 프로덕션 레시피**가 탑재되어 있습니다:
+1. 도로시의 아두이노 초음파 센서 회로 브레드보드 실습
+2. 이호진 교수님의 딥러닝 다층 신경망(MLP) 칠판 강의
+3. 도로시와 조교 지니의 파이썬 알고리즘 디버깅
+4. 도로시와 토토의 라즈베리파이 엣지 AI 객체 인식
+5. 도로시의 도커 컨테이너 빌드 성공 환호
+6. 이호진 교수님과 틴맨(로봇)의 강화학습 2족보행 훈련
+
+---
+
+## 🎯 6. 교육 및 LoRA 학습 데이터셋 현황 (`data/`)
+
+모든 데이터는 1024x1024 고해상도 정방형 이미지와 Danbooru 태그 + 자연어 설명이 결합된 이중 레이어 캡션(`.txt`)이 **1:1로 100% 매칭**되어 보관됩니다.
+
+```mermaid
+pie title 데이터셋 구축 현황 (총 178세트)
+    "도로시 (Dorothy)" : 42
+    "이호진 교수님 (Prof. Hojin)" : 30
+    "조교 지니 (Jiny)" : 26
+    "토토 (Toto)" : 22
+    "로봇 생태계 (Robot)" : 22
+    "강의 파츠 (Parts 36종)" : 36
+```
+
+### ① 캐릭터 데이터셋 (`data/dataset/`)
+| 캐릭터 | 완성 세트 (이미지 / .txt) | 주요 구성 내용 | 저장 디렉토리 |
+| :--- | :---: | :--- | :--- |
+| **👧 도로시 (Dorothy)** | **42 / 42 세트 (100%)** | 턴어라운드 시트, 다각도 표정, 4대 헤어, 4대 의상, 코딩, 납땜, 브레드보드, 칠판 수식, 성공 환호 | [`data/dataset/dorothy/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/dorothy/) |
+| **👨‍🏫 이호진 교수님** | **30 / 30 세트 (100%)** | 턴어라운드 시트, 40대 초반 동안 앵커, 멘토링, 랩 강의, 엄지 척, 칠판 수식, 로봇 조립 지도 | [`data/dataset/hojin/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/hojin/) |
+| **🐱 조교 지니 (Jiny)** | **26 / 26 세트 (100%)** | 캐릭터 시트, 턱시도 코숏, 조교 안경, 랩 어시스턴트, 식빵 굽기, 모니터 앞 키보드 점령, 코드 감수 | [`data/dataset/jiny/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/jiny/) |
+| **🐶 토토 (Toto)** | **22 / 22 세트 (100%)** | 턴어라운드 시트, 단색 웜밀크 화이트, 하늘색 반다나, 점퍼 와이어 물기, 미어캣 포즈, 기어 냄새 맡기 | [`data/dataset/toto/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/toto/) |
+| **🤖 로봇 생태계 (Robot)** | **22 / 22 세트 (100%)** | 틴맨(휴머노이드 프로필, 관절, 하이파이브), 6축 협동로봇 암, 3축 직교 갠트리, SCARA 조립 로봇 | [`data/dataset/robot/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/robot/) |
+
+### ② 강의 파츠 & 이론 데이터셋 (`data/dataset/parts/`)
+| 카테고리 | 등록 수 | 대표 애셋 구성 | 저장 디렉토리 |
+| :--- | :---: | :--- | :--- |
+| **🏫 환경 (Environments)** | **6종** | 공학 강의실, 메이커 공방, 코딩 워크스테이션, 팹랩 3D 프린팅 룸, 엣지 AI 룸, 캠퍼스 잔디 | [`data/dataset/parts/01_environments/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/01_environments/) |
+| **🔌 하드웨어 (Hardware)** | **8종** | 아두이노 우노, 라즈베리파이 4, 브레드보드 회로, 초음파 센서, 온습도 센서, 서보 모터, DC 기어 모터, RC 카 | [`data/dataset/parts/02_hardware/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/02_hardware/) |
+| **💻 소프트웨어 (Software)** | **6종** | 자바 OOP 다이어그램, PHP MVC 아키텍처, DB ERD 스키마, 도커 컨테이너, 웹 원격 대시보드, REST API | [`data/dataset/parts/03_software/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/03_software/) |
+| **🧠 AI 이론 (AI Theory)** | **6종** | 다층 신경망(MLP), CNN 합성곱 특성 추출, 강화학습 MDP 루프, 칠판 벨만 방정식, 연합학습 노드, 손실 곡선 | [`data/dataset/parts/04_ai_theory/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/04_ai_theory/) |
+| **🏷️ 공식 로고 (Logos)** | **10종** | 파이썬, C/C++, 자바, PHP, JS/TS, 러스트, 리눅스, 아두이노, 파이토치, 도커 2D 지브리 재해석 로고 | [`data/dataset/parts/05_logos/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/05_logos/) |
+
+---
+
+## 📂 7. 디렉토리 구조 (Directory Structure)
+
+본 저장소는 불필요한 빌드 스크립트나 임시 파일을 일체 배제하고, **강의 및 출판에 필요한 마스터 가이드(`guides/`)와 정제된 데이터셋(`data/`)** 중심으로 단정하게 구성되어 있습니다:
 
 ```text
 dorothy/
-├── README.md                      # 프로젝트 소개 및 세계관 총괄 문서
-├── guides/                        # 캐릭터 디자인 & 프롬프트 표준 가이드라인
-│   ├── CHARACTER_PERSONAS.md      # 5대 캐릭터 심층 페르소나 및 14대 기술 매트릭스
-│   ├── PARTS_AND_LORA_TRAINING_GUIDE.md # 26종 파츠 애셋 및 LoRA 파라미터 가이드
-│   ├── ROBOT_STYLE_GUIDE.md       # 🤖 로봇 틴맨(Tinny) 외형 및 20종 데이터셋 가이드
-│   ├── LEARNING_IMAGE_DATASET_PLAN.md   # 신규 기술 실습 씬 이미지 기획서
-│   ├── DOROTHY_STYLE_GUIDE.md     # 도로시 스타일 가이드
-│   ├── HOJIN_STYLE_GUIDE.md       # 이호진 교수님 스타일 가이드 (스마트 캐주얼)
-│   ├── JINY_STYLE_GUIDE.md        # 조교 지니 스타일 가이드 (턱시도 냥이)
-│   ├── TOTO_STYLE_GUIDE.md        # 토토 스타일 가이드 (반다나 강아지)
-│   └── prompt_templates.json      # 통합 이미지 생성 프롬프트 템플릿 (v2.0)
-├── scripts/                       # 데이터셋 상태 검사 및 자동 생성 스크립트
-│   ├── generate_parts_dataset.py  # 26종 파츠 데이터셋 관리 스크립트
-│   ├── generate_robot_dataset.py  # 20종 로봇 틴맨 데이터셋 관리 스크립트
-│   └── generate_learning_dataset.py # 캐릭터 기술 학습 데이터셋 관리 스크립트
+├── README.md                      # 🌟 프로젝트 총괄 개요 및 세계관 가이드 (본 문서)
+├── prompt.md                      # 🎨 제미나이(Gemini) 단일 마스터 프롬프트 실행 엔진
+├── guides/                        # 📚 6대 마스터 스타일 & 페르소나 가이드라인
+│   ├── DOROTHY_STYLE_GUIDE.md     # 👧 도로시 스타일, 4대 헤어/의상, 주니어 메이커 페르소나
+│   ├── HOJIN_STYLE_GUIDE.md       # 👨‍🏫 이호진 교수님 스타일, 40대 초반 동안 규격, 멘토링 매트릭스
+│   ├── JINY_STYLE_GUIDE.md        # 🐱 조교 지니(고양이) 스타일, 턱시도 규격, 코드리뷰 매트릭스
+│   ├── TOTO_STYLE_GUIDE.md        # 🐶 토토(강아지) 스타일, 안티 드리프트 웜밀크 규격, 하드웨어 조수
+│   ├── ROBOT_STYLE_GUIDE.md       # 🤖 틴맨 & 로보틱스 생태계, 피지컬 AI 협업 매트릭스
+│   └── PARTS_AND_LORA_TRAINING_GUIDE.md # 🧩 36종 강의 파츠 명세 및 Multi-Concept LoRA 학습 가이드
 └── data/
-    ├── dataset/                   # 🎯 Diffusion (SDXL/Flux) Multi-Concept LoRA 학습용
-    │   ├── dorothy/               # 도로시 데이터셋 (20장 이미지 + 1:1 .txt 캡션 완비)
-    │   ├── hojin/                 # 이호진 교수님 데이터셋 (20장 이미지 + 1:1 .txt 캡션 완비)
-    │   ├── jiny/                  # 조교 지니 데이터셋 (20장 이미지 + 1:1 .txt 캡션 완비)
-    │   ├── toto/                  # 토토 데이터셋 (16장 이미지 + 1:1 .txt 캡션 완비)
-    │   ├── robot/                 # 🤖 로봇 틴맨 데이터셋 (20종 .txt 캡션 완비)
-    │   └── parts/                 # 🧩 강의 및 실습용 환경·부품·이론 파츠 (26종 .txt 완비)
-    │       ├── 01_environments/   # 강의실, 메이커 공방, 코딩 워크스테이션, 팹랩 등 (6종)
-    │       ├── 02_hardware/       # 아두이노, 라즈베리파이, 브레드보드, 센서, 모터 등 (8종)
-    │       ├── 03_software/       # 자바 OOP, PHP MVC, DB ERD, 도커 가상화 등 (6종)
-    │       └── 04_ai_theory/      # 신경망 MLP, CNN, 강화학습 MDP, 벨만 방정식 등 (6종)
-    └── images/                    # 공식 캐릭터 시트 및 표준 샘플 애셋
+    ├── dataset/                   # 🎯 고해상도(1024x1024) 이미지 + .txt 캡션 1:1 학습 세트 (총 178세트)
+    │   ├── dorothy/               # 👧 도로시 데이터셋 (42세트)
+    │   ├── hojin/                 # 👨‍🏫 이호진 교수님 데이터셋 (30세트)
+    │   ├── jiny/                  # 🐱 조교 지니 데이터셋 (26세트)
+    │   ├── toto/                  # 🐶 토토 데이터셋 (22세트)
+    │   ├── robot/                 # 🤖 로봇 생태계 데이터셋 (22세트)
+    │   └── parts/                 # 🧩 36종 강의 파츠 (36세트)
+    │       ├── 01_environments/   # 강의실, 팹랩, 서버룸 등 6종
+    │       ├── 02_hardware/       # 아두이노, 라즈베리파이, 센서 등 8종
+    │       ├── 03_software/       # OOP, MVC, ERD, Docker 등 6종
+    │       ├── 04_ai_theory/      # 신경망, CNN, 강화학습, 벨만 등 6종
+    │       └── 05_logos/          # 파이썬, C++, 리눅스, 파이토치 등 10종
+    └── images/                    # 🖼️ 공식 턴어라운드 시트, 프로필, 마스터 프리뷰 및 로고 애셋
         ├── dorothy_character_sheet.jpg
+        ├── dorothy_hairstyles_sheet.jpg
+        ├── dorothy_outfits_sheet.jpg
         ├── hojin_character_sheet.jpg
         ├── jiny_character_sheet.jpg
         ├── toto_character_sheet.jpg
-        └── legacy/                # 구버전/클립아트 안전 아카이브 디렉토리
+        ├── robot_tinny_profile.jpg
+        ├── robot_cobot_arm.jpg
+        ├── robot_ecosystem_lab.jpg
+        ├── logos/                 # 2D 애니 스타일 기술 로고 10종
+        └── legacy/                # 구버전 클립아트 안전 아카이브
 ```
 
 ---
 
-## 🎯 6. LoRA 학습 데이터셋 현황 (LoRA Training Datasets)
+## 💡 8. 활용 방법 (How to Use)
 
-로컬 Diffusion 모델 및 멀티모달 LLM 비전 연동을 위해 캐릭터별 및 파츠별로 고해상도(1024x1024) 정방형 이미지와 Danbooru + 자연어 하이브리드 태그 캡션(`.txt`)이 1:1로 매핑되어 있습니다.
-
-### ① 캐릭터 데이터셋
-| 캐릭터 | 완성 세트 (이미지 / .txt) | 주요 데이터 다양성 구성 | 저장 위치 |
-| :--- | :---: | :--- | :--- |
-| **👧 도로시 (Dorothy)** | **25 / 25 세트 (100%)** | 캐릭터 시트, 다각도 표정, 정면/측면/3/4뷰, 납땜, 코딩, 칠판 수식, 브레드보드, 안경, 점퍼 와이어 | [`data/dataset/dorothy/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/dorothy/) |
-| **👨‍🏫 이호진 교수님** | **25 / 25 세트 (100%)** | 캐릭터 시트, 멘토링, 랩 강의, 프레젠터, 엄지 척, 네이비 폴로+청바지+뉴발란스, 칠판 수식, 연구 가운 | [`data/dataset/hojin/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/hojin/) |
-| **🐱 조교 지니 (Jiny)** | **23 / 23 세트 (100%)** | 캐릭터 시트, 랩 어시스턴트, 프로필, 턱시도 코숏, 조교 안경, 식빵 굽기, 키보드 점령, 브레드보드 탭 | [`data/dataset/jiny/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/jiny/) |
-| **🐶 토토 (Toto)** | **19 / 19 세트 (100%)** | 캐릭터 시트, 메이커 헬퍼, 프로필, 비숑 믹스, 하늘색 반다나, 와이어 물기, 안전 고글, 플레이 바우, 배낭 쏙 | [`data/dataset/toto/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/toto/) |
-| **🤖 로봇 틴맨 (Tinny)** | **0 / 20 세트 (라벨 100%)** | 양철 바디, 황동 볼트 관절, 톱니바퀴 하트 코어, 도트 매트릭스 눈, 강화학습 2족보행, 하이파이브 | [`data/dataset/robot/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/robot/) |
-
-### ② 파츠(Parts) & 교육 이론 데이터셋
-| 파츠 카테고리 | 등록 수 | 대표 애셋 구성 | 저장 위치 |
-| :--- | :---: | :--- | :--- |
-| **🏫 환경 (Environments)** | **6종** | 공학 강의실, 메이커 공방, 코딩 워크스테이션, 팹랩 3D 프린팅 룸, 엣지 AI 룸, 캠퍼스 잔디 | [`data/dataset/parts/01_environments/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/01_environments/) |
-| **🔌 하드웨어 (Hardware)** | **8종** | 아두이노 우노, 라즈베리파이 4, 브레드보드 회로, 초음파 센서, 온습도 센서, 서보 모터 등 | [`data/dataset/parts/02_hardware/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/02_hardware/) |
-| **💻 소프트웨어 (Software)** | **6종** | 자바 OOP 다이어그램, PHP MVC 아키텍처, DB ERD 스키마, 도커 컨테이너, 웹 대시보드 | [`data/dataset/parts/03_software/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/03_software/) |
-| **🧠 AI 이론 (AI Theory)** | **6종** | 다층 신경망(MLP), CNN 합성곱, 강화학습 MDP 루프, 칠판 벨만 방정식, 연합학습 | [`data/dataset/parts/04_ai_theory/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/parts/04_ai_theory/) |
-
----
-
-## 🗺️ 7. 향후 로드맵 (Roadmap)
-
-1. **Multi-Concept LoRA 학습 실행:** Kohya-ss 또는 Flux LoRA 트레이너를 활용하여 캐릭터 5인방(도로시, 호진, 지니, 토토, 틴맨)과 26종 파츠 결합 학습
-2. **에피소드별 교육 스토리보드 연재:** 아두이노 입문부터 라즈베리파이 연합학습, 틴맨 강화학습 보행 훈련, 도커 배포까지 웹툰형 교육 일러스트 제작
-3. **인터랙티브 웹 튜토리얼 구축:** 도로시 일러스트와 함께 실시간 브라우저 코딩 및 회로 시뮬레이션 환경 연동
-4. **오픈소스 AI 메이커 키트 배포:** 청소년과 비전공자를 위한 오픈소스 컴퓨팅 과학 교육 커리큘럼 패키징
-
-
+1. **강의 교재 및 슬라이드 삽화 제작:**
+   * [`prompt.md`](file:///Users/hojin9/dev/projects/dorothy/prompt.md)를 열고 필요한 캐릭터 블록과 파츠 블록을 조합하여 Gemini 또는 이미지 생성 도구에 입력합니다.
+2. **캐릭터별 세부 연출 및 대사/성격 확인:**
+   * [`guides/`](file:///Users/hojin9/dev/projects/dorothy/guides/) 디렉토리의 각 캐릭터 마스터 가이드를 참조하여 14대 컴퓨터 과학 영역별 반응, 대사 톤앤매너, 상호작용 규칙을 확인합니다.
+3. **독자적인 로컬 Diffusion / LoRA 미세조정:**
+   * [`data/dataset/`](file:///Users/hojin9/dev/projects/dorothy/data/dataset/)의 178세트 이미지와 `.txt` 캡션을 Kohya-ss 또는 Flux LoRA 트레이너의 학습 데이터로 즉시 사용할 수 있습니다.

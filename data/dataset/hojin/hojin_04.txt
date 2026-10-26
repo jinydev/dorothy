@@ -1,1 +1,3 @@
-professor hojin, 1man, solo, korean, 40s, engineering professor, short salt-and-pepper hair, parted hair, round eyeglasses, kind brown eyes, gentle smile, holding arduino uno board, pointing with finger, presenting, upper body, dark charcoal navy polo shirt, short sleeves, collared shirt, simple white background, clean anime line art, cel shading
+professor hojin, 1man, solo, korean, early 40s, engineering professor, youthful face, smooth skin, parted short hair, thin wire glasses, kind brown eyes, friendly smile, holding official teal cyan arduino uno board, presenting microcontroller, upper body, solid dark charcoal navy polo shirt, no name tag, no snu text, simple white background, clean line art, soft cel shading
+
+Professor Hojin presenting an Arduino Uno microcontroller board with a proud, encouraging smile on a clean white background.

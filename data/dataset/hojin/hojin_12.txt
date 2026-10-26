@@ -1,1 +1,3 @@
-professor hojin, 1man, solo, korean, 40s, engineering professor, short salt-and-pepper hair, parted hair, round eyeglasses, kind brown eyes, open mouth, passionate smile, explaining, holding stylus, pointing at blackboard, smart blackboard, arduino schematic diagram, c++ code, classroom background, windows, dark charcoal navy polo shirt, blue denim jeans, clean anime line art, cel shading
+professor hojin, 1man, solo, korean, early 40s, engineering professor, youthful face, smooth skin, parted salt-and-pepper hair, thin round glasses, kind brown eyes, passionate smile, explaining, holding stylus, pointing at blackboard, smart blackboard, reinforcement learning bellman equations, classroom background, windows, solid dark navy polo shirt, blue jeans, clean anime line art
+
+Professor Hojin passionately delivering a reinforcement learning lecture, pointing at the Bellman optimality equations written neatly on the classroom blackboard.

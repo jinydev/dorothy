@@ -1,0 +1,3 @@
+1man hojin, 1girl dorothy, 1dog toto, articulated robotic arm, arduino uno, digital tablet showing robot arm forward kinematics code, colorful jumper wires, connecting circuit, multimeter, soldering station, electronics lab workbench, mentoring, smiling, stem hero, plain navy polo shirt, studio ghibli anime style, clean line art, soft warm cel shading, masterpiece
+
+An educational robotics lecture scene where Professor Hojin and Dorothy program and calibrate a 6-axis articulated robotic arm using an Arduino Uno and tablet in their electronics laboratory, with Toto the puppy sitting loyally on a stool.
