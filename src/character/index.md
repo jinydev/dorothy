@@ -39,7 +39,7 @@ permalink: /character/
 
 각 등장인물의 고유한 비주얼 토큰, 성격, 시그니처 착장 및 턴어라운드 데이터셋을 개별 전용 페이지에서 자세히 확인할 수 있습니다.
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
   <!-- 1. 이호진 교수님 -->
   <div class="col">
     <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #16a34a !important;">
