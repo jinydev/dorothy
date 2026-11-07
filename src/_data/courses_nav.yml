@@ -46,3 +46,4 @@ groups:
         url: "https://pgsql.jiny.dev"
       - title: "MySQL 쿼리 최적화 (mysql.jiny.dev)"
         url: "https://mysql.jiny.dev"
+
