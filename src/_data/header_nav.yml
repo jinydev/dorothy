@@ -1,0 +1,26 @@
+- title: "홈"
+  url: "/"
+
+- title: "캐릭터 소개"
+  url: "/character/"
+  prefix: "/character"
+
+- title: "공학 강좌 포털"
+  url: "/courses/"
+  prefix: "/courses"
+
+- title: "학습 로드맵"
+  url: "/roadmap/"
+  prefix: "/roadmap"
+
+- title: "아두이노 193강"
+  url: "https://arduino.jiny.dev"
+  external: true
+
+- title: "도커 대항해"
+  url: "https://docker.jiny.dev"
+  external: true
+
+- title: "강화학습"
+  url: "https://rl.jiny.dev"
+  external: true

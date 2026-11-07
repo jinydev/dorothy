@@ -1,0 +1,146 @@
+<style>
+.bd-sidebar-link {
+  color: #64748b;
+  padding: 0.45rem 0.75rem;
+  border-radius: 0 !important;
+  font-size: 0.92rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.15s ease-in-out;
+  line-height: 1.4;
+}
+.bd-sidebar-link:hover {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  border-radius: 0 !important;
+}
+.bd-sidebar-link.is-active {
+  color: #0f172a !important;
+  font-weight: 700 !important;
+  background-color: #f8fafc !important;
+  border-left: 3px solid #0f172a !important;
+  border-radius: 0 !important;
+  padding-left: calc(0.75rem - 3px);
+}
+.bd-sidebar-subtitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #475569;
+  padding: 0.85rem 0.75rem 0.35rem 0.75rem;
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 0.3rem;
+}
+.sidebar-section-group:first-child .bd-sidebar-subtitle {
+  margin-top: 0;
+  padding-top: 0.15rem;
+}
+</style>
+
+<nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
+  <ul class="bd-links-nav list-unstyled mb-0 pe-lg-2" style="padding-bottom: 12rem;">
+    <li class="bd-links-group py-2">
+      {% assign decoded_page_url = page.url | url_decode %}
+
+      {% if page.url contains "character" %}
+        {% assign nav_data = site.data.character_nav %}
+        {% assign nav_title = site.data.character_nav.title %}
+        {% assign nav_url = site.data.character_nav.url %}
+      {% elsif page.url contains "roadmap" %}
+        {% assign nav_data = site.data.roadmap_nav %}
+        {% assign nav_title = site.data.roadmap_nav.title %}
+        {% assign nav_url = site.data.roadmap_nav.url %}
+      {% else %}
+        {% assign nav_data = site.data.courses_nav %}
+        {% assign nav_title = site.data.courses_nav.title %}
+        {% assign nav_url = site.data.courses_nav.url %}
+      {% endif %}
+
+      <!-- 메인 섹션 타이틀 헤더 -->
+      <a class="bd-links-heading d-flex justify-content-between align-items-center fw-bold fs-6 my-1 px-2 text-dark text-decoration-none"
+        href="{{ nav_url }}" style="letter-spacing: -0.01em;">
+        <span class="d-flex align-items-center">
+          <span class="text-primary me-2">🧭</span>
+          <span>{{ nav_title }}</span>
+        </span>
+      </a>
+
+      <hr class="my-2 text-black-50">
+
+      {% if nav_data.groups %}
+        {% for grp in nav_data.groups %}
+          <div class="sidebar-section-group mb-2">
+            {% if grp.subtitle %}
+              <div class="bd-sidebar-subtitle">
+                <span>{{ grp.subtitle }}</span>
+              </div>
+            {% endif %}
+            <ul class="list-unstyled mb-1">
+              {% for sub_item in grp.items %}
+                {% assign is_current = false %}
+                {% if page.url == sub_item.url or decoded_page_url == sub_item.url %}
+                  {% assign is_current = true %}
+                {% endif %}
+                <li>
+                  <a href="{{ sub_item.url }}"
+                     class="bd-sidebar-link {% if is_current %}is-active{% endif %}"
+                     {% if sub_item.url contains "http" %}target="_blank" rel="noopener"{% endif %}>
+                    <span class="text-truncate">{{ sub_item.title }}</span>
+                    {% if sub_item.url contains "http" %}
+                      <span class="badge rounded-pill bg-light text-secondary border ms-auto px-1 py-0" style="font-size: 0.65rem;">포털</span>
+                    {% endif %}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+
+<script>
+(function() {
+  function scrollSidebarToActive() {
+    var activeItem = document.querySelector('.bd-sidebar .is-active, .bd-links .is-active, .bd-sidebar-link.is-active');
+    if (!activeItem) return;
+
+    var sidebar = document.querySelector('.bd-sidebar');
+    var offcanvas = document.querySelector('.bd-sidebar .offcanvas-body');
+
+    var container = null;
+    if (sidebar && sidebar.scrollHeight > sidebar.clientHeight) {
+      container = sidebar;
+    } else if (offcanvas && offcanvas.scrollHeight > offcanvas.clientHeight) {
+      container = offcanvas;
+    } else if (sidebar) {
+      container = sidebar;
+    }
+
+    if (container) {
+      var containerRect = container.getBoundingClientRect();
+      var itemRect = activeItem.getBoundingClientRect();
+
+      var relativeTop = itemRect.top - containerRect.top;
+      var targetScroll = container.scrollTop + relativeTop - (containerRect.height * 0.3);
+
+      container.scrollTop = Math.max(0, targetScroll);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scrollSidebarToActive);
+  } else {
+    scrollSidebarToActive();
+  }
+
+  window.addEventListener('load', function() {
+    setTimeout(scrollSidebarToActive, 50);
+  });
+})();
+</script>

@@ -1,0 +1,1 @@
+diagram, educational graphic, docker image distribution and registry push pull flow, local engine to docker hub and ghcr repository, semantic tag versioning, clean line art, ghibli anime educational style, pure white background

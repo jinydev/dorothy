@@ -1,0 +1,17 @@
+title: "학습 로드맵"
+url: "/roadmap/"
+groups:
+  - subtitle: "로드맵 단계"
+    items:
+      - title: "전체 공학 로드맵 개요"
+        url: "/roadmap/"
+      - title: "01단계: 프로그래밍 기본기 & 컴퓨터 원리"
+        url: "/roadmap/#stage-1"
+      - title: "02단계: 전자회로 & 피지컬 임베디드"
+        url: "/roadmap/#stage-2"
+      - title: "03단계: 시스템 인프라 & 클라우드 배포"
+        url: "/roadmap/#stage-3"
+      - title: "04단계: 인공지능 & 딥러닝 강화학습"
+        url: "/roadmap/#stage-4"
+      - title: "05단계: 피지컬 AI & 로보틱스 자율제어"
+        url: "/roadmap/#stage-5"

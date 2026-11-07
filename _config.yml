@@ -1,0 +1,47 @@
+title: "지니와 도로시의 공학 기술 탐험 - jiny.dev"
+description: "이호진 교수님, 도로시, 지니(고양이), 토토(강아지)와 함께 배우는 공학 기술 & 피지컬 AI 마스터 포털"
+author: "Hojin"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Build Settings
+destination: docs
+source: src
+url: "https://jiny.dev"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "docs"
+
+# Sass 설정
+sass:
+  load_paths:
+    - _sass
+
+# 제외 파일 목록
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - .git/
+  - README.md
+  - prompt.md
+  - guides/
+  - data/
+  - "*.py"
+  - "__pycache__"

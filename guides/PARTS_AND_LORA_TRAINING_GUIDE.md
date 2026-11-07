@@ -37,20 +37,25 @@ data/dataset/parts/
 │   ├── hw_06_servo_motor_sg90.txt
 │   ├── hw_07_dc_gear_motor_wheel.txt
 │   └── hw_08_autonomous_car_chassis.txt
-├── 03_software/           # 💻 6종 프로그래밍 & 웹 & 인프라 이론 그래픽
+├── 03_software/           # 💻 프로그래밍 & 웹 & 인프라 이론 그래픽
 │   ├── sw_01_java_oop_architecture.txt
 │   ├── sw_02_php_web_mvc.txt
 │   ├── sw_03_database_erd_schema.txt
 │   ├── sw_04_docker_containerization.txt
 │   ├── sw_05_web_telemetry_dashboard.txt
-│   └── sw_06_rest_api_json_flow.txt
-└── 04_ai_theory/          # 🧠 6종 인공지능 & 강화학습 & 연합학습 강의 그래픽
-    ├── ai_01_neural_network_mlp.txt
-    ├── ai_02_cnn_feature_extraction.txt
-    ├── ai_03_reinforcement_learning_mdp.txt
-    ├── ai_04_bellman_equation_chalk.txt
-    ├── ai_05_federated_learning_arch.txt
-    └── ai_06_training_loss_metrics.txt
+│   ├── sw_06_rest_api_json_flow.txt
+│   └── dockers/               # 🐳 도커 강의 전문 파츠 20종 (로고 + Part 01~08 핵심 다이어그램)
+│       ├── logo_10_docker.txt
+│       ├── docker_01_cloud_migration_legacy.txt
+│       └── ... (docker_02 ~ docker_19)
+├── 04_ai_theory/          # 🧠 6종 인공지능 & 강화학습 & 연합학습 강의 그래픽
+│   ├── ai_01_neural_network_mlp.txt
+│   ├── ai_02_cnn_feature_extraction.txt
+│   ├── ai_03_reinforcement_learning_mdp.txt
+│   ├── ai_04_bellman_equation_chalk.txt
+│   ├── ai_05_federated_learning_arch.txt
+│   └── ai_06_training_loss_metrics.txt
+└── 05_logos/              # 🏷️ 기술 스택 브랜드 및 마스코트 로고 파츠
 ```
 
 ---

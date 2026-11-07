@@ -1,0 +1,48 @@
+title: "공학 강좌 포털"
+url: "/courses/"
+groups:
+  - subtitle: "포털 개요"
+    items:
+      - title: "강좌 전체 둘러보기"
+        url: "/courses/"
+
+  - subtitle: "인공지능 & 피지컬 AI"
+    items:
+      - title: "인공지능 & 딥러닝 (ai.jiny.dev)"
+        url: "https://ai.jiny.dev"
+      - title: "강화학습 마법 여정 (rl.jiny.dev)"
+        url: "https://rl.jiny.dev"
+      - title: "피지컬 AI & 로보틱스 (robot.jiny.dev)"
+        url: "https://robot.jiny.dev"
+
+  - subtitle: "임베디드 & 전자공학"
+    items:
+      - title: "아두이노 193강 마스터 (arduino.jiny.dev)"
+        url: "https://arduino.jiny.dev"
+      - title: "라즈베리파이 & 리눅스 (pi.jiny.dev)"
+        url: "https://pi.jiny.dev"
+
+  - subtitle: "클라우드 & 시스템 인프라"
+    items:
+      - title: "도커 컨테이너 대항해 (docker.jiny.dev)"
+        url: "https://docker.jiny.dev"
+      - title: "리눅스 시스템 & 쉘 (linux.jiny.dev)"
+        url: "https://linux.jiny.dev"
+      - title: "깃 & 깃허브 협업 (git.jiny.dev)"
+        url: "https://git.jiny.dev"
+
+  - subtitle: "소프트웨어 & 웹 엔지니어링"
+    items:
+      - title: "모던 PHP 아키텍처 (php.jiny.dev)"
+        url: "https://php.jiny.dev"
+      - title: "파이썬 올인원 프로그래밍 (python.jiny.dev)"
+        url: "https://python.jiny.dev"
+      - title: "모던 자바스크립트 (js.jiny.dev)"
+        url: "https://js.jiny.dev"
+
+  - subtitle: "데이터베이스 시스템"
+    items:
+      - title: "PostgreSQL 완벽 가이드 (pgsql.jiny.dev)"
+        url: "https://pgsql.jiny.dev"
+      - title: "MySQL 쿼리 최적화 (mysql.jiny.dev)"
+        url: "https://mysql.jiny.dev"

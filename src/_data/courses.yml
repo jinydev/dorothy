@@ -1,0 +1,204 @@
+categories:
+  - id: ai_robotics
+    name: "인공지능 & 피지컬 AI"
+    en_name: "Artificial Intelligence & Physical AI"
+    description: "수식과 코드로 배우는 머신러닝/딥러닝부터 로봇 제어와 피지컬 컴퓨팅 융합 과정"
+    icon: "🧠"
+    color: "#6366f1"
+    courses:
+      - id: ai
+        title: "인공지능 & 딥러닝"
+        subdomain: "ai.jiny.dev"
+        url: "https://ai.jiny.dev"
+        badge: "인기 강좌"
+        badge_color: "primary"
+        icon: "⚡"
+        logo: "/assets/img/logos/logo_09_pytorch.jpg"
+        summary: "신경망 기초부터 CNN, RNN, 트랜스포머, 최신 생성형 AI 모델까지 밑바닥부터 구현하는 파이토치 딥러닝 실전 과정입니다."
+        tags: ["PyTorch", "딥러닝", "Transformer", "LLM"]
+        mentor: "이호진 교수 & 지니"
+        level: "중급"
+
+      - id: rl
+        title: "강화학습 마법 여정"
+        subdomain: "rl.jiny.dev"
+        url: "https://rl.jiny.dev"
+        badge: "완벽 커리큘럼"
+        badge_color: "success"
+        icon: "🪄"
+        logo: "/assets/img/logos/logo_01_python.jpg"
+        summary: "마법 고양이 지니와 함께 MDP, 벨만 방정식, DeZero 인공신경망 프레임워크 기반 DQN, Policy Gradient, Actor-Critic을 완성합니다."
+        tags: ["DeZero", "DQN", "Policy Gradient", "수학 선행"]
+        mentor: "지니(고양이) & 도로시"
+        level: "중고급"
+
+      - id: robot
+        title: "피지컬 AI & 로보틱스"
+        subdomain: "robot.jiny.dev"
+        url: "https://robot.jiny.dev"
+        badge: "실습 중심"
+        badge_color: "info"
+        icon: "🦾"
+        logo: "/assets/img/robot_tinny_profile.jpg"
+        summary: "ROS2, 6축 협동 로봇팔(Cobot), 스카라 로봇, 데스크톱 보조 로봇 티니(Tinny)를 직접 제어하고 시뮬레이션하는 피지컬 AI 강좌입니다."
+        tags: ["ROS2", "협동로봇", "티니(Tinny)", "모션제어"]
+        mentor: "이호진 교수 & 티니"
+        level: "고급"
+
+  - id: embedded_hardware
+    name: "임베디드 & 전자공학"
+    en_name: "Embedded Systems & Electronics"
+    description: "빵판과 납땜부터 마이크로컨트롤러 펌웨어, 센서 계측 및 IoT 하드웨어 제작"
+    icon: "🔌"
+    color: "#059669"
+    courses:
+      - id: arduino
+        title: "아두이노 전자 세상 탐험"
+        subdomain: "arduino.jiny.dev"
+        url: "https://arduino.jiny.dev"
+        badge: "193강 완비"
+        badge_color: "success"
+        icon: "🧭"
+        logo: "/assets/img/logos/logo_08_arduino.jpg"
+        summary: "이호진 교수님과 함께 기초 전기전자 물리 법칙부터 10대 파트 193개 프로젝트(우노, 나노, 메가, 센서, 모터, IoT)를 정복합니다."
+        tags: ["Arduino Uno", "아두이노 메가", "센서 계측", "C++"]
+        mentor: "이호진 교수 & 도로시"
+        level: "입문 ~ 중급"
+
+      - id: pi
+        title: "라즈베리파이 & 임베디드 리눅스"
+        subdomain: "pi.jiny.dev"
+        url: "https://pi.jiny.dev"
+        badge: "추천 강좌"
+        badge_color: "warning"
+        icon: "🍓"
+        logo: "/assets/img/logos/logo_07_linux.jpg"
+        summary: "초소형 싱글보드 컴퓨터 라즈베리파이 4/5로 구축하는 스마트 IoT 게이트웨이, 카메라 비전 처리, 엣지 AI 시스템 과정입니다."
+        tags: ["Raspberry Pi", "Linux GPIO", "엣지 AI", "Python"]
+        mentor: "지니 & 토토"
+        level: "중급"
+
+  - id: cloud_devops
+    name: "클라우드 & 시스템 인프라"
+    en_name: "Cloud, Linux & DevOps"
+    description: "컨테이너 가상화, 서버 운영체제, 협업 도구 및 배포 자동화 파이프라인"
+    icon: "🐳"
+    color: "#0284c7"
+    courses:
+      - id: docker
+        title: "도커 컨테이너 대항해"
+        subdomain: "docker.jiny.dev"
+        url: "https://docker.jiny.dev"
+        badge: "필수 인프라"
+        badge_color: "primary"
+        icon: "🚢"
+        logo: "/assets/img/logos/logo_10_docker.jpg"
+        summary: "컨테이너의 원리부터 Dockerfile 작성, 멀티 컨테이너 Docker Compose, 볼륨과 네트워크 격리, 실전 클라우드 배포까지 마스터합니다."
+        tags: ["Docker", "Docker Compose", "컨테이너", "DevOps"]
+        mentor: "이호진 교수 & 크루"
+        level: "초중급"
+
+      - id: linux
+        title: "리눅스 시스템 & 커맨드라인"
+        subdomain: "linux.jiny.dev"
+        url: "https://linux.jiny.dev"
+        badge: "핵심 기초"
+        badge_color: "dark"
+        icon: "🐧"
+        logo: "/assets/img/logos/logo_07_linux.jpg"
+        summary: "우분투 리눅스 설치부터 쉘 스크립트 작성, 프로세스 및 메모리 구조 분석, 서버 네트워크 보안 설정까지 실전 시스템 관리 노하우를 전수합니다."
+        tags: ["Ubuntu Linux", "Bash Shell", "시스템 아키텍처"]
+        mentor: "이호진 교수 & 지니"
+        level: "입문 ~ 중급"
+
+      - id: git
+        title: "깃 & 깃허브 협업 워크플로우"
+        subdomain: "git.jiny.dev"
+        url: "https://git.jiny.dev"
+        badge: "개발자 필수"
+        badge_color: "secondary"
+        icon: "🌿"
+        logo: "/assets/img/logos/logo_05_js_ts.jpg"
+        summary: "Git의 내부 저장소 원리, 브랜치 병합 충돌 해결, GitHub Actions를 통한 CI/CD 자동화까지 안전하고 효율적인 협업 체계를 구축합니다."
+        tags: ["Git", "GitHub", "Branch 전략", "CI/CD"]
+        mentor: "도로시 & 토토"
+        level: "입문"
+
+  - id: software_web
+    name: "소프트웨어 엔지니어링 & 웹"
+    en_name: "Software Development & Web Frameworks"
+    description: "현업에서 바로 쓰는 백엔드 언어, 웹 프레임워크 및 프론트엔드 최신 표준"
+    icon: "💻"
+    color: "#8b5cf6"
+    courses:
+      - id: php
+        title: "모던 PHP & 웹 아키텍처"
+        subdomain: "php.jiny.dev"
+        url: "https://php.jiny.dev"
+        badge: "실전 웹"
+        badge_color: "info"
+        icon: "🐘"
+        logo: "/assets/img/logos/logo_04_php.jpg"
+        summary: "PHP 8+의 최신 문법(타입 시스템, 애트리뷰트, 파이버), 객체지향 설계(OOP), MVC 프레임워크 아키텍처와 엔터프라이즈 웹 개발을 다룹니다."
+        tags: ["PHP 8", "OOP", "MVC 아키텍처", "REST API"]
+        mentor: "이호진 교수"
+        level: "초중급"
+
+      - id: python
+        title: "파이썬 올인원 프로그래밍"
+        subdomain: "python.jiny.dev"
+        url: "https://python.jiny.dev"
+        badge: "베스트셀러"
+        badge_color: "warning"
+        icon: "🐍"
+        logo: "/assets/img/logos/logo_01_python.jpg"
+        summary: "입문자를 위한 기초 문법부터 제너레이터, 데코레이터, 멀티스레딩, 객체지향 패턴 및 알고리즘 문제 해결까지 탄탄한 기본기를 완성합니다."
+        tags: ["Python 3", "데이터구조", "알고리즘", "OOP"]
+        mentor: "지니(고양이)"
+        level: "입문"
+
+      - id: js
+        title: "모던 자바스크립트 & 웹 프론트엔드"
+        subdomain: "js.jiny.dev"
+        url: "https://js.jiny.dev"
+        badge: "프론트엔드"
+        badge_color: "warning"
+        icon: "⚡"
+        logo: "/assets/img/logos/logo_05_js_ts.jpg"
+        summary: "ESNext 최신 사양, 비동기 프로그래밍(Promise/async-await), DOM 조작, 컴포넌트 기반 웹 애플리케이션 설계를 마스터합니다."
+        tags: ["JavaScript", "TypeScript", "Frontend", "Async"]
+        mentor: "도로시"
+        level: "초중급"
+
+  - id: database_data
+    name: "데이터베이스 & 데이터 엔지니어링"
+    en_name: "Database Systems & Engineering"
+    description: "안정적인 대용량 트랜잭션 처리, 관계형 모델링, SQL 튜닝 및 인덱스 최적화"
+    icon: "🗄️"
+    color: "#0891b2"
+    courses:
+      - id: pgsql
+        title: "PostgreSQL 완벽 실전 가이드"
+        subdomain: "pgsql.jiny.dev"
+        url: "https://pgsql.jiny.dev"
+        badge: "DB 마스터"
+        badge_color: "primary"
+        icon: "🐘"
+        logo: "/assets/img/logos/logo_07_linux.jpg"
+        summary: "세계에서 가장 진보된 오픈소스 객체-관계형 DB인 PostgreSQL의 트랜잭션 격리수준(MVCC), 인덱스 튜닝, 파티셔닝, 복제를 심층 분석합니다."
+        tags: ["PostgreSQL", "SQL 튜닝", "MVCC", "DB 모델링"]
+        mentor: "이호진 교수"
+        level: "중고급"
+
+      - id: mysql
+        title: "MySQL 대용량 데이터베이스"
+        subdomain: "mysql.jiny.dev"
+        url: "https://mysql.jiny.dev"
+        badge: "표준 DB"
+        badge_color: "secondary"
+        icon: "🐬"
+        logo: "/assets/img/logos/logo_04_php.jpg"
+        summary: "InnoDB 스토리지 엔진 내부 구조, B-Tree 인덱싱 최적화, 실행 계획(EXPLAIN) 분석 및 대규모 웹 서비스 트래픽 대응 설계를 학습합니다."
+        tags: ["MySQL", "InnoDB", "쿼리 최적화", "샤딩"]
+        mentor: "이호진 교수 & 지니"
+        level: "초중급"

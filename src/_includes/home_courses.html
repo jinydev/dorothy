@@ -1,0 +1,103 @@
+<!-- Courses Section (Subdomain Portals) -->
+<section class="py-5" id="courses">
+  <div class="text-center mb-5">
+    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-light border text-secondary small fw-bold mb-2">
+      <span>🌐</span>
+      <span>SUBDOMAIN PORTALS</span>
+    </div>
+    <h2 class="display-6 fw-bold text-dark mb-3" style="letter-spacing: -0.02em;">
+      분야별 전문 심층 강좌 포털
+    </h2>
+    <p class="text-secondary fs-6 mx-auto" style="max-width: 680px;">
+      모든 심층 기술 강좌는 각 분야에 특화된 <strong>서브도메인(***.jiny.dev)</strong> 독립 포털로 연결되어 최적의 학습 환경을 제공합니다.
+    </p>
+  </div>
+
+  {% for category in site.data.courses.categories %}
+  <div class="mb-5 pb-3">
+    <!-- 카테고리 헤더 -->
+    <div class="d-flex align-items-center mb-3 pb-2 border-bottom">
+      <span class="fs-3 me-2">{{ category.icon }}</span>
+      <div>
+        <h3 class="fs-4 fw-bold mb-0 text-dark" style="letter-spacing: -0.01em;">{{ category.name }}</h3>
+        <span class="text-muted small">{{ category.en_name }} — {{ category.description }}</span>
+      </div>
+    </div>
+
+    <!-- 강좌 그리드 카드 -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {% for course in category.courses %}
+      <div class="col">
+        <div class="card h-100 border rounded-4 shadow-sm hover-shadow transition-all bg-white" style="border-color: #e2e8f0 !important;">
+          <!-- 카드 상단 이미지 / 썸네일 -->
+          {% if course.logo %}
+          <div class="overflow-hidden rounded-top-4 position-relative" style="height: 160px; background-color: #f8fafc;">
+            <img src="{{ course.logo | relative_url }}"
+                 alt="{{ course.title }}"
+                 class="w-100 h-100"
+                 style="object-fit: cover;">
+            <div class="position-absolute top-0 end-0 m-3">
+              <span class="badge rounded-pill bg-{{ course.badge_color }} shadow-sm fw-bold px-3 py-1">
+                {{ course.badge }}
+              </span>
+            </div>
+            <div class="position-absolute bottom-0 start-0 m-3">
+              <span class="badge rounded-pill bg-dark bg-opacity-75 text-white px-2 py-1 small">
+                {{ course.level }}
+              </span>
+            </div>
+          </div>
+          {% endif %}
+
+          <div class="card-body p-4 d-flex flex-column">
+            <!-- 도메인 주소 배지 -->
+            <div class="mb-2">
+              <span class="badge font-monospace text-primary bg-primary-subtle border border-primary-subtle px-2 py-1">
+                {{ course.subdomain }}
+              </span>
+            </div>
+
+            <!-- 제목 -->
+            <h4 class="card-title fs-5 fw-bold text-dark mb-2">
+              <span class="me-1">{{ course.icon }}</span>
+              {{ course.title }}
+            </h4>
+
+            <!-- 요약 설명 -->
+            <p class="card-text text-secondary small flex-grow-1 mb-3" style="line-height: 1.55;">
+              {{ course.summary }}
+            </p>
+
+            <!-- 멘토 & 태그 -->
+            <div class="pt-2 border-top">
+              <div class="d-flex align-items-center justify-content-between mb-2 small text-muted">
+                <span><strong>멘토:</strong> {{ course.mentor }}</span>
+              </div>
+              <div class="d-flex flex-wrap gap-1 mb-3">
+                {% for tag in course.tags %}
+                <span class="badge rounded-pill bg-light text-secondary border px-2 py-1" style="font-size: 0.72rem;">
+                  #{{ tag }}
+                </span>
+                {% endfor %}
+              </div>
+            </div>
+
+            <!-- 이동 버튼 -->
+            <a href="{{ course.url }}"
+               target="_blank"
+               rel="noopener"
+               class="btn btn-outline-dark w-100 fw-bold rounded-3 d-flex align-items-center justify-content-center gap-2 mt-auto">
+              <span>{{ course.subdomain }} 입장하기</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>

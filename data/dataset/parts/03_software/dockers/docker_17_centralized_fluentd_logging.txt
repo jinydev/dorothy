@@ -1,0 +1,1 @@
+diagram, educational graphic, centralized docker container logging pipeline, stdout stderr stream, fluentd log aggregator, opensearch and loki search visualization, clean line art, ghibli anime educational style, pure white background

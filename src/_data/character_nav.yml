@@ -1,0 +1,24 @@
+title: "캐릭터 소개"
+url: "/character/"
+groups:
+  - subtitle: "연구실 5총사 프로필"
+    items:
+      - title: "전체 캐릭터 개요"
+        url: "/character/"
+      - title: "이호진 교수님 (Prof. Hojin)"
+        url: "/character/#hojin"
+      - title: "도로시 (Dorothy)"
+        url: "/character/#dorothy"
+      - title: "지니 (Jiny, 테크 코치)"
+        url: "/character/#jiny"
+      - title: "토토 (Toto, 메이커 서포터)"
+        url: "/character/#toto"
+      - title: "티니 (Tinny, 데스크톱 로봇)"
+        url: "/character/#tinny"
+
+  - subtitle: "스토리 & 교육 철학"
+    items:
+      - title: "공학 모험의 세계관"
+        url: "/character/#universe"
+      - title: "멘토링 및 학습 철학"
+        url: "/character/#philosophy"
