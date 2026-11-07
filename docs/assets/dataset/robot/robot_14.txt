@@ -1,0 +1,3 @@
+1robot, cartesian coordinate robot, close up on moving carriage and z-axis vertical slide, optical endstops, stepper motor, aluminum extrusion frame, glowing green status led, precision engineering diagram aesthetic, pure solid white background, studio ghibli anime style, clean line art
+
+An engineering close-up of a Cartesian robot's linear slide carriage, showing optical endstop sensors, stepper motor, and brass lead screw on a pure white background.

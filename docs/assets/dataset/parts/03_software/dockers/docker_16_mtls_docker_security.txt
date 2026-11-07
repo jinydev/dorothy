@@ -1,0 +1,1 @@
+diagram, educational graphic, docker mutual tls mtls security architecture, certificate authority ca, server and client public keys, encrypted daemon endpoint, clean line art, ghibli anime educational style, pure white background

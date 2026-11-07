@@ -1,0 +1,1 @@
+diagram, educational graphic, dockerfile instruction syntax anatomy, FROM base image, ENV variables, WORKDIR, COPY source files, CMD execution command, clean line art, ghibli anime educational style, pure white background

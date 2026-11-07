@@ -1,0 +1,1 @@
+diagram, educational graphic, docker multistage build pattern, heavy build environment stage, lean minimal production artifact, alpine scratch base image, clean line art, ghibli anime educational style, pure white background

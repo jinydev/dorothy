@@ -1,0 +1,1 @@
+diagram, educational graphic, docker persistent volume architecture, decoupling storage lifecycle from ephemeral container, named volume mount, clean line art, ghibli anime educational style, pure white background

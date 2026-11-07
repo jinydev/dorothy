@@ -1,0 +1,1 @@
+diagram, educational graphic, asynchronous event-driven messaging queue, dockerized redis pub sub broker, worker task queues and background processing, clean line art, ghibli anime educational style, pure white background

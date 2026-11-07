@@ -1,0 +1,1 @@
+diagram, educational graphic, docker multi-environment deployment workflow, dev test prod configuration parity, compose override inheritance and secret injection, clean line art, ghibli anime educational style, pure white background

@@ -82,7 +82,9 @@
             <ul class="list-unstyled mb-1">
               {% for sub_item in grp.items %}
                 {% assign is_current = false %}
-                {% if page.url == sub_item.url or decoded_page_url == sub_item.url %}
+                {% assign page_clean = page.url | remove: "index.html" %}
+                {% assign item_clean = sub_item.url | remove: "index.html" %}
+                {% if page_clean == item_clean or page.url == sub_item.url or decoded_page_url == sub_item.url %}
                   {% assign is_current = true %}
                 {% endif %}
                 <li>

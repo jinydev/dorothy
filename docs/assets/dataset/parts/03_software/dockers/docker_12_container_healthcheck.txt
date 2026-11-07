@@ -1,0 +1,1 @@
+diagram, educational graphic, docker container healthcheck probe mechanism, process status vs service availability, interval retries and timeout, clean line art, ghibli anime educational style, pure white background

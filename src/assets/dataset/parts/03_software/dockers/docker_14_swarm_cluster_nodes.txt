@@ -1,0 +1,1 @@
+diagram, educational graphic, docker swarm cluster architecture, manager nodes raft consensus quorum, worker nodes task scheduling, clean line art, ghibli anime educational style, pure white background

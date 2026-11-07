@@ -1,0 +1,1 @@
+diagram, educational graphic, docker bind mount development workflow, live source code sync between host directory and container filesystem, instant reload, clean line art, ghibli anime educational style, pure white background

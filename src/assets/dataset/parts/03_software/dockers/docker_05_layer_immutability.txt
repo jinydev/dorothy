@@ -1,0 +1,1 @@
+diagram, educational graphic, docker image layered architecture and immutability, stacked read-only layers, sha256 layer cache, union filesystem, clean line art, ghibli anime educational style, pure white background

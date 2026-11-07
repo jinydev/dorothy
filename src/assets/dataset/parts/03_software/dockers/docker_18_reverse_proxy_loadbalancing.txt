@@ -1,0 +1,1 @@
+diagram, educational graphic, reverse proxy architecture with nginx and traefik, ssl tls termination, upstream server load balancing, clean line art, ghibli anime educational style, pure white background
