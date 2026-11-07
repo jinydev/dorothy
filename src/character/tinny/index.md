@@ -138,3 +138,4 @@ permalink: /character/tinny/
 ```text
 Tinny the robot, a friendly and cute retro-modern desktop assistant robot, waist-height, matte white rounded cube monitor head with a dark screen, glowing cyan digital eyes, an antenna with a glowing warm yellow lightbulb tip on top of head, jointed metallic arms and legs, glowing amber heart cogwheel visible on chest. Clean dark brown line art (#26211E), soft 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+

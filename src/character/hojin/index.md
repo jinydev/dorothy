@@ -143,3 +143,4 @@ permalink: /character/hojin/
 ```text
 Professor Hojin, a handsome and youthful Asian man in his early 40s, smooth skin without wrinkles, neat salt-and-pepper short hair with stylish side part, thin silver round wire-rimmed glasses, gentle warm inspiring smile. Wearing a solid dark navy blue collared polo shirt, classic blue denim jeans, gray sneakers. Clean dark espresso line art (#26211E), soft warm 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+

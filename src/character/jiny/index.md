@@ -138,3 +138,4 @@ permalink: /character/jiny/
 ```text
 Jiny the tuxedo cat, an elegant black tuxedo Korean shorthair cat, sleek glossy black coat on back, pure white chest, belly, and four white sock paws, intelligent green-gold eyes, soft pink nose. Wearing a tiny starry dark purple wizard cape with a golden bell collar. Sitting smartly, clean dark brown line art (#26211E), soft 2D flat cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+

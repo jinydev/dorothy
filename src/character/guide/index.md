@@ -69,3 +69,4 @@ src/assets/dataset/
 | **Network Dim / Alpha** | Rank: `32` / Alpha: `16` (또는 Dim 64 / Alpha 32) | 복합 인물과 소품의 정밀 텍스처를 온전히 수용 |
 | **Learning Rate** | UNet: `1e-4`, Text Encoder: `5e-5` | 과적합 없이 지브리 2D 스타일과 캐릭터 특징 동시 학습 |
 | **Resolution** | `1024 × 1024` (Bucket Size: 512~1536) | 전신 및 흉상 컷의 고해상도 라인아트 디테일 보존 |
+

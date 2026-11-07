@@ -141,3 +141,4 @@ permalink: /character/dorothy/
 ```text
 Dorothy, an adorable 9-year-old anime girl, 4.5 heads tall junior proportions, wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute bangs, warm amber-brown eyes, rosy cheeks, cheerful bright smile. Wearing classic medium blue denim overalls with rolled cuffs and a 'STEM HERO' round patch on the chest, orange and yellow horizontal striped t-shirt underneath, white ankle socks, vibrant ruby red canvas sneakers. Clean dark brown line art (#26211E), soft warm 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+

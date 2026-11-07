@@ -136,3 +136,4 @@ permalink: /character/toto/
 ```text
 Toto the puppy, an adorable fluffy solid warm milk-white cream puppy (no spots), black button nose, black shiny button eyes, happy cheerful panting expression with tongue out, wagging tail. Wearing a vibrant sky-blue bandana around neck. Clean dark espresso line art (#26211E), soft warm 2D flat cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+
