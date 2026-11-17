@@ -2,35 +2,74 @@ categories:
   - id: ai_robotics
     name: "인공지능 & 피지컬 AI"
     en_name: "Artificial Intelligence & Physical AI"
-    description: "수식과 코드로 배우는 머신러닝/딥러닝부터 로봇 제어와 피지컬 컴퓨팅 융합 과정"
+    description: "수식과 코드로 배우는 머신러닝/딥러닝부터 자율 제어 로봇팔과 피지컬 컴퓨팅 융합 과정"
     icon: "🧠"
     color: "#6366f1"
     courses:
       - id: ai
-        title: "인공지능 & 딥러닝"
+        title: "인공지능기초"
         subdomain: "ai.jiny.dev"
         url: "https://ai.jiny.dev"
-        badge: "인기 강좌"
+        badge: "AI 입문"
         badge_color: "primary"
-        icon: "⚡"
-        logo: "/assets/img/logos/logo_09_pytorch.jpg"
-        summary: "신경망 기초부터 CNN, RNN, 트랜스포머, 최신 생성형 AI 모델까지 밑바닥부터 구현하는 파이토치 딥러닝 실전 과정입니다."
-        tags: ["PyTorch", "딥러닝", "Transformer", "LLM"]
+        icon: "🤖"
+        logo: "/assets/img/hojin_lab_lecture.jpg"
+        summary: "인공지능의 핵심 기본 개념과 수학적 원리부터 머신러닝, 컴퓨터 비전, 자연어 처리의 기초 지형도를 폭넓게 탐험하는 인공지능 기초 입문 강좌입니다."
+        tags: ["인공지능기초", "머신러닝", "기초수학", "ComputerVision"]
+        mentor: "이호진 교수 & 지니"
+        level: "입문"
+
+      - id: deep
+        title: "딥러닝 심층 실전"
+        subdomain: "deep.ai.jiny.dev"
+        url: "https://deep.ai.jiny.dev"
+        badge: "심층 학습"
+        badge_color: "danger"
+        icon: "🧠"
+        logo: "/assets/img/jiny_dl_home_hero.jpg"
+        summary: "인공 신경망 기초부터 CNN, RNN, 트랜스포머, 최신 생성형 AI 모델까지 밑바닥부터 구현하고 응용하는 딥러닝 실전 과정입니다."
+        tags: ["DeepLearning", "CNN", "RNN", "Transformer", "LLM"]
         mentor: "이호진 교수 & 지니"
         level: "중급"
 
-      - id: rl
-        title: "강화학습 마법 여정"
-        subdomain: "rl.jiny.dev"
-        url: "https://rl.jiny.dev"
-        badge: "완벽 커리큘럼"
+      - id: dezero
+        title: "밑바닥부터 시작하는 딥러닝 3 (DeZero)"
+        subdomain: "dezero.ai.jiny.dev"
+        url: "https://dezero.ai.jiny.dev"
+        badge: "프레임워크 구현"
         badge_color: "success"
-        icon: "🪄"
-        logo: "/assets/img/logos/logo_01_python.jpg"
-        summary: "마법 고양이 지니와 함께 MDP, 벨만 방정식, DeZero 인공신경망 프레임워크 기반 DQN, Policy Gradient, Actor-Critic을 완성합니다."
-        tags: ["DeZero", "DQN", "Policy Gradient", "수학 선행"]
+        icon: "🌱"
+        logo: "/assets/img/jiny_framework_home_hero.jpg"
+        summary: "파이썬으로 계산 그래프(DAG)와 Define-by-Run 자동 미분 엔진, 뉴럴 네트워크 계층을 직접 밑바닥부터 구현하는 60단계 마스터 클래스입니다."
+        tags: ["DeZero", "자동미분", "계산그래프", "Autograd", "프레임워크"]
         mentor: "지니(고양이) & 도로시"
         level: "중고급"
+
+      - id: rl
+        title: "강화학습 (밑바닥부터 시작하는 딥러닝 4)"
+        subdomain: "rl.ai.jiny.dev"
+        url: "https://rl.ai.jiny.dev"
+        badge: "완벽 커리큘럼"
+        badge_color: "success"
+        icon: "🎯"
+        logo: "/assets/img/logos/logo_11_reinforcement_learning.jpg"
+        summary: "다중 암드 밴디트, 마르코프 결정 과정(MDP), 벨만 방정식, 몬테카를로법, TD법, Q-러닝, DQN, 정책 경사법까지 강화학습의 근본 알고리즘을 직관적인 그림과 코드로 완벽히 정복합니다."
+        tags: ["강화학습", "MDP", "Q-Learning", "DQN", "PolicyGradient"]
+        mentor: "지니(고양이) & 도로시"
+        level: "중고급"
+
+      - id: pytorch
+        title: "딥러닝을 위한 파이토치 입문"
+        subdomain: "pytoch.ai.jiny.dev"
+        url: "https://pytoch.ai.jiny.dev"
+        badge: "실전 프레임워크"
+        badge_color: "danger"
+        icon: "🔥"
+        logo: "/assets/img/logos/logo_09_pytorch.jpg"
+        summary: "파이썬 기초 문법부터 텐서 연산, 심층 신경망(MLP), CNN, RNN, 비지도 학습(GAN), 메타 학습(MAML), 과학적 계산(PINN)까지 코드 라인별 상세한 해설과 시각화로 파이토치를 완벽히 마스터합니다."
+        tags: ["PyTorch", "텐서", "MLP", "CNN", "RNN", "GAN", "PINN"]
+        mentor: "이호진 교수 & 도로시"
+        level: "초중급"
 
       - id: robot
         title: "피지컬 AI & 로보틱스"
@@ -118,7 +157,7 @@ categories:
         badge: "개발자 필수"
         badge_color: "secondary"
         icon: "🌿"
-        logo: "/assets/img/logos/logo_05_js_ts.jpg"
+        logo: "/assets/img/logos/logo_12_git.jpg"
         summary: "Git의 내부 저장소 원리, 브랜치 병합 충돌 해결, GitHub Actions를 통한 CI/CD 자동화까지 안전하고 효율적인 협업 체계를 구축합니다."
         tags: ["Git", "GitHub", "Branch 전략", "CI/CD"]
         mentor: "도로시 & 토토"
@@ -131,6 +170,19 @@ categories:
     icon: "💻"
     color: "#8b5cf6"
     courses:
+      - id: python
+        title: "파이썬 마스터 클래스"
+        subdomain: "python.jiny.dev"
+        url: "https://python.jiny.dev"
+        badge: "1~3학기 완비"
+        badge_color: "warning"
+        icon: "🐍"
+        logo: "/assets/img/logos/logo_01_python.jpg"
+        summary: "파이썬 언어 소개부터 기초와 CS 원리(1학기), 객체지향 OOP 및 모던 설계(2학기), 비동기/네트워크 및 시스템 응용(3학기)까지 체계적으로 정복하는 파이썬 전 과정입니다."
+        tags: ["Python 3", "기초 문법", "OOP", "비동기", "PEP 8"]
+        mentor: "지니(고양이) & 이호진 교수"
+        level: "입문 ~ 고급"
+
       - id: php
         title: "모던 PHP & 웹 아키텍처"
         subdomain: "php.jiny.dev"
@@ -143,19 +195,6 @@ categories:
         tags: ["PHP 8", "OOP", "MVC 아키텍처", "REST API"]
         mentor: "이호진 교수"
         level: "초중급"
-
-      - id: python
-        title: "파이썬 올인원 프로그래밍"
-        subdomain: "python.jiny.dev"
-        url: "https://python.jiny.dev"
-        badge: "베스트셀러"
-        badge_color: "warning"
-        icon: "🐍"
-        logo: "/assets/img/logos/logo_01_python.jpg"
-        summary: "입문자를 위한 기초 문법부터 제너레이터, 데코레이터, 멀티스레딩, 객체지향 패턴 및 알고리즘 문제 해결까지 탄탄한 기본기를 완성합니다."
-        tags: ["Python 3", "데이터구조", "알고리즘", "OOP"]
-        mentor: "지니(고양이)"
-        level: "입문"
 
       - id: js
         title: "모던 자바스크립트 & 웹 프론트엔드"
@@ -184,7 +223,7 @@ categories:
         badge: "DB 마스터"
         badge_color: "primary"
         icon: "🐘"
-        logo: "/assets/img/logos/logo_07_linux.jpg"
+        logo: "/assets/img/logos/logo_13_postgresql.jpg"
         summary: "세계에서 가장 진보된 오픈소스 객체-관계형 DB인 PostgreSQL의 트랜잭션 격리수준(MVCC), 인덱스 튜닝, 파티셔닝, 복제를 심층 분석합니다."
         tags: ["PostgreSQL", "SQL 튜닝", "MVCC", "DB 모델링"]
         mentor: "이호진 교수"
@@ -202,4 +241,3 @@ categories:
         tags: ["MySQL", "InnoDB", "쿼리 최적화", "샤딩"]
         mentor: "이호진 교수 & 지니"
         level: "초중급"
-

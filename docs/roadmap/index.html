@@ -13,19 +13,19 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="기초 프로그래밍부터 하드웨어 회로, 클라우드 가상화, 딥러닝과 로보틱스까지 단계별 학습 경로" />
 <meta name="twitter:description" property="og:description" content="기초 프로그래밍부터 하드웨어 회로, 클라우드 가상화, 딥러닝과 로보틱스까지 단계별 학습 경로" />
-<link rel="canonical" href="https://jiny.dev/roadmap/" />
-<meta property="og:url" content="https://jiny.dev/roadmap/" />
+<link rel="canonical" href="http://localhost:4004/roadmap/" />
+<meta property="og:url" content="http://localhost:4004/roadmap/" />
 <meta property="og:site_name" content="지니와 도로시의 공학 기술 탐험 - jiny.dev" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="컴퓨터 공학 &amp; 피지컬 AI 학습 로드맵" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Hojin"},"description":"기초 프로그래밍부터 하드웨어 회로, 클라우드 가상화, 딥러닝과 로보틱스까지 단계별 학습 경로","headline":"컴퓨터 공학 &amp; 피지컬 AI 학습 로드맵","url":"https://jiny.dev/roadmap/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Hojin"},"description":"기초 프로그래밍부터 하드웨어 회로, 클라우드 가상화, 딥러닝과 로보틱스까지 단계별 학습 경로","headline":"컴퓨터 공학 &amp; 피지컬 AI 학습 로드맵","url":"http://localhost:4004/roadmap/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="/assets/css/docs.css?v=1794038838" rel="stylesheet" />
+  <link href="/assets/css/docs.css?v=1794911298" rel="stylesheet" />
   <link href="/assets/css/highlight.css" rel="stylesheet" />
 
   <style>
@@ -352,16 +352,19 @@
               <hr class="d-lg-none my-2 text-white-50">
             </li>
 
-            <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link py-2 px-0 px-lg-2" href="https://jiny.dev" aria-label="Home">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
-                  viewBox="0 0 16 16" role="img">
-                  <title>Home</title>
-                  <path fill="currentColor"
-                    d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
-                </svg>
-                <small class="d-lg-none ms-2">Home</small>
-              </a>
+            <li class="nav-item dropdown">
+              <button type="button" class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle text-white-50"
+                data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                패밀리 사이트
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="https://ai.jiny.dev" target="_blank">🤖 인공지능기초</a></li>
+                <li><a class="dropdown-item" href="https://deep.ai.jiny.dev" target="_blank">🧠 딥러닝</a></li>
+                <li><a class="dropdown-item" href="https://dezero.ai.jiny.dev" target="_blank">🌱 밑바닥 딥러닝 3</a></li>
+                <li><a class="dropdown-item" href="https://rl.ai.jiny.dev" target="_blank">🎯 강화학습</a></li>
+                <li><a class="dropdown-item" href="https://pytoch.ai.jiny.dev" target="_blank">🔥 파이토치</a></li>
+                <li><a class="dropdown-item" href="https://python.jiny.dev" target="_blank">🐍 파이썬</a></li>
+              </ul>
             </li>
           </ul>
 
@@ -723,24 +726,39 @@
 <div class="card border rounded-4 p-4 mb-4 shadow-sm bg-white" style="border-left: 6px solid #8b5cf6 !important;">
   <div class="d-flex align-items-center justify-content-between mb-2">
     <span class="badge rounded-pill bg-purple-subtle text-purple border px-3 py-1 fw-bold">Stage 04</span>
-    <span class="font-monospace small text-muted">ai.jiny.dev / rl.jiny.dev</span>
+    <span class="font-monospace small text-muted">ai.jiny.dev / deep.ai.jiny.dev / dezero.ai.jiny.dev / rl.ai.jiny.dev / pytoch.ai.jiny.dev</span>
   </div>
   <h3 class="fs-4 fw-bold text-dark mb-2">스스로 학습하고 최적의 의사결정을 내리는 지능형 알고리즘</h3>
   <p class="text-secondary small mb-3 leading-relaxed">
-    행렬 연산과 경사 하강법을 기초로 DeZero 프레임워크를 밑바닥부터 구축하며 딥러닝 역전파(Backpropagation)의 본질을 깨닫습니다. 마르코프 결정 과정(MDP), 벨만 방정식, DQN 및 Actor-Critic 정책 경사법을 정복합니다.
+    행렬 연산과 경사 하강법을 기초로 DeZero 프레임워크를 밑바닥부터 구축하며 딥러닝 역전파(Backpropagation)의 본질을 깨닫습니다. 마르코프 결정 과정(MDP), 벨만 방정식, DQN 및 Actor-Critic 정책 경사법, 그리고 파이토치 심층 모델을 정복합니다.
   </p>
   <div class="bg-light p-3 rounded-3 mb-3">
     <h6 class="fw-bold text-dark mb-2">핵심 습득 기술:</h6>
     <ul class="text-secondary small mb-0 ps-3">
       <li>선형대수학, 미적분, 확률 통계 기초 수학</li>
-      <li>PyTorch 딥러닝 프레임워크 실전 활용</li>
+      <li>PyTorch 딥러닝 프레임워크 실전 활용 및 PINN / 메타 학습</li>
+      <li>DeZero 프레임워크 직접 구현 (계산 그래프 &amp; 자동 미분)</li>
       <li>MDP, 가치 반복법, Q-러닝, 시간차 학습(TD)</li>
       <li>심층 Q-네트워크(DQN), 정책 경사법(Policy Gradient), PPO</li>
     </ul>
   </div>
-  <a href="https://rl.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-3 align-self-start fw-bold">
-    강화학습 마법 여정 입장하기 ↗
-  </a>
+  <div class="d-flex flex-wrap gap-2">
+    <a href="https://ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-3 fw-bold">
+      🤖 AI 기초 ↗
+    </a>
+    <a href="https://deep.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-danger btn-sm rounded-3 fw-bold">
+      🧠 딥러닝 ↗
+    </a>
+    <a href="https://dezero.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-success btn-sm rounded-3 fw-bold">
+      🌱 DeZero ↗
+    </a>
+    <a href="https://rl.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-3 fw-bold">
+      🎯 강화학습 ↗
+    </a>
+    <a href="https://pytoch.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-warning btn-sm rounded-3 fw-bold text-dark">
+      🔥 파이토치 ↗
+    </a>
+  </div>
 </div>
 
 <hr />
@@ -844,14 +862,16 @@
       </div>
 
       <div class="col-6 col-lg-3 offset-lg-1">
-        <h6 class="fw-bold text-dark mb-3">심층 강좌 포털 (Subdomains)</h6>
+        <h6 class="fw-bold text-dark mb-3">AI & 핵심 강좌 포털 (Subdomains)</h6>
         <ul class="list-unstyled small">
-          <li class="mb-2"><a href="https://ai.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🧠 인공지능 & 딥러닝 (ai)</a></li>
-          <li class="mb-2"><a href="https://rl.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🪄 강화학습 마법 여정 (rl)</a></li>
-          <li class="mb-2"><a href="https://arduino.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🧭 아두이노 193강 마스터 (arduino)</a></li>
-          <li class="mb-2"><a href="https://docker.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🐳 도커 컨테이너 대항해 (docker)</a></li>
-          <li class="mb-2"><a href="https://php.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🐘 모던 PHP 아키텍처 (php)</a></li>
-          <li class="mb-2"><a href="https://linux.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🐧 리눅스 시스템 & 쉘 (linux)</a></li>
+          <li class="mb-2"><a href="https://ai.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🤖 인공지능기초 (ai)</a></li>
+          <li class="mb-2"><a href="https://deep.ai.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🧠 딥러닝 실전 (deep)</a></li>
+          <li class="mb-2"><a href="https://dezero.ai.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🌱 밑바닥 딥러닝 3 (dezero)</a></li>
+          <li class="mb-2"><a href="https://rl.ai.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🎯 강화학습 (rl)</a></li>
+          <li class="mb-2"><a href="https://pytoch.ai.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🔥 파이토치 입문 (pytoch)</a></li>
+          <li class="mb-2"><a href="https://python.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🐍 파이썬 마스터 (python)</a></li>
+          <li class="mb-2"><a href="https://arduino.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🧭 아두이노 193강 (arduino)</a></li>
+          <li class="mb-2"><a href="https://docker.jiny.dev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">🐳 도커 대항해 (docker)</a></li>
         </ul>
       </div>
 
@@ -870,12 +890,12 @@
         <ul class="list-unstyled small">
           <li class="mb-2"><a href="https://github.com/jinydev" target="_blank" rel="noopener" class="text-decoration-none text-secondary">GitHub jinydev</a></li>
           <li class="mb-2"><a href="https://github.com/jinydev/dorothy" target="_blank" rel="noopener" class="text-decoration-none text-secondary">Dorothy Repository</a></li>
+          <li class="mb-2"><a href="mailto:infohojin@naver.com" class="text-decoration-none text-secondary">문의 (Contact)</a></li>
         </ul>
       </div>
     </div>
   </div>
 </footer>
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

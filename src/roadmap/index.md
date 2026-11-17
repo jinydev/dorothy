@@ -128,24 +128,39 @@ permalink: /roadmap/
 <div class="card border rounded-4 p-4 mb-4 shadow-sm bg-white" style="border-left: 6px solid #8b5cf6 !important;">
   <div class="d-flex align-items-center justify-content-between mb-2">
     <span class="badge rounded-pill bg-purple-subtle text-purple border px-3 py-1 fw-bold">Stage 04</span>
-    <span class="font-monospace small text-muted">ai.jiny.dev / rl.jiny.dev</span>
+    <span class="font-monospace small text-muted">ai.jiny.dev / deep.ai.jiny.dev / dezero.ai.jiny.dev / rl.ai.jiny.dev / pytoch.ai.jiny.dev</span>
   </div>
   <h3 class="fs-4 fw-bold text-dark mb-2">스스로 학습하고 최적의 의사결정을 내리는 지능형 알고리즘</h3>
   <p class="text-secondary small mb-3 leading-relaxed">
-    행렬 연산과 경사 하강법을 기초로 DeZero 프레임워크를 밑바닥부터 구축하며 딥러닝 역전파(Backpropagation)의 본질을 깨닫습니다. 마르코프 결정 과정(MDP), 벨만 방정식, DQN 및 Actor-Critic 정책 경사법을 정복합니다.
+    행렬 연산과 경사 하강법을 기초로 DeZero 프레임워크를 밑바닥부터 구축하며 딥러닝 역전파(Backpropagation)의 본질을 깨닫습니다. 마르코프 결정 과정(MDP), 벨만 방정식, DQN 및 Actor-Critic 정책 경사법, 그리고 파이토치 심층 모델을 정복합니다.
   </p>
   <div class="bg-light p-3 rounded-3 mb-3">
     <h6 class="fw-bold text-dark mb-2">핵심 습득 기술:</h6>
     <ul class="text-secondary small mb-0 ps-3">
       <li>선형대수학, 미적분, 확률 통계 기초 수학</li>
-      <li>PyTorch 딥러닝 프레임워크 실전 활용</li>
+      <li>PyTorch 딥러닝 프레임워크 실전 활용 및 PINN / 메타 학습</li>
+      <li>DeZero 프레임워크 직접 구현 (계산 그래프 & 자동 미분)</li>
       <li>MDP, 가치 반복법, Q-러닝, 시간차 학습(TD)</li>
       <li>심층 Q-네트워크(DQN), 정책 경사법(Policy Gradient), PPO</li>
     </ul>
   </div>
-  <a href="https://rl.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-3 align-self-start fw-bold">
-    강화학습 마법 여정 입장하기 ↗
-  </a>
+  <div class="d-flex flex-wrap gap-2">
+    <a href="https://ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-3 fw-bold">
+      🤖 AI 기초 ↗
+    </a>
+    <a href="https://deep.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-danger btn-sm rounded-3 fw-bold">
+      🧠 딥러닝 ↗
+    </a>
+    <a href="https://dezero.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-success btn-sm rounded-3 fw-bold">
+      🌱 DeZero ↗
+    </a>
+    <a href="https://rl.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-3 fw-bold">
+      🎯 강화학습 ↗
+    </a>
+    <a href="https://pytoch.ai.jiny.dev" target="_blank" rel="noopener" class="btn btn-outline-warning btn-sm rounded-3 fw-bold text-dark">
+      🔥 파이토치 ↗
+    </a>
+  </div>
 </div>
 
 ---
