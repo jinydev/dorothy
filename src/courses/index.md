@@ -6,40 +6,87 @@ permalink: /courses/
 ---
 
 <style>
-.hover-shadow {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.hover-shadow:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.1) !important;
-}
+  .courses-hero {
+    background: linear-gradient(180deg, #f8faff 0%, #edf3fb 100%);
+    padding: 4.5rem 1.5rem 3.5rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .courses-hero-title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.03em;
+    line-height: 1.25;
+  }
+  .courses-hero-subtitle {
+    font-size: 1.15rem;
+    color: #64748b;
+    max-width: 760px;
+    margin: 1.25rem auto 2rem;
+    line-height: 1.7;
+  }
+  .category-pill-btn {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    color: #334155;
+    padding: 0.55rem 1.1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .category-pill-btn:hover {
+    background: #0f172a;
+    color: #ffffff !important;
+    border-color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+  }
+  .hover-shadow {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .hover-shadow:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.1) !important;
+  }
 </style>
 
-<!-- 상단 히어로 배너 -->
-<div class="container pt-4 pt-md-5">
-  <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 1px solid #bfdbfe;">
-    <div class="row align-items-center">
-      <div class="col-lg-8">
-        <span class="badge rounded-pill bg-primary px-3 py-2 fw-bold mb-3">Subdomain Directory</span>
-        <h1 class="display-6 fw-bold mb-3" style="color: #0f172a; letter-spacing: -0.02em;">
-          🌐 분야별 특화 심층 강좌 포털
-        </h1>
-        <p class="fs-5 text-secondary mb-3 leading-relaxed">
-          <strong>jiny.dev</strong>의 모든 심층 강좌는 분야별 특성에 맞추어 최적화된 <strong>독립 서브도메인(***.jiny.dev)</strong>으로 서비스됩니다. 원하는 분야를 선택하여 바로 학습을 시작하세요!
-        </p>
-        <div class="d-flex flex-wrap gap-2">
-          <span class="badge rounded-pill bg-white text-dark border px-3 py-2 fw-semibold">독립 서브도메인 아키텍처</span>
-          <span class="badge rounded-pill bg-white text-dark border px-3 py-2 fw-semibold">YAML 데이터 중앙 집중 관리</span>
-          <span class="badge rounded-pill bg-white text-dark border px-3 py-2 fw-semibold">원클릭 포털 이동</span>
-        </div>
-      </div>
-      <div class="col-lg-4 text-center mt-4 mt-lg-0">
-        <img src="{{ '/assets/img/robot_ecosystem_lab.jpg' | relative_url }}"
-             alt="공학 생태계 연구실"
-             class="img-fluid rounded-4 shadow-sm"
-             style="max-height: 240px; object-fit: cover; border: 1px solid #cbd5e1;">
-        <p class="small text-muted mt-2 mb-0">▲ 소프트웨어와 하드웨어가 융합된 첨단 랩</p>
-      </div>
+<!-- 상단 풀와이드 히어로 헤딩 영역 -->
+<div class="courses-hero">
+  <div class="container text-center">
+    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-white border text-secondary small fw-bold mb-3 shadow-sm">
+      <span class="text-primary">🌐</span>
+      <span>jiny.dev 공학 강좌 서브도메인 포털</span>
+    </div>
+    <h1 class="courses-hero-title mb-3">
+      분야별 특화 심층 강좌 포털
+    </h1>
+    <p class="courses-hero-subtitle">
+      <strong>jiny.dev</strong>의 모든 심층 기술 강좌는 분야별 특성에 맞추어 최적화된 <strong>독립 서브도메인(***.jiny.dev)</strong>으로 서비스됩니다.<br class="d-none d-md-block">
+      체계적인 이론과 실전 코드로 무장한 원하는 과정을 선택하여 바로 학습을 시작하세요!
+    </p>
+
+    <!-- 분야별 바로가기 퀵 네비게이션 필 -->
+    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+      {% for category in site.data.courses.categories %}
+      <a href="#{{ category.id }}" class="category-pill-btn">
+        <span>{{ category.icon }}</span>
+        <span>{{ category.name }}</span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- 부가 정보 배지 -->
+    <div class="mt-4 pt-2 d-flex flex-wrap justify-content-center gap-2">
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🚀 15개 독립 전문 도메인</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">✨ 이호진 교수 & 도로시 멘토링</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🎯 기초부터 심화까지 전 커리큘럼 완비</span>
     </div>
   </div>
 </div>
