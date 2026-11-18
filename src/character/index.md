@@ -153,7 +153,7 @@ permalink: /character/
     <!-- 부가 정보 배지 -->
     <div class="d-flex flex-wrap justify-content-center gap-2">
       <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🌟 총 5개 핵심 캐릭터 (142컷)</span>
-      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🧩 총 5대 파츠 & 환경 에셋 (36컷)</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🧩 총 5대 파츠 & 환경 에셋 (40컷)</span>
       <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">📐 조형 비례 & 컬러 팔레트 완비</span>
     </div>
   </div>
@@ -203,7 +203,7 @@ permalink: /character/
       <button class="nav-link" id="tab-btn-parts" data-bs-toggle="pill" data-bs-target="#tab-parts" type="button" role="tab" aria-controls="tab-parts" aria-selected="false">
         <span>🧩</span>
         <span>파츠 & 배경 에셋</span>
-        <span class="char-tab-badge">36컷</span>
+        <span class="char-tab-badge">40컷</span>
       </button>
     </li>
   </ul>
@@ -396,7 +396,7 @@ permalink: /character/
             <div class="d-flex align-items-center gap-2 mb-2">
               <span class="badge rounded-pill bg-indigo text-white px-3 py-1 fw-bold" style="background-color: #6366f1;">Concept & Parts Dataset</span>
               <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
-                총 5개 카테고리 · 36컷 완비
+                총 5개 카테고리 · 40컷 완비
               </span>
             </div>
             <h2 class="display-6 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">

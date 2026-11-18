@@ -236,7 +236,7 @@ categories:
         badge: "표준 DB"
         badge_color: "secondary"
         icon: "🐬"
-        logo: "/assets/img/logos/logo_04_php.jpg"
+        logo: "/assets/img/logos/logo_14_mysql.jpg"
         summary: "InnoDB 스토리지 엔진 내부 구조, B-Tree 인덱싱 최적화, 실행 계획(EXPLAIN) 분석 및 대규모 웹 서비스 트래픽 대응 설계를 학습합니다."
         tags: ["MySQL", "InnoDB", "쿼리 최적화", "샤딩"]
         mentor: "이호진 교수 & 지니"

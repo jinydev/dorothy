@@ -1,0 +1,3 @@
+logo, reinforcement learning robot mascot, ghibli anime style, clean line art, soft cel shading, pure white background
+
+Reinforcement learning agent mascot navigating an intelligent maze.

@@ -1,0 +1,3 @@
+logo, postgresql database mascot, cute blue elephant slonik, ghibli anime style, clean line art, soft cel shading, pure white background
+
+PostgreSQL Slonik elephant mascot with database storage cylinders.

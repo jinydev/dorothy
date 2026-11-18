@@ -171,8 +171,9 @@ categories:
   en_name: Tech & Language Mascot Emblems
   icon: 🎨
   badge: bg-info text-dark
-  desc: Python, C++, Java, PHP, Rust, Go, Linux, PyTorch, Docker 등의 2D 애니메이션 감성 엠블럼
-  count: 10
+  desc: Python, C++, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL 등의 지브리
+    2D 애니메이션 감성 마스코트
+  count: 14
   images:
   - filename: logo_01_python.jpg
     url: /assets/dataset/parts/05_logos/logo_01_python.jpg
@@ -206,12 +207,12 @@ categories:
       aviator goggles holding gear cog with r letter, ghibli anime style, ...
   - filename: logo_07_linux.jpg
     url: /assets/dataset/parts/05_logos/logo_07_linux.jpg
-    title: logo 07 linux
+    title: 리눅스 (Linux Tux Penguin)
     caption: logo, linux tux penguin mascot holding brass wrench, cute scarf, ghibli
       anime style, soft cel shading, pure white background
   - filename: logo_08_arduino.jpg
     url: /assets/dataset/parts/05_logos/logo_08_arduino.jpg
-    title: logo 08 arduino
+    title: 아두이노 (Arduino Infinity Board)
     caption: logo, arduino hardware platform logo, teal infinity circuit board with
       glowing led, plus minus signs, ghibli anime style, clean line art, pu...
   - filename: logo_09_pytorch.jpg
@@ -223,4 +224,21 @@ categories:
     url: /assets/dataset/parts/05_logos/logo_10_docker.jpg
     title: 도커 (Docker Whale)
     caption: ''
-total_count: 36
+  - filename: logo_11_reinforcement_learning.jpg
+    url: /assets/dataset/parts/05_logos/logo_11_reinforcement_learning.jpg
+    title: 강화학습 에이전트 (RL Robot)
+    caption: Reinforcement learning agent mascot navigating an intelligent maze.
+  - filename: logo_12_git.jpg
+    url: /assets/dataset/parts/05_logos/logo_12_git.jpg
+    title: 깃 & 깃허브 (Git Branching)
+    caption: Git version control branching mascot with glowing commit nodes.
+  - filename: logo_13_postgresql.jpg
+    url: /assets/dataset/parts/05_logos/logo_13_postgresql.jpg
+    title: PostgreSQL 슬로닉 코끼리 (PostgreSQL Elephant)
+    caption: PostgreSQL Slonik elephant mascot with database storage cylinders.
+  - filename: logo_14_mysql.jpg
+    url: /assets/dataset/parts/05_logos/logo_14_mysql.jpg
+    title: MySQL 사킬라 돌고래 (MySQL Dolphin)
+    caption: A charming Studio Ghibli 2D anime-style MySQL Sakila dolphin mascot leaping
+      gracefully above gentle stylized splash ripples on a pure white ...
+total_count: 40
