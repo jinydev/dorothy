@@ -172,8 +172,9 @@ categories:
   icon: 🎨
   badge: bg-info text-dark
   desc: Python, C, C++, GCC, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL,
-    Octocat, Android, Swift, Laravel, Spring, Django 등의 지브리 2D 애니메이션 감성 마스코트
-  count: 23
+    Octocat, Android, Swift, Laravel, Spring, Django, Raspberry Pi 등의 지브리 2D 애니메이션
+    감성 마스코트
+  count: 24
   images:
   - filename: logo_01_python.jpg
     url: /assets/dataset/parts/05_logos/logo_01_python.jpg
@@ -287,4 +288,9 @@ categories:
     title: 장고 포레스트 실드 & 스피릿 (Django Shield & Spirit)
     caption: An elegant Studio Ghibli 2D anime-style Django web framework forest green
       shield emblem with an embossed 'D' and a gentle forest spirit comp...
-total_count: 49
+  - filename: logo_24_raspberry_pi.jpg
+    url: /assets/dataset/parts/05_logos/logo_24_raspberry_pi.jpg
+    title: 라즈베리파이 산딸기 (Raspberry Pi Fruit)
+    caption: A charming Studio Ghibli 2D anime-style Raspberry Pi raspberry mascot
+      emblem with plump ruby-red drupelets and fresh emerald-green leaves on...
+total_count: 50

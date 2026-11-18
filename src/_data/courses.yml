@@ -111,7 +111,7 @@ categories:
         badge: "추천 강좌"
         badge_color: "warning"
         icon: "🍓"
-        logo: "/assets/img/logos/logo_07_linux.jpg"
+        logo: "/assets/img/logos/logo_24_raspberry_pi.jpg"
         summary: "초소형 싱글보드 컴퓨터 라즈베리파이 4/5로 구축하는 스마트 IoT 게이트웨이, 카메라 비전 처리, 엣지 AI 시스템 과정입니다."
         tags: ["Raspberry Pi", "Linux GPIO", "엣지 AI", "Python"]
         mentor: "지니 & 토토"
