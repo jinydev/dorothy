@@ -5,7 +5,7 @@ description: "139MB 공식 데이터셋 구성, Multi-Concept LoRA 훈련 규칙
 permalink: /character/guide/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->

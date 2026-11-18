@@ -13,19 +13,19 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="139MB 공식 데이터셋 구성, Multi-Concept LoRA 훈련 규칙 및 AI 프롬프트 가이드" />
 <meta name="twitter:description" property="og:description" content="139MB 공식 데이터셋 구성, Multi-Concept LoRA 훈련 규칙 및 AI 프롬프트 가이드" />
-<link rel="canonical" href="http://localhost:4000/character/guide/" />
-<meta property="og:url" content="http://localhost:4000/character/guide/" />
+<link rel="canonical" href="https://jiny.dev/character/guide/" />
+<meta property="og:url" content="https://jiny.dev/character/guide/" />
 <meta property="og:site_name" content="지니와 도로시의 공학 기술 탐험 - jiny.dev" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="캐릭터 제작 &amp; AI 데이터셋 가이드" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Hojin"},"description":"139MB 공식 데이터셋 구성, Multi-Concept LoRA 훈련 규칙 및 AI 프롬프트 가이드","headline":"캐릭터 제작 &amp; AI 데이터셋 가이드","url":"http://localhost:4000/character/guide/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Hojin"},"description":"139MB 공식 데이터셋 구성, Multi-Concept LoRA 훈련 규칙 및 AI 프롬프트 가이드","headline":"캐릭터 제작 &amp; AI 데이터셋 가이드","url":"https://jiny.dev/character/guide/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="/assets/css/docs.css?v=1795021515" rel="stylesheet" />
+  <link href="/assets/css/docs.css?v=1795021780" rel="stylesheet" />
   <link href="/assets/css/highlight.css" rel="stylesheet" />
 
   <style>
@@ -433,7 +433,7 @@
   </div>
 </nav>
 
-<style>
+  <style>
 .character-subnav-container {
   margin-top: -1.25rem;
   margin-bottom: 2.5rem;
@@ -483,9 +483,8 @@
 }
 </style>
 
-
-<!-- 상단 헤더 배너 -->
-<div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); border-left: 6px solid #a855f7;">
+  <!-- 상단 헤더 배너 -->
+  <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); border-left: 6px solid #a855f7;">
   <div class="row align-items-center">
     <div class="col-lg-8">
       <span class="badge rounded-pill bg-purple text-white px-3 py-2 fw-bold mb-3" style="background-color: #a855f7;">Dataset &amp; Training Engineering</span>
@@ -506,14 +505,13 @@
   </div>
 </div>
 
----
+  <hr />
 
-## 📂 1. 공식 데이터셋 디렉토리 구조 (139MB)
+  <h2 id="mb">📂 1. 공식 데이터셋 디렉토리 구조 (139MB)</h2>
 
-웹사이트 저장소의 `src/assets/dataset/` 및 `data/dataset/`에 실습 및 모델 훈련용 고해상도 이미지와 캡션 텍스트 파일이 1:1 페어로 완벽하게 구축되어 있습니다.
+  <p>웹사이트 저장소의 <code class="language-plaintext highlighter-rouge">src/assets/dataset/</code> 및 <code class="language-plaintext highlighter-rouge">data/dataset/</code>에 실습 및 모델 훈련용 고해상도 이미지와 캡션 텍스트 파일이 1:1 페어로 완벽하게 구축되어 있습니다.</p>
 
-```text
-src/assets/dataset/
+  <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>src/assets/dataset/
 ├── dorothy/       # 👧 도로시 43장 (dorothy_01.jpg + .txt ~ dorothy_43.jpg)
 ├── hojin/         # 👨‍🏫 이호진 교수님 31장 (hojin_01.jpg + .txt ~ hojin_31.jpg)
 ├── jiny/          # 🐱 지니 고양이 27장 (jiny_01.jpg + .txt ~ jiny_27.jpg)
@@ -525,32 +523,63 @@ src/assets/dataset/
     ├── 03_software/       # 자바 OOP, PHP MVC, DB 스키마, 도커 다이어그램 (9컷)
     ├── 04_ai_theory/      # 신경망 역전파, CNN/RNN, 강화학습, 행렬 연산 (10컷)
     └── 05_logos/          # 파이썬, C/C++, GCC, 안드로이드, 스위프트, 라즈베리파이 로고 (14컷)
-```
+</code></pre></div>  </div>
 
----
+  <hr />
 
-## 🎯 2. 황금 제작 원칙 (Golden Rules)
+  <h2 id="golden-rules">🎯 2. 황금 제작 원칙 (Golden Rules)</h2>
 
-1. **NO UI 슬라이드 프레임:** 슬라이드 테두리나 발표용 카드 박스를 이미지에 포함하지 않고, **순수 캐릭터 + 개념 시각화 소품**만을 생성합니다.
-2. **순백색 배경 (`#FFFFFF`):** 웹이나 슬라이드에 투명하게 녹아들 수 있도록 무결점 순백색 단색 배경과 은은한 바닥 접지 그림자만을 유지합니다.
-3. **선화 색상 규칙:** 순수 블랙(`#000000`)을 일체 배제하고, **다크 에스프레소 브라운 (`#26211E`)** 1.5pt 클린 라인아트를 적용합니다.
-4. **연령 불변 (Anti-Aging):** 이호진 교수님은 40대 초반의 건강하고 매끄러운 피부와 세련된 숏헤어를 영구 유지하며, 노화 주름을 그리지 않습니다.
-5. **동물 개수 제약:** 화면 내 고양이 지니 1마리 + 강아지 토토 1마리를 엄격하게 초과하지 않습니다.
-6. **언어 제한:** 오직 한국어와 영문 코드/수식만 허용하며, 왜곡된 가나/한자는 생성하지 않습니다.
+  <ol>
+    <li><strong>NO UI 슬라이드 프레임:</strong> 슬라이드 테두리나 발표용 카드 박스를 이미지에 포함하지 않고, <strong>순수 캐릭터 + 개념 시각화 소품</strong>만을 생성합니다.</li>
+    <li><strong>순백색 배경 (<code class="language-plaintext highlighter-rouge">#FFFFFF</code>):</strong> 웹이나 슬라이드에 투명하게 녹아들 수 있도록 무결점 순백색 단색 배경과 은은한 바닥 접지 그림자만을 유지합니다.</li>
+    <li><strong>선화 색상 규칙:</strong> 순수 블랙(<code class="language-plaintext highlighter-rouge">#000000</code>)을 일체 배제하고, <strong>다크 에스프레소 브라운 (<code class="language-plaintext highlighter-rouge">#26211E</code>)</strong> 1.5pt 클린 라인아트를 적용합니다.</li>
+    <li><strong>연령 불변 (Anti-Aging):</strong> 이호진 교수님은 40대 초반의 건강하고 매끄러운 피부와 세련된 숏헤어를 영구 유지하며, 노화 주름을 그리지 않습니다.</li>
+    <li><strong>동물 개수 제약:</strong> 화면 내 고양이 지니 1마리 + 강아지 토토 1마리를 엄격하게 초과하지 않습니다.</li>
+    <li><strong>언어 제한:</strong> 오직 한국어와 영문 코드/수식만 허용하며, 왜곡된 가나/한자는 생성하지 않습니다.</li>
+  </ol>
 
----
+  <hr />
 
-## 🧬 3. Multi-Concept LoRA 훈련 규격 권장치
+  <h2 id="multi-concept-lora---">🧬 3. Multi-Concept LoRA 훈련 규격 권장치</h2>
 
-| 파라미터 | 권장 설정값 | 설명 및 이유 |
-| :--- | :--- | :--- |
-| **Base Model** | SDXL 1.0 / Pony / Flux.1-dev | 고해상도 해부학적 안정성과 클린 라인아트 재현율 |
-| **Trigger Words** | `hojin_prof`, `dorothy_girl`, `jiny_cat`, `toto_dog`, `tinny_bot` | 캐릭터별 독립 고유 토큰 지정으로 개념 침범(Bleeding) 방지 |
-| **Network Dim / Alpha** | Rank: `32` / Alpha: `16` (또는 Dim 64 / Alpha 32) | 복합 인물과 소품의 정밀 텍스처를 온전히 수용 |
-| **Learning Rate** | UNet: `1e-4`, Text Encoder: `5e-5` | 과적합 없이 지브리 2D 스타일과 캐릭터 특징 동시 학습 |
-| **Resolution** | `1024 × 1024` (Bucket Size: 512~1536) | 전신 및 흉상 컷의 고해상도 라인아트 디테일 보존 |
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left">파라미터</th>
+        <th style="text-align: left">권장 설정값</th>
+        <th style="text-align: left">설명 및 이유</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left"><strong>Base Model</strong></td>
+        <td style="text-align: left">SDXL 1.0 / Pony / Flux.1-dev</td>
+        <td style="text-align: left">고해상도 해부학적 안정성과 클린 라인아트 재현율</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><strong>Trigger Words</strong></td>
+        <td style="text-align: left"><code class="language-plaintext highlighter-rouge">hojin_prof</code>, <code class="language-plaintext highlighter-rouge">dorothy_girl</code>, <code class="language-plaintext highlighter-rouge">jiny_cat</code>, <code class="language-plaintext highlighter-rouge">toto_dog</code>, <code class="language-plaintext highlighter-rouge">tinny_bot</code></td>
+        <td style="text-align: left">캐릭터별 독립 고유 토큰 지정으로 개념 침범(Bleeding) 방지</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><strong>Network Dim / Alpha</strong></td>
+        <td style="text-align: left">Rank: <code class="language-plaintext highlighter-rouge">32</code> / Alpha: <code class="language-plaintext highlighter-rouge">16</code> (또는 Dim 64 / Alpha 32)</td>
+        <td style="text-align: left">복합 인물과 소품의 정밀 텍스처를 온전히 수용</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><strong>Learning Rate</strong></td>
+        <td style="text-align: left">UNet: <code class="language-plaintext highlighter-rouge">1e-4</code>, Text Encoder: <code class="language-plaintext highlighter-rouge">5e-5</code></td>
+        <td style="text-align: left">과적합 없이 지브리 2D 스타일과 캐릭터 특징 동시 학습</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><strong>Resolution</strong></td>
+        <td style="text-align: left"><code class="language-plaintext highlighter-rouge">1024 × 1024</code> (Bucket Size: 512~1536)</td>
+        <td style="text-align: left">전신 및 흉상 컷의 고해상도 라인아트 디테일 보존</td>
+      </tr>
+    </tbody>
+  </table>
 
-<div class="d-flex justify-content-center gap-3 my-5">
+  <div class="d-flex justify-content-center gap-3 my-5">
   <a href="/character/" class="btn btn-outline-dark rounded-pill px-4">
     📋 캐릭터 포털 전체보기
   </a>

@@ -5,7 +5,7 @@ description: "AI 및 소프트웨어 수석 테크 코치 지니(고양이)의 �
 permalink: /character/jiny/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->

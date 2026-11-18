@@ -5,7 +5,7 @@ description: "하드웨어 부품 조달 및 사기 진작 메이커 서포터 �
 permalink: /character/toto/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->

@@ -5,7 +5,7 @@ description: "호기심 가득한 9세 주니어 메이커 도로시의 공식 �
 permalink: /character/dorothy/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->

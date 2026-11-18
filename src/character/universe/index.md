@@ -5,7 +5,7 @@ description: "jiny.dev 세계관 배경 스토리, 인물 관계도 및 원리 �
 permalink: /character/universe/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->

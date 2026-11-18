@@ -5,7 +5,7 @@ description: "원리와 본질을 밝히는 공학 멘토 이호진 교수님의
 permalink: /character/hojin/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->

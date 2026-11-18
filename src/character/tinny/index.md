@@ -5,7 +5,7 @@ description: "스마트 데스크톱 계측 & 피드백 로봇 티니의 공식 
 permalink: /character/tinny/
 ---
 
-<div class="container py-4">
+<div class="container py-4" markdown="1">
   {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
