@@ -87,7 +87,7 @@ permalink: /character/
     <!-- 부가 정보 배지 -->
     <div class="d-flex flex-wrap justify-content-center gap-2">
       <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🌟 총 5개 핵심 캐릭터 (142컷)</span>
-      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🧩 총 5대 파츠 & 환경 에셋 (59컷)</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🧩 총 5대 파츠 & 환경 에셋 (61컷)</span>
       <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">📐 조형 비례 & 컬러 팔레트 완비</span>
       <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🎨 100% 지브리풍 2D 애니메이션 화풍</span>
     </div>
@@ -158,14 +158,14 @@ permalink: /character/
     </div>
     {% endfor %}
 
-    <!-- 6번째 카드: 파츠 & 배경 에셋 데이터셋 59컷 안내 카드 -->
+    <!-- 6번째 카드: 파츠 & 배경 에셋 데이터셋 61컷 안내 카드 -->
     <div class="col">
       <div class="card h-100 char-portal-card shadow-sm d-flex flex-column justify-content-between" style="border: 2px dashed #93c5fd !important; background: linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%);">
         <div>
           <div class="char-portal-img-wrap" style="background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);">
             <div class="text-center p-3">
               <span class="display-3 d-block mb-1">🧩</span>
-              <span class="badge bg-primary text-white rounded-pill px-3 py-1 fw-bold">보조 데이터셋 59종</span>
+              <span class="badge bg-primary text-white rounded-pill px-3 py-1 fw-bold">보조 데이터셋 61종</span>
             </div>
             <span class="position-absolute top-0 end-0 m-3 badge rounded-pill bg-white text-primary border shadow-sm px-3 py-2 fw-bold">
               5개 카테고리
@@ -186,12 +186,12 @@ permalink: /character/
 
             <div class="p-3 rounded-3 bg-white border-start border-3 my-3" style="border-left-color: #0284c7 !important;">
               <p class="fst-italic text-secondary small mb-0 leading-relaxed">
-                "노트북·맥북·모니터·데스크탑·GPU 및 연구실 배경, 전자 부품, IDE 코드 화면, 최신 프레임워크 로고까지 온전한 지브리 스타일 에셋 완비!"
+                "노트북·맥북·모니터·데스크탑·GPU 및 시그모이드/ReLU 함수 곡선, 연구실 배경, 최신 프레임워크 로고까지 온전한 지브리 스타일 에셋 완비!"
               </p>
             </div>
 
             <p class="text-secondary small leading-relaxed mb-3">
-              연구실 환경(6컷), 컴퓨팅 디바이스 & 하드웨어(17컷), 소프트웨어(6컷), AI 수학 도식(6컷), 기술 로고 엠블럼(24컷) 등 총 59컷의 고해상도 에셋을 제공합니다.
+              연구실 환경(6컷), 컴퓨팅 디바이스 & 하드웨어(17컷), 소프트웨어(6컷), AI 수학 도식(8컷), 기술 로고 엠블럼(24컷) 등 총 61컷의 고해상도 에셋을 제공합니다.
             </p>
 
             <div class="d-flex flex-wrap gap-1 mb-2">
@@ -206,7 +206,7 @@ permalink: /character/
 
         <div class="card-footer bg-transparent border-0 px-4 pb-4 pt-0">
           <a href="{{ '/character/parts/' | relative_url }}" class="btn btn-primary w-100 rounded-pill py-2 fw-bold shadow-sm d-flex align-items-center justify-content-center gap-2">
-            <span>파츠 & 에셋 59컷 전체보기</span>
+            <span>파츠 & 에셋 61컷 전체보기</span>
             <span>➔</span>
           </a>
         </div>

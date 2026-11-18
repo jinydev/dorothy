@@ -1,0 +1,1 @@
+diagram, educational graphic, relu rectified linear unit activation function curve, piecewise linear, mathematical formula f(x) = max(0, x), zero along negative x-axis, 45 degree slope along positive x-axis, coordinate grid, anime academic style, white background

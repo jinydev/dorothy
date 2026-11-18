@@ -195,8 +195,8 @@ categories:
   en_name: AI & Deep Learning Theory Visualizations
   icon: 🧠
   badge: bg-danger
-  desc: 다층 퍼셉트론(MLP), CNN 합성곱 신경망, 강화학습 벨만 방정식 및 연합학습 구조도
-  count: 6
+  desc: 다층 퍼셉트론, CNN, 강화학습 MDP, 벨만 방정식, 연합학습, 손실 곡선 및 시그모이드/ReLU 활성화 함수 도식
+  count: 8
   images:
   - filename: ai_01_neural_network_mlp.jpg
     url: /assets/dataset/parts/04_ai_theory/ai_01_neural_network_mlp.jpg
@@ -228,6 +228,20 @@ categories:
     title: 신경망 손실 함수 수렴 곡선 (Loss Curve)
     caption: diagram, educational graphic, machine learning training metrics graph,
       epoch horizontal axis, training loss descending curve, validation acc...
+  - filename: ai_07_sigmoid_activation_curve.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_07_sigmoid_activation_curve.jpg
+    title: 시그모이드 활성화 함수 곡선 (Sigmoid Curve)
+    caption: diagram, educational graphic, sigmoid activation function curve, s-curve
+      logistic function, mathematical formula sigma(x) = 1 / (1 + e^-x), passing through
+      (0, 0.5), asymptotes at 0 and 1, coordinate grid, anime academic style, white
+      background
+  - filename: ai_08_relu_activation_curve.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_08_relu_activation_curve.jpg
+    title: ReLU 활성화 함수 꺾은선 (ReLU Curve)
+    caption: diagram, educational graphic, relu rectified linear unit activation function
+      curve, piecewise linear, mathematical formula f(x) = max(0, x), zero along negative
+      x-axis, 45 degree slope along positive x-axis, coordinate grid, anime academic
+      style, white background
 - id: logos
   folder: 05_logos
   name: 테크 & 프로그래밍 언어 로고

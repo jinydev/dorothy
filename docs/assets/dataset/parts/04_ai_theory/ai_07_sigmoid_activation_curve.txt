@@ -1,0 +1,1 @@
+diagram, educational graphic, sigmoid activation function curve, s-curve logistic function, mathematical formula sigma(x) = 1 / (1 + e^-x), passing through (0, 0.5), asymptotes at 0 and 1, coordinate grid, anime academic style, white background
