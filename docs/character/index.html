@@ -6,26 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.9.0 -->
-<title>공학 모험 연구실 캐릭터 5총사 소개 | 지니와 도로시의 공학 기술 탐험 - jiny.dev</title>
+<title>공학 모험 연구실 캐릭터 5총사 &amp; LoRA 데이터셋 | 지니와 도로시의 공학 기술 탐험 - jiny.dev</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="공학 모험 연구실 캐릭터 5총사 소개" />
+<meta property="og:title" content="공학 모험 연구실 캐릭터 5총사 &amp; LoRA 데이터셋" />
 <meta name="author" content="Hojin" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="이호진 교수님, 도로시, 지니(고양이), 토토(강아지), 티니(로봇)의 공식 프로필과 세계관" />
-<meta name="twitter:description" property="og:description" content="이호진 교수님, 도로시, 지니(고양이), 토토(강아지), 티니(로봇)의 공식 프로필과 세계관" />
+<meta name="description" content="이호진 교수님, 도로시, 지니(고양이), 토토(강아지), 티니(로봇)의 공식 프로필과 AI 학습 데이터셋 갤러리" />
+<meta name="twitter:description" property="og:description" content="이호진 교수님, 도로시, 지니(고양이), 토토(강아지), 티니(로봇)의 공식 프로필과 AI 학습 데이터셋 갤러리" />
 <link rel="canonical" href="https://jiny.dev/character/" />
 <meta property="og:url" content="https://jiny.dev/character/" />
 <meta property="og:site_name" content="지니와 도로시의 공학 기술 탐험 - jiny.dev" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="공학 모험 연구실 캐릭터 5총사 소개" />
+<meta name="twitter:title" content="공학 모험 연구실 캐릭터 5총사 &amp; LoRA 데이터셋" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Hojin"},"description":"이호진 교수님, 도로시, 지니(고양이), 토토(강아지), 티니(로봇)의 공식 프로필과 세계관","headline":"공학 모험 연구실 캐릭터 5총사 소개","url":"https://jiny.dev/character/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Hojin"},"description":"이호진 교수님, 도로시, 지니(고양이), 토토(강아지), 티니(로봇)의 공식 프로필과 AI 학습 데이터셋 갤러리","headline":"공학 모험 연구실 캐릭터 5총사 &amp; LoRA 데이터셋","url":"https://jiny.dev/character/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="/assets/css/docs.css?v=1795019198" rel="stylesheet" />
+  <link href="/assets/css/docs.css?v=1795019574" rel="stylesheet" />
   <link href="/assets/css/highlight.css" rel="stylesheet" />
 
   <style>
@@ -383,541 +383,2845 @@
     </nav>
   </header>
 
-  <div class="container bd-gutter mt-3 my-md-4 bd-layout">
-    <aside class="bd-sidebar scrollBar">
-        <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar"
-            aria-labelledby="bdSidebarOffcanvasLabel">
-            <div class="offcanvas-header border-bottom">
-                <h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">학습목차</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
-                    data-bs-target="#bdSidebar"></button>
-            </div>
-
-            <div class="offcanvas-body">
-                <!-- 네비게이션 -->
-                <style>
-.bd-sidebar-link {
-  color: #64748b;
-  padding: 0.45rem 0.75rem;
-  border-radius: 0 !important;
-  font-size: 0.92rem;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: all 0.15s ease-in-out;
-  line-height: 1.4;
-}
-.bd-sidebar-link:hover {
-  color: #0f172a;
-  background-color: #f1f5f9;
-  border-radius: 0 !important;
-}
-.bd-sidebar-link.is-active {
-  color: #0f172a !important;
-  font-weight: 700 !important;
-  background-color: #f8fafc !important;
-  border-left: 3px solid #0f172a !important;
-  border-radius: 0 !important;
-  padding-left: calc(0.75rem - 3px);
-}
-.bd-sidebar-subtitle {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: #475569;
-  padding: 0.85rem 0.75rem 0.35rem 0.75rem;
-  margin-top: 0.25rem;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.01em;
-  border-bottom: 1px solid #f1f5f9;
-  margin-bottom: 0.3rem;
-}
-.sidebar-section-group:first-child .bd-sidebar-subtitle {
-  margin-top: 0;
-  padding-top: 0.15rem;
-}
+  <div class="w-100 pb-5">
+    <style>
+  .character-hero {
+    background: linear-gradient(180deg, #f8faff 0%, #edf3fb 100%);
+    padding: 4.5rem 1.5rem 3.5rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .character-hero-title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.03em;
+    line-height: 1.25;
+  }
+  .character-hero-subtitle {
+    font-size: 1.15rem;
+    color: #64748b;
+    max-width: 800px;
+    margin: 1.25rem auto 2rem;
+    line-height: 1.7;
+  }
+  .char-pill-btn {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    color: #334155;
+    padding: 0.55rem 1.15rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .char-pill-btn:hover {
+    background: #0f172a;
+    color: #ffffff !important;
+    border-color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+  }
+  .hover-shadow {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .hover-shadow:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.1) !important;
+  }
+  .dataset-thumbnail-card {
+    transition: all 0.2s ease;
+    background: #ffffff;
+  }
+  .dataset-thumbnail-card:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+    border-color: #3b82f6 !important;
+  }
+  .dataset-img-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    overflow: hidden;
+    background: #f8fafc;
+    border-radius: 0.65rem 0.65rem 0 0;
+  }
+  .dataset-img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .dataset-thumbnail-card:hover .dataset-img-wrap img {
+    transform: scale(1.06);
+  }
+  .char-section-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    margin-bottom: 4rem;
+    overflow: hidden;
+  }
 </style>
 
-<nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
-  <ul class="bd-links-nav list-unstyled mb-0 pe-lg-2" style="padding-bottom: 12rem;">
-    <li class="bd-links-group py-2">
-      
+<!-- 상단 풀와이드 히어로 헤딩 영역 -->
+<div class="character-hero">
+  <div class="container text-center">
+    <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-white border text-secondary small fw-bold mb-3 shadow-sm">
+      <span class="text-primary">🎨</span>
+      <span>jiny.dev Characters &amp; Concept Dataset</span>
+    </div>
+    <h1 class="character-hero-title mb-3">
+      공학 모험 연구실 캐릭터 5총사 &amp; 데이터셋
+    </h1>
+    <p class="character-hero-subtitle">
+      복잡하고 어려운 컴퓨터 공학과 하드웨어 이론을 쉽고 유쾌하게 전달하는 <strong>연구실 5총사</strong>를 소개합니다.<br class="d-none d-md-block" />
+      지브리풍 2D 애니메이션 화풍과 비주얼 일관성을 위해 정밀하게 큐레이션된 <strong>142장의 공식 학습 데이터셋</strong>을 캐릭터별로 감상해보세요.
+    </p>
 
-      
-
-      <!-- 메인 섹션 타이틀 헤더 -->
-      <a class="bd-links-heading d-flex justify-content-between align-items-center fw-bold fs-6 my-1 px-2 text-dark text-decoration-none"
-        href="/character/" style="letter-spacing: -0.01em;">
-        <span class="d-flex align-items-center">
-          <span class="text-primary me-2">🧭</span>
-          <span>캐릭터 소개</span>
-        </span>
+    <!-- 캐릭터 바로가기 퀵 네비게이션 필 -->
+    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+      <a href="#hojin" class="char-pill-btn">
+        <span>👨‍🏫</span>
+        <span>이호진 교수님 (30)</span>
       </a>
-
-      <hr class="my-2 text-black-50">
-
-      
-        
-          <div class="sidebar-section-group mb-2">
-            
-              <div class="bd-sidebar-subtitle">
-                <span>연구실 5총사 상세 소개</span>
-              </div>
-            
-            <ul class="list-unstyled mb-1">
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/"
-                     class="bd-sidebar-link is-active"
-                     >
-                    <span class="text-truncate">전체 캐릭터 개요</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/hojin/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">이호진 교수님 (Prof. Hojin)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/dorothy/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">도로시 (Dorothy)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/jiny/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">지니 (Jiny, 테크 코치)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/toto/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">토토 (Toto, 메이커 서포터)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/tinny/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">티니 (Tinny, 데스크톱 로봇)</span>
-                    
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        
-          <div class="sidebar-section-group mb-2">
-            
-              <div class="bd-sidebar-subtitle">
-                <span>스타일 가이드 & 세계관</span>
-              </div>
-            
-            <ul class="list-unstyled mb-1">
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/guide/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">캐릭터 제작 & AI 가이드</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/universe/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">공학 모험의 세계관</span>
-                    
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        
-      
-    </li>
-  </ul>
-</nav>
-
-<script>
-(function() {
-  function scrollSidebarToActive() {
-    var activeItem = document.querySelector('.bd-sidebar .is-active, .bd-links .is-active, .bd-sidebar-link.is-active');
-    if (!activeItem) return;
-
-    var sidebar = document.querySelector('.bd-sidebar');
-    var offcanvas = document.querySelector('.bd-sidebar .offcanvas-body');
-
-    var container = null;
-    if (sidebar && sidebar.scrollHeight > sidebar.clientHeight) {
-      container = sidebar;
-    } else if (offcanvas && offcanvas.scrollHeight > offcanvas.clientHeight) {
-      container = offcanvas;
-    } else if (sidebar) {
-      container = sidebar;
-    }
-
-    if (container) {
-      var containerRect = container.getBoundingClientRect();
-      var itemRect = activeItem.getBoundingClientRect();
-
-      var relativeTop = itemRect.top - containerRect.top;
-      var targetScroll = container.scrollTop + relativeTop - (containerRect.height * 0.3);
-
-      container.scrollTop = Math.max(0, targetScroll);
-    }
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', scrollSidebarToActive);
-  } else {
-    scrollSidebarToActive();
-  }
-
-  window.addEventListener('load', function() {
-    setTimeout(scrollSidebarToActive, 50);
-  });
-})();
-</script>
-
-
-            </div>
-        </div>
-    </aside>
-
-    <main class="bd-main order-1">
-        <nav aria-label="breadcrumb" class="mt-3">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        
-        
-        
-        
-        
-        
-        <li class="breadcrumb-item active" aria-current="page">공학 모험 연구실 캐릭터 5총사 소개</li>
-        
-        
-        
-    </ol>
-</nav>
-
-        <div class="bd-content ps-lg-4">
-            <!-- 상단 히어로 배너 -->
-<div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%); border: 1px solid #bbf7d0;">
-  <div class="row align-items-center">
-    <div class="col-lg-8">
-      <span class="badge rounded-pill bg-primary px-3 py-2 fw-bold mb-3">jiny.dev Characters</span>
-      <h1 class="display-6 fw-bold mb-3" style="color: #0f172a; letter-spacing: -0.02em;">
-        🧭 공학 기술과 피지컬 AI를 탐험하는<br />
-        <span class="text-primary">연구실 5총사</span>를 소개합니다!
-      </h1>
-      <p class="fs-5 text-secondary mb-3 leading-relaxed">
-        복잡하고 어려운 컴퓨터 공학과 하드웨어 이론을 <strong>이호진 교수님</strong>의 멘토링, 호기심 많은 9세 소녀 <strong>도로시</strong>의 도전, 똑똑한 조수 고양이 <strong>지니</strong>의 기술 코칭, 단짝 강아지 <strong>토토</strong>의 활기찬 응원, 그리고 스마트 로봇 <strong>티니</strong>의 피드백과 함께 쉽고 즐겁게 정복합니다.
-      </p>
-      <div class="d-flex flex-wrap gap-2">
-        <span class="badge rounded-pill bg-white text-dark border px-3 py-2 fw-semibold">지브리 2D 애니메이션 감성</span>
-        <span class="badge rounded-pill bg-white text-dark border px-3 py-2 fw-semibold">개별 캐릭터 상세 페이지 완비</span>
-        <span class="badge rounded-pill bg-white text-dark border px-3 py-2 fw-semibold">공식 디자인 &amp; LoRA 데이터셋</span>
-      </div>
+      <a href="#dorothy" class="char-pill-btn">
+        <span>👧</span>
+        <span>도로시 (42)</span>
+      </a>
+      <a href="#jiny" class="char-pill-btn">
+        <span>🐱</span>
+        <span>지니 (26)</span>
+      </a>
+      <a href="#toto" class="char-pill-btn">
+        <span>🐶</span>
+        <span>토토 (22)</span>
+      </a>
+      <a href="#tinny" class="char-pill-btn">
+        <span>🤖</span>
+        <span>티니 로봇 (22)</span>
+      </a>
+      <a href="#comparison" class="char-pill-btn">
+        <span>📋</span>
+        <span>속성 비교표</span>
+      </a>
+      <a href="#guides" class="char-pill-btn">
+        <span>📐</span>
+        <span>제작 가이드</span>
+      </a>
     </div>
-    <div class="col-lg-4 text-center mt-4 mt-lg-0">
-      <img src="/assets/img/dorothy_hero_team.jpg" alt="연구실 5총사 단체 일러스트" class="img-fluid rounded-4 shadow-sm" style="max-height: 250px; width: 100%; object-fit: cover; border: 1px solid #cbd5e1;" />
-      <p class="small text-muted mt-2 mb-0">▲ 왼쪽부터 이호진 교수님, 도로시, 지니, 토토, 티니 로봇</p>
+
+    <!-- 부가 정보 배지 -->
+    <div class="mt-4 pt-2 d-flex flex-wrap justify-content-center gap-2">
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🌟 총 5개 핵심 캐릭터</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🖼️ 총 142컷 고해상도 LoRA 데이터셋</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🏷️ 상세 프롬프트 &amp; 캡션 완비</span>
     </div>
   </div>
 </div>
 
-<hr />
+<!-- 본문 콘텐츠 영역 (사이드바 없는 풀 와이드 컨테이너) -->
+<div class="container pb-5">
 
-<h2 id="-연구실-5총사-개별-프로필-바로가기">👥 연구실 5총사 개별 프로필 바로가기</h2>
-
-<p>각 등장인물의 고유한 비주얼 토큰, 성격, 시그니처 착장 및 턴어라운드 데이터셋을 개별 전용 페이지에서 자세히 확인할 수 있습니다.</p>
-
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
-  <!-- 1. 이호진 교수님 -->
-  <div class="col">
-    <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #16a34a !important;">
-      <div class="text-center p-3">
-        <img src="/assets/img/hojin_thumbs_up.jpg" alt="이호진 교수님" class="img-fluid rounded-4" style="height: 150px; object-fit: contain;" />
-      </div>
-      <div class="card-body p-2 d-flex flex-column text-center">
-        <span class="badge rounded-pill bg-success-subtle text-success border border-success-subtle mb-2 align-self-center">총괄 멘토 &amp; 지도교수</span>
-        <h4 class="fs-5 fw-bold text-dark mb-1">이호진 교수님</h4>
-        <span class="text-muted small mb-2">Prof. Hojin (40대 초반 동안)</span>
-        <p class="text-secondary small mb-3 flex-grow-1">
-          원리와 본질을 밝히는 공학 멘토. 실생활 비유와 직관적인 도식화로 원리를 꿰뚫는 강의를 제공합니다.
-        </p>
-        <a href="/character/hojin/" class="btn btn-outline-success btn-sm fw-bold rounded-3 mt-auto">
-          교수님 상세 페이지 ➔
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2. 도로시 -->
-  <div class="col">
-    <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #d97706 !important;">
-      <div class="text-center p-3">
-        <img src="/assets/img/dorothy_front_view_nobg.png" alt="도로시" class="img-fluid rounded-4" style="height: 150px; object-fit: contain;" />
-      </div>
-      <div class="card-body p-2 d-flex flex-column text-center">
-        <span class="badge rounded-pill bg-warning-subtle text-warning-emphasis border border-warning-subtle mb-2 align-self-center">주니어 메이커</span>
-        <h4 class="fs-5 fw-bold text-dark mb-1">도로시</h4>
-        <span class="text-muted small mb-2">Dorothy (9세 주니어)</span>
-        <p class="text-secondary small mb-3 flex-grow-1">
-          붉은 캔버스 운동화와 호기심 가득한 눈망울! 실패를 두려워하지 않고 직접 손으로 만드는 행동파.
-        </p>
-        <a href="/character/dorothy/" class="btn btn-outline-warning btn-sm fw-bold rounded-3 mt-auto">
-          도로시 상세 페이지 ➔
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 3. 지니 -->
-  <div class="col">
-    <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #4f46e5 !important;">
-      <div class="text-center p-3">
-        <img src="/assets/img/jiny_profile.jpg" alt="지니 고양이" class="img-fluid rounded-4" style="height: 150px; object-fit: contain;" />
-      </div>
-      <div class="card-body p-2 d-flex flex-column text-center">
-        <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle mb-2 align-self-center">AI &amp; 테크 코치</span>
-        <h4 class="fs-5 fw-bold text-dark mb-1">지니 (Jiny)</h4>
-        <span class="text-muted small mb-2">수석 테크 턱시도 고양이</span>
-        <p class="text-secondary small mb-3 flex-grow-1">
-          별빛 자수가 수놓아진 마법 망토를 입고 복잡한 신경망 수식과 코드 버그를 번개처럼 해결해 줍니다.
-        </p>
-        <a href="/character/jiny/" class="btn btn-outline-primary btn-sm fw-bold rounded-3 mt-auto">
-          지니 상세 페이지 ➔
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 4. 토토 -->
-  <div class="col">
-    <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #0d9488 !important;">
-      <div class="text-center p-3">
-        <img src="/assets/img/toto_profile.jpg" alt="토토 강아지" class="img-fluid rounded-4" style="height: 150px; object-fit: contain;" />
-      </div>
-      <div class="card-body p-2 d-flex flex-column text-center">
-        <span class="badge rounded-pill bg-info-subtle text-info-emphasis border border-info-subtle mb-2 align-self-center">하드웨어 서포터</span>
-        <h4 class="fs-5 fw-bold text-dark mb-1">토토 (Toto)</h4>
-        <span class="text-muted small mb-2">밀크 화이트 단짝 강아지</span>
-        <p class="text-secondary small mb-3 flex-grow-1">
-          하늘색 반다나를 목에 두르고 저항, 점퍼선, 빵판을 물어다 주며 팀의 사기를 북돋아 줍니다.
-        </p>
-        <a href="/character/toto/" class="btn btn-outline-info btn-sm fw-bold rounded-3 mt-auto">
-          토토 상세 페이지 ➔
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 5. 티니 -->
-  <div class="col">
-    <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #475569 !important;">
-      <div class="text-center p-3">
-        <img src="/assets/img/robot_tinny_profile.jpg" alt="티니 로봇" class="img-fluid rounded-4" style="height: 150px; object-fit: contain;" />
-      </div>
-      <div class="card-body p-2 d-flex flex-column text-center">
-        <span class="badge rounded-pill bg-secondary-subtle text-secondary border border-secondary-subtle mb-2 align-self-center">데스크톱 스마트 로봇</span>
-        <h4 class="fs-5 fw-bold text-dark mb-1">티니 (Tinny)</h4>
-        <span class="text-muted small mb-2">실시간 계측 &amp; 인터랙션 로봇</span>
-        <p class="text-secondary small mb-3 flex-grow-1">
-          모니터 헤드의 블루 디지털 눈과 전구 안테나로 회로의 전압, 전류 및 통신 상태를 실시간 보고합니다.
-        </p>
-        <a href="/character/tinny/" class="btn btn-outline-secondary btn-sm fw-bold rounded-3 mt-auto">
-          티니 상세 페이지 ➔
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 6. 제작 가이드 & 데이터셋 -->
-  <div class="col">
-    <div class="card h-100 border rounded-4 shadow-sm bg-white p-3 hover-shadow" style="border-left: 5px solid #8b5cf6 !important;">
-      <div class="text-center p-3">
-        <img src="/assets/img/robot_ecosystem_lab.jpg" alt="스타일 가이드" class="img-fluid rounded-4" style="height: 150px; object-fit: cover;" />
-      </div>
-      <div class="card-body p-2 d-flex flex-column text-center">
-        <span class="badge rounded-pill bg-purple-subtle text-purple border border-purple-subtle mb-2 align-self-center">AI 가이드 &amp; LoRA</span>
-        <h4 class="fs-5 fw-bold text-dark mb-1">캐릭터 제작 가이드</h4>
-        <span class="text-muted small mb-2">139MB 데이터셋 &amp; 생성 규격</span>
-        <p class="text-secondary small mb-3 flex-grow-1">
-          일관된 화풍과 조형을 유지하기 위한 프롬프트 블록, 컬러 코드, LoRA 학습 규격을 수록했습니다.
-        </p>
-        <a href="/character/guide/" class="btn btn-outline-dark btn-sm fw-bold rounded-3 mt-auto">
-          가이드 살펴보기 ➔
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<hr />
-
-<h2 id="-캐릭터-핵심-속성-비교표">📋 캐릭터 핵심 속성 비교표</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">캐릭터</th>
-      <th style="text-align: left">역할 / 포지션</th>
-      <th style="text-align: left">연령 / 체형</th>
-      <th style="text-align: left">시그니처 아이템</th>
-      <th style="text-align: left">주요 전문 분야</th>
-      <th style="text-align: center">개별 상세 페이지</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><strong>이호진 교수님</strong></td>
-      <td style="text-align: left">총괄 멘토 &amp; 지도교수</td>
-      <td style="text-align: left">40대 초반 (6.5등신)</td>
-      <td style="text-align: left">실버 라운드 안경, 네이비 폴로</td>
-      <td style="text-align: left">하드웨어 아키텍처, 기초 과학, 회로 원리</td>
-      <td style="text-align: center"><a href="/character/hojin/">상세 보기 →</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>도로시</strong></td>
-      <td style="text-align: left">주니어 메이커</td>
-      <td style="text-align: left">9세 (4.5등신)</td>
-      <td style="text-align: left">붉은 스니커즈, STEM HERO 멜빵</td>
-      <td style="text-align: left">피지컬 컴퓨팅 도전, 프로그래밍 입문</td>
-      <td style="text-align: center"><a href="/character/dorothy/">상세 보기 →</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>지니</strong></td>
-      <td style="text-align: left">AI &amp; 테크 코치</td>
-      <td style="text-align: left">턱시도 코숏 고양이</td>
-      <td style="text-align: left">보라색 마법 망토, 테크 고글</td>
-      <td style="text-align: left">신경망 수식, 알고리즘 최적화, 디버깅</td>
-      <td style="text-align: center"><a href="/character/jiny/">상세 보기 →</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>토토</strong></td>
-      <td style="text-align: left">메이커 서포터</td>
-      <td style="text-align: left">밀크 화이트 강아지</td>
-      <td style="text-align: left">하늘색 반다나, 단추 코</td>
-      <td style="text-align: left">부품 조달, 팀워크 사기 진작, 현장 실습</td>
-      <td style="text-align: center"><a href="/character/toto/">상세 보기 →</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><strong>티니</strong></td>
-      <td style="text-align: left">데스크톱 보조 로봇</td>
-      <td style="text-align: left">소형 큐브 로봇</td>
-      <td style="text-align: left">전구 안테나, 블루 LED 눈</td>
-      <td style="text-align: left">실시간 신호 계측, I2C/SPI 통신 피드백</td>
-      <td style="text-align: center"><a href="/character/tinny/">상세 보기 →</a></td>
-    </tr>
-  </tbody>
-</table>
-
-
-            <!-- 구글 애드센스 출력 -->
-            <div class="mt-5">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3321560028329475"
-    crossorigin="anonymous"></script>
-<!-- jinydev-java -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3321560028329475" data-ad-slot="9323221865"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-            </div>
+  
+  <!-- 캐릭터 섹션: 이호진 교수님 -->
+  <section class="char-section-card" id="hojin" style="border-top: 5px solid #16a34a;">
+    <!-- 캐릭터 프로필 상단 배너 -->
+    <div class="p-4 p-md-5" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+      <div class="row align-items-center">
+        <!-- 아바타 이미지 -->
+        <div class="col-md-3 col-lg-2 text-center mb-3 mb-md-0">
+          <div class="position-relative d-inline-block p-2 rounded-4 bg-white shadow-sm border" style="border-color: #16a34a !important;">
+            <img src="/assets/img/hojin_thumbs_up.jpg" alt="이호진 교수님" class="img-fluid rounded-3" style="width: 140px; height: 140px; object-fit: cover;" loading="lazy" />
+          </div>
         </div>
 
-        <div class="bd-toc mt-3 mb-5 my-lg-0 ps-xl-3 mb-lg-5 text-body-secondary">
+        <!-- 캐릭터 프로필 텍스트 -->
+        <div class="col-md-9 col-lg-7 ps-md-4">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+            <span class="badge rounded-pill bg-success px-3 py-1 fw-bold">총괄 멘토 &amp; 지도교수</span>
+            <span class="text-muted small fw-medium">Prof. Hojin</span>
+            <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
+              📷 데이터셋 30컷
+            </span>
+          </div>
+          <h2 class="fs-2 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">
+            이호진 교수님
+          </h2>
+          <blockquote class="text-secondary fst-italic small mb-2 ps-3 border-start border-3" style="border-color: #16a34a !important;">
+            "단순히 코드를 복사해 넣는 데 그치지 않고, 그 이면에서 전자가 어떻게 흐르고 메모리가 어떻게 움직이는지 생각해 보렴!"
+          </blockquote>
+          <p class="text-secondary mb-3 small leading-relaxed">
+            40대 초반의 온화하고 총명한 인상으로, 어려운 컴퓨터 공학과 하드웨어 이론을 직관적인 비유와 도식화로 풀어내는 연구실의 총괄 멘토입니다.
+          </p>
+          <!-- 시그니처 특징 태그 -->
+          <div class="d-flex flex-wrap gap-1">
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#40대 초반 동안</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#솔트앤페퍼 7:3 가르마</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#메탈 라운드 안경</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#다크 네이비 폴로 &amp; 청바지</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#컴퓨터 구조 &amp; 회로 설계</span>
+            
+          </div>
+        </div>
 
-  <button class="btn btn-link p-md-0 mb-2 mb-md-0 text-decoration-none bd-toc-toggle d-md-none" type="button"
-    data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false" aria-controls="tocContents">
-    서브목차
-    <svg class="bi d-md-none ms-2" aria-hidden="true">
-      <use xlink:href="#chevron-expand"></use>
-    </svg>
-  </button>
+        <!-- 상세 페이지 바로가기 액션 버튼 -->
+        <div class="col-lg-3 text-center text-lg-end mt-3 mt-lg-0">
+          <a href="/character/hojin/" class="btn btn-outline-dark fw-bold rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2">
+            <span>상세 프로필 보기</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-  <strong class="d-none d-md-block h6 my-2">서브목차</strong>
+    <!-- 캐릭터 데이터셋 갤러리 영역 -->
+    <div class="p-4 p-md-5 bg-light border-top">
+      <div class="d-flex flex-wrap align-items-center justify-content-between mb-4">
+        <div>
+          <h3 class="fs-5 fw-bold text-dark mb-1 d-flex align-items-center gap-2">
+            <span>🎨</span>
+            <span>이호진 교수님 학습 &amp; 컨셉 데이터셋</span>
+          </h3>
+          <p class="text-secondary small mb-0">
+            고유한 외형 특징과 다양한 앵글, 포즈, 표정을 담은 원본 훈련 이미지 모음입니다. (클릭 시 원본 이미지 확인)
+          </p>
+        </div>
+        <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 small shadow-sm mt-2 mt-md-0">
+          총 30장
+        </span>
+      </div>
 
-  <div class="collapse bd-toc-collapse" id="tocContents">
-    <nav id="TableOfContents">
-      <!--
-      <ul>
-        <li><a href="#quick-start">Quick start</a></li>
-        <li><a href="#cdn-links">CDN links</a></li>
-        <li><a href="#next-steps">Next steps</a></li>
-        <li><a href="#js-components">JS components</a></li>
-        <li><a href="#important-globals">Important globals</a>
-          <ul>
-            <li><a href="#html5-doctype">HTML5 doctype</a></li>
-            <li><a href="#responsive-meta-tag">Responsive meta tag</a></li>
-            <li><a href="#box-sizing">Box-sizing</a></li>
-            <li><a href="#reboot">Reboot</a></li>
-          </ul>
-        </li>
-        <li><a href="#community">Community</a></li>
-      </ul>
-      -->
-    </nav>
-  </div>
+      <!-- 이미지 썸네일 그리드 -->
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_01.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_01.jpg" alt="이호진 교수님 - 01" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="01">
+                  01
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_02.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_02.jpg" alt="이호진 교수님 - 02" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="02">
+                  02
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_03.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_03.jpg" alt="이호진 교수님 - 03" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="03">
+                  03
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_04.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_04.jpg" alt="이호진 교수님 - 04" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="04">
+                  04
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_05.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_05.jpg" alt="이호진 교수님 - 05" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="05">
+                  05
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_06.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_06.jpg" alt="이호진 교수님 - 06" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="06">
+                  06
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_07.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_07.jpg" alt="이호진 교수님 - 07" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="07">
+                  07
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_08.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_08.jpg" alt="이호진 교수님 - 08" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="08">
+                  08
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_09.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_09.jpg" alt="이호진 교수님 - 09" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="09">
+                  09
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_10.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_10.jpg" alt="이호진 교수님 - 10" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="10">
+                  10
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_11.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_11.jpg" alt="이호진 교수님 - 11" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="11">
+                  11
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_12.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_12.jpg" alt="이호진 교수님 - 12" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="12">
+                  12
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_13.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_13.jpg" alt="이호진 교수님 - 13" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="13">
+                  13
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_14.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_14.jpg" alt="이호진 교수님 - 14" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="14">
+                  14
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_15.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_15.jpg" alt="이호진 교수님 - 15" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="15">
+                  15
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_16.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_16.jpg" alt="이호진 교수님 - 16" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="16">
+                  16
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_17.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_17.jpg" alt="이호진 교수님 - 17" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="17">
+                  17
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_18.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_18.jpg" alt="이호진 교수님 - 18" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="18">
+                  18
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_19.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_19.jpg" alt="이호진 교수님 - 19" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="19">
+                  19
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_20.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_20.jpg" alt="이호진 교수님 - 20" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="20">
+                  20
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_21.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_21.jpg" alt="이호진 교수님 - 21" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="21">
+                  21
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_22.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_22.jpg" alt="이호진 교수님 - 22" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="22">
+                  22
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_23.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_23.jpg" alt="이호진 교수님 - 23" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="23">
+                  23
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_24.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_24.jpg" alt="이호진 교수님 - 24" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="24">
+                  24
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_25.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_25.jpg" alt="이호진 교수님 - 25" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="25">
+                  25
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_character_sheet.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_character_sheet.jpg" alt="이호진 교수님 - character sheet" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="character sheet">
+                  character sheet
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_dorothy_mentoring.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_dorothy_mentoring.jpg" alt="이호진 교수님 - dorothy mentoring" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="dorothy mentoring">
+                  dorothy mentoring
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_lab_lecture.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_lab_lecture.jpg" alt="이호진 교수님 - lab lecture" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="lab lecture">
+                  lab lecture
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_lecture_presenter.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_lecture_presenter.jpg" alt="이호진 교수님 - lecture presenter" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="lecture presenter">
+                  lecture presenter
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/hojin/hojin_thumbs_up.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/hojin/hojin_thumbs_up.jpg" alt="이호진 교수님 - thumbs up" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="thumbs up">
+                  thumbs up
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- 캐릭터 섹션: 도로시 -->
+  <section class="char-section-card" id="dorothy" style="border-top: 5px solid #ea580c;">
+    <!-- 캐릭터 프로필 상단 배너 -->
+    <div class="p-4 p-md-5" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+      <div class="row align-items-center">
+        <!-- 아바타 이미지 -->
+        <div class="col-md-3 col-lg-2 text-center mb-3 mb-md-0">
+          <div class="position-relative d-inline-block p-2 rounded-4 bg-white shadow-sm border" style="border-color: #ea580c !important;">
+            <img src="/assets/img/dorothy_front_view_nobg.png" alt="도로시" class="img-fluid rounded-3" style="width: 140px; height: 140px; object-fit: cover;" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- 캐릭터 프로필 텍스트 -->
+        <div class="col-md-9 col-lg-7 ps-md-4">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+            <span class="badge rounded-pill bg-warning text-dark px-3 py-1 fw-bold">주니어 메이커</span>
+            <span class="text-muted small fw-medium">Dorothy</span>
+            <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
+              📷 데이터셋 42컷
+            </span>
+          </div>
+          <h2 class="fs-2 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">
+            도로시
+          </h2>
+          <blockquote class="text-secondary fst-italic small mb-2 ps-3 border-start border-3" style="border-color: #ea580c !important;">
+            "망가져도 괜찮아! 다시 고치면서 왜 그런지 배우면 되잖아!"
+          </blockquote>
+          <p class="text-secondary mb-3 small leading-relaxed">
+            호기심 가득한 9세 주니어 메이커. 실패를 두려워하지 않고 직접 손으로 만들고 실험하며 코딩의 세계를 탐험합니다.
+          </p>
+          <!-- 시그니처 특징 태그 -->
+          <div class="d-flex flex-wrap gap-1">
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#9세 (4.5등신)</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#웨이브 양갈래 머리</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#STEM HERO 배지 멜빵바지</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#붉은 캔버스 스니커즈</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#피지컬 컴퓨팅 메이커</span>
+            
+          </div>
+        </div>
+
+        <!-- 상세 페이지 바로가기 액션 버튼 -->
+        <div class="col-lg-3 text-center text-lg-end mt-3 mt-lg-0">
+          <a href="/character/dorothy/" class="btn btn-outline-dark fw-bold rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2">
+            <span>상세 프로필 보기</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 캐릭터 데이터셋 갤러리 영역 -->
+    <div class="p-4 p-md-5 bg-light border-top">
+      <div class="d-flex flex-wrap align-items-center justify-content-between mb-4">
+        <div>
+          <h3 class="fs-5 fw-bold text-dark mb-1 d-flex align-items-center gap-2">
+            <span>🎨</span>
+            <span>도로시 학습 &amp; 컨셉 데이터셋</span>
+          </h3>
+          <p class="text-secondary small mb-0">
+            고유한 외형 특징과 다양한 앵글, 포즈, 표정을 담은 원본 훈련 이미지 모음입니다. (클릭 시 원본 이미지 확인)
+          </p>
+        </div>
+        <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 small shadow-sm mt-2 mt-md-0">
+          총 42장
+        </span>
+      </div>
+
+      <!-- 이미지 썸네일 그리드 -->
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_01.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_01.jpg" alt="도로시 - 01" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="01">
+                  01
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_02.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_02.jpg" alt="도로시 - 02" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="02">
+                  02
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_03.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_03.jpg" alt="도로시 - 03" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="03">
+                  03
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_04.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_04.jpg" alt="도로시 - 04" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="04">
+                  04
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_05.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_05.jpg" alt="도로시 - 05" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="05">
+                  05
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_06.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_06.jpg" alt="도로시 - 06" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="06">
+                  06
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_07.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_07.jpg" alt="도로시 - 07" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="07">
+                  07
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_08.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_08.jpg" alt="도로시 - 08" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="08">
+                  08
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_09.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_09.jpg" alt="도로시 - 09" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="09">
+                  09
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_10.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_10.jpg" alt="도로시 - 10" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="10">
+                  10
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_11.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_11.jpg" alt="도로시 - 11" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="11">
+                  11
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_12.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_12.jpg" alt="도로시 - 12" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="12">
+                  12
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_13.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_13.jpg" alt="도로시 - 13" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="13">
+                  13
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_14.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_14.jpg" alt="도로시 - 14" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="14">
+                  14
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_15.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_15.jpg" alt="도로시 - 15" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="15">
+                  15
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_16.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_16.jpg" alt="도로시 - 16" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="16">
+                  16
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_17.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_17.jpg" alt="도로시 - 17" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="17">
+                  17
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_18.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_18.jpg" alt="도로시 - 18" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="18">
+                  18
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_19.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_19.jpg" alt="도로시 - 19" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="19">
+                  19
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_20.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_20.jpg" alt="도로시 - 20" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="20">
+                  20
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_21.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_21.jpg" alt="도로시 - 21" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="21">
+                  21
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_22.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_22.jpg" alt="도로시 - 22" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="22">
+                  22
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_23.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_23.jpg" alt="도로시 - 23" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="23">
+                  23
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_24.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_24.jpg" alt="도로시 - 24" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="24">
+                  24
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_25.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_25.jpg" alt="도로시 - 25" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="25">
+                  25
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_26.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_26.jpg" alt="도로시 - 26" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="26">
+                  26
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_27.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_27.jpg" alt="도로시 - 27" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="27">
+                  27
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_28.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_28.jpg" alt="도로시 - 28" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="28">
+                  28
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_29.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_29.jpg" alt="도로시 - 29" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="29">
+                  29
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_30.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_30.jpg" alt="도로시 - 30" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="30">
+                  30
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_31.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_31.jpg" alt="도로시 - 31" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="31">
+                  31
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_32.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_32.jpg" alt="도로시 - 32" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="32">
+                  32
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_33.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_33.jpg" alt="도로시 - 33" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="33">
+                  33
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_34.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_34.jpg" alt="도로시 - 34" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="34">
+                  34
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_35.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_35.jpg" alt="도로시 - 35" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="35">
+                  35
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_angles_expressions.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_angles_expressions.jpg" alt="도로시 - angles expressions" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="angles expressions">
+                  angles expressions
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_character_sheet.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_character_sheet.jpg" alt="도로시 - character sheet" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="character sheet">
+                  character sheet
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_front_view.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_front_view.jpg" alt="도로시 - front view" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="front view">
+                  front view
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_hairstyles_sheet.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_hairstyles_sheet.jpg" alt="도로시 - hairstyles sheet" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="hairstyles sheet">
+                  hairstyles sheet
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_outfits_sheet.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_outfits_sheet.jpg" alt="도로시 - outfits sheet" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="outfits sheet">
+                  outfits sheet
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_side_view.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_side_view.jpg" alt="도로시 - side view" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="side view">
+                  side view
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/dorothy/dorothy_three_quarter_view.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/dorothy/dorothy_three_quarter_view.jpg" alt="도로시 - three quarter view" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="three quarter view">
+                  three quarter view
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- 캐릭터 섹션: 지니 -->
+  <section class="char-section-card" id="jiny" style="border-top: 5px solid #4f46e5;">
+    <!-- 캐릭터 프로필 상단 배너 -->
+    <div class="p-4 p-md-5" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+      <div class="row align-items-center">
+        <!-- 아바타 이미지 -->
+        <div class="col-md-3 col-lg-2 text-center mb-3 mb-md-0">
+          <div class="position-relative d-inline-block p-2 rounded-4 bg-white shadow-sm border" style="border-color: #4f46e5 !important;">
+            <img src="/assets/img/jiny_profile.jpg" alt="지니" class="img-fluid rounded-3" style="width: 140px; height: 140px; object-fit: cover;" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- 캐릭터 프로필 텍스트 -->
+        <div class="col-md-9 col-lg-7 ps-md-4">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+            <span class="badge rounded-pill bg-primary px-3 py-1 fw-bold">AI &amp; 알고리즘 테크 코치</span>
+            <span class="text-muted small fw-medium">Jiny (테크 코치)</span>
+            <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
+              📷 데이터셋 26컷
+            </span>
+          </div>
+          <h2 class="fs-2 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">
+            지니
+          </h2>
+          <blockquote class="text-secondary fst-italic small mb-2 ps-3 border-start border-3" style="border-color: #4f46e5 !important;">
+            "그 버그는 신경망 가중치 초기화 문제야! 내가 로그를 찍어뒀으니 터미널을 확인해 봐, 냥!"
+          </blockquote>
+          <p class="text-secondary mb-3 small leading-relaxed">
+            별빛 자수 마법 망토를 두르고 연구실의 복잡한 신경망 수식과 알고리즘 버그를 날카롭게 짚어주는 수석 테크 코칭 턱시도 고양이입니다.
+          </p>
+          <!-- 시그니처 특징 태그 -->
+          <div class="d-flex flex-wrap gap-1">
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#턱시도 코숏 고양이</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#미드나잇 블루 별빛 망토</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#황금빛 눈동자 &amp; 흰 발</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#테크 고글 착용</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#신경망 &amp; 알고리즘 마스터</span>
+            
+          </div>
+        </div>
+
+        <!-- 상세 페이지 바로가기 액션 버튼 -->
+        <div class="col-lg-3 text-center text-lg-end mt-3 mt-lg-0">
+          <a href="/character/jiny/" class="btn btn-outline-dark fw-bold rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2">
+            <span>상세 프로필 보기</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 캐릭터 데이터셋 갤러리 영역 -->
+    <div class="p-4 p-md-5 bg-light border-top">
+      <div class="d-flex flex-wrap align-items-center justify-content-between mb-4">
+        <div>
+          <h3 class="fs-5 fw-bold text-dark mb-1 d-flex align-items-center gap-2">
+            <span>🎨</span>
+            <span>지니 학습 &amp; 컨셉 데이터셋</span>
+          </h3>
+          <p class="text-secondary small mb-0">
+            고유한 외형 특징과 다양한 앵글, 포즈, 표정을 담은 원본 훈련 이미지 모음입니다. (클릭 시 원본 이미지 확인)
+          </p>
+        </div>
+        <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 small shadow-sm mt-2 mt-md-0">
+          총 26장
+        </span>
+      </div>
+
+      <!-- 이미지 썸네일 그리드 -->
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_01.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_01.jpg" alt="지니 - 01" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="01">
+                  01
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_02.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_02.jpg" alt="지니 - 02" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="02">
+                  02
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_03.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_03.jpg" alt="지니 - 03" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="03">
+                  03
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_04.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_04.jpg" alt="지니 - 04" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="04">
+                  04
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_05.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_05.jpg" alt="지니 - 05" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="05">
+                  05
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_06.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_06.jpg" alt="지니 - 06" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="06">
+                  06
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_07.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_07.jpg" alt="지니 - 07" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="07">
+                  07
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_08.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_08.jpg" alt="지니 - 08" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="08">
+                  08
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_09.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_09.jpg" alt="지니 - 09" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="09">
+                  09
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_10.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_10.jpg" alt="지니 - 10" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="10">
+                  10
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_11.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_11.jpg" alt="지니 - 11" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="11">
+                  11
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_12.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_12.jpg" alt="지니 - 12" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="12">
+                  12
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_13.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_13.jpg" alt="지니 - 13" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="13">
+                  13
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_14.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_14.jpg" alt="지니 - 14" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="14">
+                  14
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_15.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_15.jpg" alt="지니 - 15" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="15">
+                  15
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_16.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_16.jpg" alt="지니 - 16" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="16">
+                  16
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_17.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_17.jpg" alt="지니 - 17" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="17">
+                  17
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_18.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_18.jpg" alt="지니 - 18" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="18">
+                  18
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_19.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_19.jpg" alt="지니 - 19" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="19">
+                  19
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_20.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_20.jpg" alt="지니 - 20" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="20">
+                  20
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_21.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_21.jpg" alt="지니 - 21" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="21">
+                  21
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_22.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_22.jpg" alt="지니 - 22" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="22">
+                  22
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_23.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_23.jpg" alt="지니 - 23" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="23">
+                  23
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_character_sheet.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_character_sheet.jpg" alt="지니 - character sheet" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="character sheet">
+                  character sheet
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_lab_assistant.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_lab_assistant.jpg" alt="지니 - lab assistant" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="lab assistant">
+                  lab assistant
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/jiny/jiny_profile.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/jiny/jiny_profile.jpg" alt="지니 - profile" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="profile">
+                  profile
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- 캐릭터 섹션: 토토 -->
+  <section class="char-section-card" id="toto" style="border-top: 5px solid #0d9488;">
+    <!-- 캐릭터 프로필 상단 배너 -->
+    <div class="p-4 p-md-5" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+      <div class="row align-items-center">
+        <!-- 아바타 이미지 -->
+        <div class="col-md-3 col-lg-2 text-center mb-3 mb-md-0">
+          <div class="position-relative d-inline-block p-2 rounded-4 bg-white shadow-sm border" style="border-color: #0d9488 !important;">
+            <img src="/assets/img/toto_profile.jpg" alt="토토" class="img-fluid rounded-3" style="width: 140px; height: 140px; object-fit: cover;" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- 캐릭터 프로필 텍스트 -->
+        <div class="col-md-9 col-lg-7 ps-md-4">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+            <span class="badge rounded-pill bg-info text-dark px-3 py-1 fw-bold">하드웨어 &amp; 메이커 서포터</span>
+            <span class="text-muted small fw-medium">Toto (메이커 서포터)</span>
+            <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
+              📷 데이터셋 22컷
+            </span>
+          </div>
+          <h2 class="fs-2 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">
+            토토
+          </h2>
+          <blockquote class="text-secondary fst-italic small mb-2 ps-3 border-start border-3" style="border-color: #0d9488 !important;">
+            "멍멍! 저기 굴러간 220옴 저항은 내가 찾아왔어! 힘내, 도로시!"
+          </blockquote>
+          <p class="text-secondary mb-3 small leading-relaxed">
+            하늘색 반다나를 목에 두르고 부품과 전선을 챙겨주며 연구실의 사기를 북돋우는 도로시의 단짝 비숑-말티즈 강아지입니다.
+          </p>
+          <!-- 시그니처 특징 태그 -->
+          <div class="d-flex flex-wrap gap-1">
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#밀크 화이트 강아지</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#스카이블루 반다나</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#초롱초롱한 눈망울</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#부품 전달 &amp; 서포트</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#팀 활력소</span>
+            
+          </div>
+        </div>
+
+        <!-- 상세 페이지 바로가기 액션 버튼 -->
+        <div class="col-lg-3 text-center text-lg-end mt-3 mt-lg-0">
+          <a href="/character/toto/" class="btn btn-outline-dark fw-bold rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2">
+            <span>상세 프로필 보기</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 캐릭터 데이터셋 갤러리 영역 -->
+    <div class="p-4 p-md-5 bg-light border-top">
+      <div class="d-flex flex-wrap align-items-center justify-content-between mb-4">
+        <div>
+          <h3 class="fs-5 fw-bold text-dark mb-1 d-flex align-items-center gap-2">
+            <span>🎨</span>
+            <span>토토 학습 &amp; 컨셉 데이터셋</span>
+          </h3>
+          <p class="text-secondary small mb-0">
+            고유한 외형 특징과 다양한 앵글, 포즈, 표정을 담은 원본 훈련 이미지 모음입니다. (클릭 시 원본 이미지 확인)
+          </p>
+        </div>
+        <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 small shadow-sm mt-2 mt-md-0">
+          총 22장
+        </span>
+      </div>
+
+      <!-- 이미지 썸네일 그리드 -->
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_01.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_01.jpg" alt="토토 - 01" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="01">
+                  01
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_02.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_02.jpg" alt="토토 - 02" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="02">
+                  02
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_03.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_03.jpg" alt="토토 - 03" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="03">
+                  03
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_04.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_04.jpg" alt="토토 - 04" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="04">
+                  04
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_05.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_05.jpg" alt="토토 - 05" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="05">
+                  05
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_06.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_06.jpg" alt="토토 - 06" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="06">
+                  06
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_07.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_07.jpg" alt="토토 - 07" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="07">
+                  07
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_08.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_08.jpg" alt="토토 - 08" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="08">
+                  08
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_09.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_09.jpg" alt="토토 - 09" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="09">
+                  09
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_10.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_10.jpg" alt="토토 - 10" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="10">
+                  10
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_11.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_11.jpg" alt="토토 - 11" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="11">
+                  11
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_12.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_12.jpg" alt="토토 - 12" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="12">
+                  12
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_13.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_13.jpg" alt="토토 - 13" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="13">
+                  13
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_14.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_14.jpg" alt="토토 - 14" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="14">
+                  14
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_15.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_15.jpg" alt="토토 - 15" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="15">
+                  15
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_16.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_16.jpg" alt="토토 - 16" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="16">
+                  16
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_17.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_17.jpg" alt="토토 - 17" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="17">
+                  17
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_18.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_18.jpg" alt="토토 - 18" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="18">
+                  18
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_19.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_19.jpg" alt="토토 - 19" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="19">
+                  19
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_character_sheet.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_character_sheet.jpg" alt="토토 - character sheet" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="character sheet">
+                  character sheet
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_maker_helper.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_maker_helper.jpg" alt="토토 - maker helper" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="maker helper">
+                  maker helper
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/toto/toto_profile.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/toto/toto_profile.jpg" alt="토토 - profile" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="profile">
+                  profile
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- 캐릭터 섹션: 티니 로봇 -->
+  <section class="char-section-card" id="tinny" style="border-top: 5px solid #475569;">
+    <!-- 캐릭터 프로필 상단 배너 -->
+    <div class="p-4 p-md-5" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+      <div class="row align-items-center">
+        <!-- 아바타 이미지 -->
+        <div class="col-md-3 col-lg-2 text-center mb-3 mb-md-0">
+          <div class="position-relative d-inline-block p-2 rounded-4 bg-white shadow-sm border" style="border-color: #475569 !important;">
+            <img src="/assets/img/robot_tinny_profile.jpg" alt="티니 로봇" class="img-fluid rounded-3" style="width: 140px; height: 140px; object-fit: cover;" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- 캐릭터 프로필 텍스트 -->
+        <div class="col-md-9 col-lg-7 ps-md-4">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+            <span class="badge rounded-pill bg-secondary px-3 py-1 fw-bold">데스크톱 계측 &amp; 인터랙션 로봇</span>
+            <span class="text-muted small fw-medium">Tinny (스마트 로봇)</span>
+            <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
+              📷 데이터셋 22컷
+            </span>
+          </div>
+          <h2 class="fs-2 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">
+            티니 로봇
+          </h2>
+          <blockquote class="text-secondary fst-italic small mb-2 ps-3 border-start border-3" style="border-color: #475569 !important;">
+            "전압 5.02V 정상 감지. I2C 버스 통신 동기화 완료! 다음 패킷을 전송합니다, 삐릭!"
+          </blockquote>
+          <p class="text-secondary mb-3 small leading-relaxed">
+            모니터 헤드의 블루 디지털 표정과 상단 전구 안테나로 회로의 전압, 전류, 통신 상태를 실시간 시각화해 주는 스마트 로봇입니다.
+          </p>
+          <!-- 시그니처 특징 태그 -->
+          <div class="d-flex flex-wrap gap-1">
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#컴팩트 큐브형 로봇</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#CRT 모니터 표정 디스플레이</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#상단 알림 전구 안테나</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#센서 데이터 실시간 계측</span>
+            
+            <span class="badge bg-white text-secondary border px-2 py-1" style="font-size: 0.78rem;">#피지컬 AI 인터페이스</span>
+            
+          </div>
+        </div>
+
+        <!-- 상세 페이지 바로가기 액션 버튼 -->
+        <div class="col-lg-3 text-center text-lg-end mt-3 mt-lg-0">
+          <a href="/character/tinny/" class="btn btn-outline-dark fw-bold rounded-pill px-4 py-2 shadow-sm d-inline-flex align-items-center gap-2">
+            <span>상세 프로필 보기</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 캐릭터 데이터셋 갤러리 영역 -->
+    <div class="p-4 p-md-5 bg-light border-top">
+      <div class="d-flex flex-wrap align-items-center justify-content-between mb-4">
+        <div>
+          <h3 class="fs-5 fw-bold text-dark mb-1 d-flex align-items-center gap-2">
+            <span>🎨</span>
+            <span>티니 로봇 학습 &amp; 컨셉 데이터셋</span>
+          </h3>
+          <p class="text-secondary small mb-0">
+            고유한 외형 특징과 다양한 앵글, 포즈, 표정을 담은 원본 훈련 이미지 모음입니다. (클릭 시 원본 이미지 확인)
+          </p>
+        </div>
+        <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 small shadow-sm mt-2 mt-md-0">
+          총 22장
+        </span>
+      </div>
+
+      <!-- 이미지 썸네일 그리드 -->
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_01.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_01.jpg" alt="티니 로봇 - 01" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="01">
+                  01
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_02.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_02.jpg" alt="티니 로봇 - 02" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="02">
+                  02
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_03.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_03.jpg" alt="티니 로봇 - 03" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="03">
+                  03
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_04.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_04.jpg" alt="티니 로봇 - 04" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="04">
+                  04
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_05.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_05.jpg" alt="티니 로봇 - 05" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="05">
+                  05
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_06.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_06.jpg" alt="티니 로봇 - 06" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="06">
+                  06
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_07.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_07.jpg" alt="티니 로봇 - 07" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="07">
+                  07
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_08.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_08.jpg" alt="티니 로봇 - 08" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="08">
+                  08
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_09.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_09.jpg" alt="티니 로봇 - 09" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="09">
+                  09
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_10.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_10.jpg" alt="티니 로봇 - 10" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="10">
+                  10
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_11.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_11.jpg" alt="티니 로봇 - 11" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="11">
+                  11
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_12.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_12.jpg" alt="티니 로봇 - 12" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="12">
+                  12
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_13.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_13.jpg" alt="티니 로봇 - 13" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="13">
+                  13
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_14.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_14.jpg" alt="티니 로봇 - 14" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="14">
+                  14
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_15.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_15.jpg" alt="티니 로봇 - 15" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="15">
+                  15
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_16.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_16.jpg" alt="티니 로봇 - 16" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="16">
+                  16
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_17.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_17.jpg" alt="티니 로봇 - 17" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="17">
+                  17
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_18.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_18.jpg" alt="티니 로봇 - 18" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="18">
+                  18
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_19.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_19.jpg" alt="티니 로봇 - 19" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="19">
+                  19
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_20.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_20.jpg" alt="티니 로봇 - 20" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="20">
+                  20
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_21.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_21.jpg" alt="티니 로봇 - 21" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="21">
+                  21
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="/assets/dataset/robot/robot_22.jpg" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+            <div class="card h-100 border rounded-3 dataset-thumbnail-card shadow-sm overflow-hidden">
+              <div class="dataset-img-wrap">
+                <img src="/assets/dataset/robot/robot_22.jpg" alt="티니 로봇 - 22" loading="lazy" />
+              </div>
+              <div class="p-2 text-center bg-white">
+                <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="22">
+                  22
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- 캐릭터 속성 비교표 섹션 -->
+  <section class="char-section-card p-4 p-md-5 mb-5" id="comparison">
+    <div class="d-flex align-items-center mb-4 pb-2 border-bottom">
+      <span class="fs-2 me-3">📋</span>
+      <div>
+        <h2 class="fs-3 fw-bold mb-1 text-dark">캐릭터 핵심 속성 및 역할 비교표</h2>
+        <span class="text-secondary small">연구실 5총사의 조형 비율, 시그니처 착장 및 기술 전문 분야 한눈에 보기</span>
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-hover align-middle mb-0" style="font-size: 0.92rem;">
+        <thead class="table-light">
+          <tr>
+            <th scope="col" style="min-width: 140px;">캐릭터</th>
+            <th scope="col">역할 / 포지션</th>
+            <th scope="col">연령 / 체형</th>
+            <th scope="col">시그니처 아이템</th>
+            <th scope="col">주요 전문 분야</th>
+            <th scope="col" class="text-center" style="min-width: 120px;">상세 페이지</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img src="/assets/img/hojin_thumbs_up.jpg" class="rounded-circle border" width="36" height="36" style="object-fit: cover;" />
+                <strong class="text-success">이호진 교수님</strong>
+              </div>
+            </td>
+            <td>총괄 멘토 &amp; 지도교수</td>
+            <td>40대 초반 (6.5~7등신)</td>
+            <td>실버 라운드 안경, 네이비 폴로</td>
+            <td>컴퓨터 구조, 회로 설계, 원리 직관화</td>
+            <td class="text-center">
+              <a href="/character/hojin/" class="btn btn-outline-success btn-sm rounded-pill fw-medium">상세보기 ➔</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img src="/assets/img/dorothy_front_view_nobg.png" class="rounded-circle border" width="36" height="36" style="object-fit: cover;" />
+                <strong style="color: #ea580c;">도로시</strong>
+              </div>
+            </td>
+            <td>주니어 메이커</td>
+            <td>9세 (4.5등신)</td>
+            <td>붉은 스니커즈, STEM HERO 멜빵</td>
+            <td>피지컬 컴퓨팅 도전, 프로그래밍 입문</td>
+            <td class="text-center">
+              <a href="/character/dorothy/" class="btn btn-outline-warning btn-sm rounded-pill fw-medium">상세보기 ➔</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img src="/assets/img/jiny_profile.jpg" class="rounded-circle border" width="36" height="36" style="object-fit: cover;" />
+                <strong class="text-primary">지니 (Jiny)</strong>
+              </div>
+            </td>
+            <td>AI &amp; 테크 코치</td>
+            <td>턱시도 코숏 고양이</td>
+            <td>별빛 자수 마법 망토, 테크 고글</td>
+            <td>신경망 수식, 알고리즘 최적화, 디버깅</td>
+            <td class="text-center">
+              <a href="/character/jiny/" class="btn btn-outline-primary btn-sm rounded-pill fw-medium">상세보기 ➔</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img src="/assets/img/toto_profile.jpg" class="rounded-circle border" width="36" height="36" style="object-fit: cover;" />
+                <strong style="color: #0d9488;">토토 (Toto)</strong>
+              </div>
+            </td>
+            <td>메이커 서포터</td>
+            <td>밀크 화이트 강아지</td>
+            <td>하늘색 반다나, 단추 코</td>
+            <td>부품 조달, 팀워크 사기 진작, 실습 도우미</td>
+            <td class="text-center">
+              <a href="/character/toto/" class="btn btn-outline-info btn-sm rounded-pill fw-medium">상세보기 ➔</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img src="/assets/img/robot_tinny_profile.jpg" class="rounded-circle border" width="36" height="36" style="object-fit: cover;" />
+                <strong class="text-secondary">티니 (Tinny)</strong>
+              </div>
+            </td>
+            <td>데스크톱 보조 로봇</td>
+            <td>소형 큐브 로봇</td>
+            <td>전구 안테나, 블루 LED 눈</td>
+            <td>전압/전류 계측, I2C/SPI 통신 피드백</td>
+            <td class="text-center">
+              <a href="/character/tinny/" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium">상세보기 ➔</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 가이드 & 세계관 안내 링크 카드 -->
+  <section class="mb-5" id="guides">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100 border rounded-4 shadow-sm p-4 bg-white hover-shadow" style="border-left: 5px solid #8b5cf6 !important;">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <span class="fs-1">📐</span>
+            <div>
+              <h3 class="fs-5 fw-bold mb-0 text-dark">캐릭터 제작 &amp; AI 가이드</h3>
+              <span class="text-muted small">AI 생성 규격, 프롬프트 블록, 컬러 코드</span>
+            </div>
+          </div>
+          <p class="text-secondary small mb-4 flex-grow-1">
+            일관된 지브리 화풍과 캐릭터 조형을 유지하기 위한 네거티브 프롬프트, LoRA 가중치, 전신 턴어라운드 및 파츠별 규격 가이드를 수록했습니다.
+          </p>
+          <a href="/character/guide/" class="btn btn-outline-dark fw-bold rounded-pill btn-sm align-self-start px-3 py-2">
+            가이드 문서 살펴보기 ➔
+          </a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 border rounded-4 shadow-sm p-4 bg-white hover-shadow" style="border-left: 5px solid #0284c7 !important;">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <span class="fs-1">🧭</span>
+            <div>
+              <h3 class="fs-5 fw-bold mb-0 text-dark">공학 모험의 세계관</h3>
+              <span class="text-muted small">산골 연구실에서 펼쳐지는 피지컬 컴퓨팅 대모험</span>
+            </div>
+          </div>
+          <p class="text-secondary small mb-4 flex-grow-1">
+            숲속 연구실에서 도로시와 친구들이 왜 납땜 인두를 잡고 코딩을 시작하게 되었는지, 세계관 배경과 모험 스토리라인을 만나보세요.
+          </p>
+          <a href="/character/universe/" class="btn btn-outline-primary fw-bold rounded-pill btn-sm align-self-start px-3 py-2">
+            세계관 스토리 읽기 ➔
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </div>
-    </main>
-</div>
 
-<!-- 공용 대화 오디오 플레이어 컨트롤러 스크립트 -->
-<script src="/assets/js/audio.js" defer></script>
+
+    <div class="container mt-4">
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3321560028329475"
+            crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86"
+            data-ad-client="ca-pub-3321560028329475" data-ad-slot="6043271504"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
 
   <footer class="bd-footer py-4 py-md-5 mt-5 bg-light border-top">
   <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">

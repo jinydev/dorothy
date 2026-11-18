@@ -1,0 +1,807 @@
+characters:
+- id: hojin
+  folder: hojin
+  name: 이호진 교수님
+  en_name: Prof. Hojin
+  role: 총괄 멘토 & 지도교수
+  role_badge: bg-success
+  theme_color: '#16a34a'
+  quote: 단순히 코드를 복사해 넣는 데 그치지 않고, 그 이면에서 전자가 어떻게 흐르고 메모리가 어떻게 움직이는지 생각해 보렴!
+  description: 40대 초반의 온화하고 총명한 인상으로, 어려운 컴퓨터 공학과 하드웨어 이론을 직관적인 비유와 도식화로 풀어내는 연구실의
+    총괄 멘토입니다.
+  traits:
+  - 40대 초반 동안
+  - 솔트앤페퍼 7:3 가르마
+  - 메탈 라운드 안경
+  - 다크 네이비 폴로 & 청바지
+  - 컴퓨터 구조 & 회로 설계
+  profile_url: /character/hojin/
+  avatar: /assets/img/hojin_thumbs_up.jpg
+  image_count: 30
+  images:
+  - filename: hojin_01.jpg
+    url: /assets/dataset/hojin/hojin_01.jpg
+    title: '01'
+    caption: A full-body front-view standing portrait of Professor Hojin giving an
+      encouraging thumbs-up with a warm youthful smile, ...
+  - filename: hojin_02.jpg
+    url: /assets/dataset/hojin/hojin_02.jpg
+    title: '02'
+    caption: Professor Hojin in full-body standing pose giving an inspiring thumbs
+      up gesture with confidence and warmth against a cl...
+  - filename: hojin_03.jpg
+    url: /assets/dataset/hojin/hojin_03.jpg
+    title: '03'
+    caption: Professor Hojin explaining a computer science concept passionately in
+      three-quarter view, holding a slim digital tablet ...
+  - filename: hojin_04.jpg
+    url: /assets/dataset/hojin/hojin_04.jpg
+    title: '04'
+    caption: Professor Hojin presenting an Arduino Uno microcontroller board with
+      a proud, encouraging smile on a clean white backgro...
+  - filename: hojin_05.jpg
+    url: /assets/dataset/hojin/hojin_05.jpg
+    title: '05'
+    caption: Professor Hojin gently adjusting his glasses with an index finger, smiling
+      thoughtfully with an intellectual, approachab...
+  - filename: hojin_06.jpg
+    url: /assets/dataset/hojin/hojin_06.jpg
+    title: '06'
+    caption: A warm and friendly close-up headshot of Professor Hojin, showcasing
+      his youthful features, kind brown eyes behind thin ...
+  - filename: hojin_07.jpg
+    url: /assets/dataset/hojin/hojin_07.jpg
+    title: '07'
+    caption: Professor Hojin with eyes gently closed in proud satisfaction and nodding
+      with approval at a student's successful projec...
+  - filename: hojin_08.jpg
+    url: /assets/dataset/hojin/hojin_08.jpg
+    title: 08
+    caption: Professor Hojin with open hands in an inviting, welcoming teaching gesture,
+      smiling passionately to welcome students to ...
+  - filename: hojin_09.jpg
+    url: /assets/dataset/hojin/hojin_09.jpg
+    title: 09
+    caption: Professor Hojin walking forward with active, energetic strides, projecting
+      confidence and warmth against an isolated whi...
+  - filename: hojin_10.jpg
+    url: /assets/dataset/hojin/hojin_10.jpg
+    title: '10'
+    caption: Professor Hojin standing with arms crossed in a supportive, confident
+      mentor pose, smiling warmly at his students' achie...
+  - filename: hojin_11.jpg
+    url: /assets/dataset/hojin/hojin_11.jpg
+    title: '11'
+    caption: Professor Hojin working on deep learning research at his office desk,
+      typing on a laptop with neural network graphs on t...
+  - filename: hojin_12.jpg
+    url: /assets/dataset/hojin/hojin_12.jpg
+    title: '12'
+    caption: Professor Hojin passionately delivering a reinforcement learning lecture,
+      pointing at the Bellman optimality equations w...
+  - filename: hojin_13.jpg
+    url: /assets/dataset/hojin/hojin_13.jpg
+    title: '13'
+    caption: Professor Hojin carefully adjusting the waveform frequency on an oscilloscope
+      at a robotics maker workbench, surrounded ...
+  - filename: hojin_14.jpg
+    url: /assets/dataset/hojin/hojin_14.jpg
+    title: '14'
+    caption: Professor Hojin wearing an open white lab coat over his navy polo shirt,
+      delivering an inspiring AI robotics lecture in ...
+  - filename: hojin_15.jpg
+    url: /assets/dataset/hojin/hojin_15.jpg
+    title: '15'
+    caption: Professor Hojin enjoying a quiet break by the sunlit window of the robotics
+      laboratory, holding a steaming ceramic coffe...
+  - filename: hojin_16.jpg
+    url: /assets/dataset/hojin/hojin_16.jpg
+    title: '16'
+    caption: Professor Hojin standing in full-body view wearing an open white laboratory
+      coat over his signature navy polo shirt, han...
+  - filename: hojin_17.jpg
+    url: /assets/dataset/hojin/hojin_17.jpg
+    title: '17'
+    caption: Professor Hojin closely inspecting a student's breadboard circuit through
+      a magnifying glass, guiding hardware troublesh...
+  - filename: hojin_18.jpg
+    url: /assets/dataset/hojin/hojin_18.jpg
+    title: '18'
+    caption: Professor Hojin writing reinforcement learning value formulas on a green
+      blackboard and turning back to the class with a...
+  - filename: hojin_19.jpg
+    url: /assets/dataset/hojin/hojin_19.jpg
+    title: '19'
+    caption: Professor Hojin listening attentively to a student's project presentation
+      with his chin resting on his hand, offering co...
+  - filename: hojin_20.jpg
+    url: /assets/dataset/hojin/hojin_20.jpg
+    title: '20'
+    caption: Professor Hojin standing proudly beside a completed Physical AI humanoid
+      robot prototype in the university laboratory, a...
+  - filename: hojin_21.jpg
+    url: /assets/dataset/hojin/hojin_21.jpg
+    title: '21'
+    caption: Canonical thumbs-up hero profile of Professor Hojin, recreating the youthful
+      charisma and warm smile of the legacy refer...
+  - filename: hojin_22.jpg
+    url: /assets/dataset/hojin/hojin_22.jpg
+    title: '22'
+    caption: Canonical lecture presenter full-body asset of Professor Hojin holding
+      a digital tablet while gesturing forward enthusia...
+  - filename: hojin_23.jpg
+    url: /assets/dataset/hojin/hojin_23.jpg
+    title: '23'
+    caption: A heartwarming laboratory mentoring scene with Professor Hojin guiding
+      young Dorothy as she inspects an Arduino board, a...
+  - filename: hojin_24.jpg
+    url: /assets/dataset/hojin/hojin_24.jpg
+    title: '24'
+    caption: Professor Hojin passionately teaching an Arduino and C++ engineering
+      lecture in front of a detailed schematic blackboard...
+  - filename: hojin_25.jpg
+    url: /assets/dataset/hojin/hojin_25.jpg
+    title: '25'
+    caption: Official master character model turnaround sheet for Professor Hojin
+      showing front, side, and 3/4 views alongside three ...
+  - filename: hojin_character_sheet.jpg
+    url: /assets/dataset/hojin/hojin_character_sheet.jpg
+    title: character sheet
+    caption: character sheet, professor hojin model turnaround, youthful 40s friendly
+      korean professor, parted salt and pepper hair, ...
+  - filename: hojin_dorothy_mentoring.jpg
+    url: /assets/dataset/hojin/hojin_dorothy_mentoring.jpg
+    title: dorothy mentoring
+    caption: hojin, dorothy, 1man, 1girl, 2people, professor, student, mentoring,
+      teaching, salt-and-pepper hair, round eyeglasses, d...
+  - filename: hojin_lab_lecture.jpg
+    url: /assets/dataset/hojin/hojin_lab_lecture.jpg
+    title: lab lecture
+    caption: hojin, 1man, solo, professor, lecturer, salt-and-pepper hair, round eyeglasses,
+      dark navy polo shirt, white lab coat, op...
+  - filename: hojin_lecture_presenter.jpg
+    url: /assets/dataset/hojin/hojin_lecture_presenter.jpg
+    title: lecture presenter
+    caption: hojin, 1man, solo, professor, salt-and-pepper hair, round eyeglasses,
+      dark navy polo shirt, blue denim jeans, grey sneak...
+  - filename: hojin_thumbs_up.jpg
+    url: /assets/dataset/hojin/hojin_thumbs_up.jpg
+    title: thumbs up
+    caption: portrait, professor hojin, youthful 40s friendly korean professor, parted
+      salt and pepper hair, thin wire glasses, encou...
+- id: dorothy
+  folder: dorothy
+  name: 도로시
+  en_name: Dorothy
+  role: 주니어 메이커
+  role_badge: bg-warning text-dark
+  theme_color: '#ea580c'
+  quote: 망가져도 괜찮아! 다시 고치면서 왜 그런지 배우면 되잖아!
+  description: 호기심 가득한 9세 주니어 메이커. 실패를 두려워하지 않고 직접 손으로 만들고 실험하며 코딩의 세계를 탐험합니다.
+  traits:
+  - 9세 (4.5등신)
+  - 웨이브 양갈래 머리
+  - STEM HERO 배지 멜빵바지
+  - 붉은 캔버스 스니커즈
+  - 피지컬 컴퓨팅 메이커
+  profile_url: /character/dorothy/
+  avatar: /assets/img/dorothy_front_view_nobg.png
+  image_count: 42
+  images:
+  - filename: dorothy_01.jpg
+    url: /assets/dataset/dorothy/dorothy_01.jpg
+    title: '01'
+    caption: A full-body standing front view portrait of Dorothy with hands on hips,
+      smiling cheerfully in her signature blue denim o...
+  - filename: dorothy_02.jpg
+    url: /assets/dataset/dorothy/dorothy_02.jpg
+    title: '02'
+    caption: Dorothy winking playfully and giving a cute V peace sign in three-quarter
+      view, dressed in her classic maker dungarees o...
+  - filename: dorothy_03.jpg
+    url: /assets/dataset/dorothy/dorothy_03.jpg
+    title: '03'
+    caption: Dorothy walking forward with energetic lively steps, smiling warmly with
+      an open-mouthed expression against an isolated ...
+  - filename: dorothy_04.jpg
+    url: /assets/dataset/dorothy/dorothy_04.jpg
+    title: '04'
+    caption: Dorothy presenting an official teal-cyan Arduino Uno microcontroller
+      board in her hand, smiling proudly at the viewer on...
+  - filename: dorothy_05.jpg
+    url: /assets/dataset/dorothy/dorothy_05.jpg
+    title: '05'
+    caption: Dorothy in a thoughtful thinking pose with her index finger gently touching
+      her chin, pondering a creative maker idea wi...
+  - filename: dorothy_06.jpg
+    url: /assets/dataset/dorothy/dorothy_06.jpg
+    title: '06'
+    caption: A heartwarming close-up headshot of Dorothy laughing happily with eyes
+      closed, rosy blushing cheeks, and a joyful open s...
+  - filename: dorothy_07.jpg
+    url: /assets/dataset/dorothy/dorothy_07.jpg
+    title: '07'
+    caption: A close-up portrait of Dorothy having an excited eureka breakthrough
+      moment, with wide sparkling amber eyes and an o-sha...
+  - filename: dorothy_08.jpg
+    url: /assets/dataset/dorothy/dorothy_08.jpg
+    title: 08
+    caption: Dorothy curiously inspecting a tiny microchip through a handheld magnifying
+      glass with focused fascination and an eager ...
+  - filename: dorothy_09.jpg
+    url: /assets/dataset/dorothy/dorothy_09.jpg
+    title: 09
+    caption: Dorothy sitting cross-legged on the floor typing happily on her lightweight
+      laptop, coding an algorithm with an isolated...
+  - filename: dorothy_10.jpg
+    url: /assets/dataset/dorothy/dorothy_10.jpg
+    title: '10'
+    caption: Dorothy jumping high into the air with arms raised in victorious celebration,
+      beaming with pride and boundless joy again...
+  - filename: dorothy_11.jpg
+    url: /assets/dataset/dorothy/dorothy_11.jpg
+    title: '11'
+    caption: Dorothy seated at a cozy sunlit wooden workshop desk, carefully connecting
+      colorful jumper wires to a breadboard circuit...
+  - filename: dorothy_12.jpg
+    url: /assets/dataset/dorothy/dorothy_12.jpg
+    title: '12'
+    caption: Dorothy at an advanced coding workstation with dual monitors, wearing
+      headphones around her neck and typing robotics Pyt...
+  - filename: dorothy_13.jpg
+    url: /assets/dataset/dorothy/dorothy_13.jpg
+    title: '13'
+    caption: Dorothy with protective goggles pushed up on her forehead, assembling
+      a miniature robotic arm with a screwdriver at a wo...
+  - filename: dorothy_14.jpg
+    url: /assets/dataset/dorothy/dorothy_14.jpg
+    title: '14'
+    caption: Dorothy cheering happily as she watches a reinforcement learning agent
+      navigate a gridworld maze successfully on her lab...
+  - filename: dorothy_15.jpg
+    url: /assets/dataset/dorothy/dorothy_15.jpg
+    title: '15'
+    caption: Dorothy giving an engaging presentation in front of a classroom whiteboard,
+      pointing at a neatly drawn neural network ar...
+  - filename: dorothy_16.jpg
+    url: /assets/dataset/dorothy/dorothy_16.jpg
+    title: '16'
+    caption: Dorothy standing confidently in a crisp white scientist lab coat worn
+      over her overalls, with safety goggles rested on h...
+  - filename: dorothy_17.jpg
+    url: /assets/dataset/dorothy/dorothy_17.jpg
+    title: '17'
+    caption: Dorothy in a comical surprised gasp with both hands on her flushed cheeks,
+      reacting with wide open eyes to an unexpected...
+  - filename: dorothy_18.jpg
+    url: /assets/dataset/dorothy/dorothy_18.jpg
+    title: '18'
+    caption: Dorothy holding a modern touchscreen tablet in both hands, smiling sweetly
+      as if showing an interactive robotics app to ...
+  - filename: dorothy_19.jpg
+    url: /assets/dataset/dorothy/dorothy_19.jpg
+    title: '19'
+    caption: Dorothy resting her chin on her hands with elbows on a workshop table,
+      daydreaming about future inventions with a gentle...
+  - filename: dorothy_20.jpg
+    url: /assets/dataset/dorothy/dorothy_20.jpg
+    title: '20'
+    caption: Dorothy standing with arms crossed in a confident, proud maker pose,
+      smiling warmly with self-assurance against a pure w...
+  - filename: dorothy_21.jpg
+    url: /assets/dataset/dorothy/dorothy_21.jpg
+    title: '21'
+    caption: Dorothy in her Sporty Maker Hacker outfit with a high ponytail and turquoise
+      cap, wearing a green circuit hoodie, cargo ...
+  - filename: dorothy_22.jpg
+    url: /assets/dataset/dorothy/dorothy_22.jpg
+    title: '22'
+    caption: Dorothy in her Smart Lab Researcher look with a wavy bob cut and red
+      headband, wearing a white scientist coat, green kni...
+  - filename: dorothy_23.jpg
+    url: /assets/dataset/dorothy/dorothy_23.jpg
+    title: '23'
+    caption: Dorothy deeply engaged and enjoying coding on her laptop at a desk, typing
+      Python code in a dark mode IDE with an open n...
+  - filename: dorothy_24.jpg
+    url: /assets/dataset/dorothy/dorothy_24.jpg
+    title: '24'
+    caption: Dorothy sitting at her study desk with open computer science and robotics
+      textbooks, writing diligent notes with a penci...
+  - filename: dorothy_25.jpg
+    url: /assets/dataset/dorothy/dorothy_25.jpg
+    title: '25'
+    caption: Dorothy typing code on her computer, with Jiny the tuxedo cat teaching
+      and reviewing code on the screen, while her loyal...
+  - filename: dorothy_26.jpg
+    url: /assets/dataset/dorothy/dorothy_26.jpg
+    title: '26'
+    caption: Dorothy standing in front of a rolling whiteboard with a marker, cheerfully
+      explaining a structured algorithm logic flow...
+  - filename: dorothy_27.jpg
+    url: /assets/dataset/dorothy/dorothy_27.jpg
+    title: '27'
+    caption: Dorothy celebrating a major programming breakthrough with starry eyes
+      and clenched fists of victory in front of her lapt...
+  - filename: dorothy_28.jpg
+    url: /assets/dataset/dorothy/dorothy_28.jpg
+    title: '28'
+    caption: Dorothy sitting comfortably cross-legged studying an AI neural network
+      diagram on her tablet with a stylus, as her fluff...
+  - filename: dorothy_29.jpg
+    url: /assets/dataset/dorothy/dorothy_29.jpg
+    title: '29'
+    caption: Canonical standing front-view model sheet reference of Dorothy with hands
+      on hips, showcasing full body proportions and ...
+  - filename: dorothy_30.jpg
+    url: /assets/dataset/dorothy/dorothy_30.jpg
+    title: '30'
+    caption: Canonical standing side-profile view model sheet reference of Dorothy,
+      showing side silhouette, hair volume, and rolled ...
+  - filename: dorothy_31.jpg
+    url: /assets/dataset/dorothy/dorothy_31.jpg
+    title: '31'
+    caption: Canonical three-quarter angle model sheet reference of Dorothy in an
+      encouraging standing pose, highlighting facial cont...
+  - filename: dorothy_32.jpg
+    url: /assets/dataset/dorothy/dorothy_32.jpg
+    title: '32'
+    caption: A multi-angle facial expression sheet displaying Dorothy's core emotions
+      including happy smiling, laughing, surprised eu...
+  - filename: dorothy_33.jpg
+    url: /assets/dataset/dorothy/dorothy_33.jpg
+    title: '33'
+    caption: Comprehensive character turnaround model sheet for Dorothy showing front,
+      side, and 3/4 views alongside height scaling a...
+  - filename: dorothy_34.jpg
+    url: /assets/dataset/dorothy/dorothy_34.jpg
+    title: '34'
+    caption: 'Official hair style variations model sheet showing Dorothy in four distinct
+      styles: Signature Twin Pigtails, Sporty High...'
+  - filename: dorothy_35.jpg
+    url: /assets/dataset/dorothy/dorothy_35.jpg
+    title: '35'
+    caption: 'Official outfit variations model sheet presenting Dorothy in four distinct
+      costumes: Signature Overalls, Maker Hacker, L...'
+  - filename: dorothy_angles_expressions.jpg
+    url: /assets/dataset/dorothy/dorothy_angles_expressions.jpg
+    title: angles expressions
+    caption: dorothy, 1girl, solo, child, 9 years old, brown hair, wavy twin pigtails,
+      colorful bead hair ties, bangs, amber eyes, mu...
+  - filename: dorothy_character_sheet.jpg
+    url: /assets/dataset/dorothy/dorothy_character_sheet.jpg
+    title: character sheet
+    caption: dorothy, 1girl, solo, child, 9 years old, brown hair, wavy twin pigtails,
+      colorful bead hair ties, bangs, amber eyes, ch...
+  - filename: dorothy_front_view.jpg
+    url: /assets/dataset/dorothy/dorothy_front_view.jpg
+    title: front view
+    caption: dorothy, 1girl, solo, child, 9 years old, brown hair, wavy twin pigtails,
+      colorful bead hair ties, bangs, amber eyes, ch...
+  - filename: dorothy_hairstyles_sheet.jpg
+    url: /assets/dataset/dorothy/dorothy_hairstyles_sheet.jpg
+    title: hairstyles sheet
+    caption: 1girl, dorothy, character design sheet, multiple hairstyles, twin pigtails,
+      ponytail, bob cut with hair clip, braided pi...
+  - filename: dorothy_outfits_sheet.jpg
+    url: /assets/dataset/dorothy/dorothy_outfits_sheet.jpg
+    title: outfits sheet
+    caption: 1girl, dorothy, character outfit turnaround sheet, multiple costumes,
+      denim overalls, lab apron, hoodie, summer tee, stu...
+  - filename: dorothy_side_view.jpg
+    url: /assets/dataset/dorothy/dorothy_side_view.jpg
+    title: side view
+    caption: dorothy, 1girl, solo, child, 9 years old, brown hair, wavy twin pigtails,
+      colorful bead hair ties, bangs, amber eyes, sm...
+  - filename: dorothy_three_quarter_view.jpg
+    url: /assets/dataset/dorothy/dorothy_three_quarter_view.jpg
+    title: three quarter view
+    caption: dorothy, 1girl, solo, child, 9 years old, brown hair, wavy twin pigtails,
+      colorful bead hair ties, bangs, amber eyes, br...
+- id: jiny
+  folder: jiny
+  name: 지니
+  en_name: Jiny (테크 코치)
+  role: AI & 알고리즘 테크 코치
+  role_badge: bg-primary
+  theme_color: '#4f46e5'
+  quote: 그 버그는 신경망 가중치 초기화 문제야! 내가 로그를 찍어뒀으니 터미널을 확인해 봐, 냥!
+  description: 별빛 자수 마법 망토를 두르고 연구실의 복잡한 신경망 수식과 알고리즘 버그를 날카롭게 짚어주는 수석 테크 코칭 턱시도 고양이입니다.
+  traits:
+  - 턱시도 코숏 고양이
+  - 미드나잇 블루 별빛 망토
+  - 황금빛 눈동자 & 흰 발
+  - 테크 고글 착용
+  - 신경망 & 알고리즘 마스터
+  profile_url: /character/jiny/
+  avatar: /assets/img/jiny_profile.jpg
+  image_count: 26
+  images:
+  - filename: jiny_01.jpg
+    url: /assets/dataset/jiny/jiny_01.jpg
+    title: '01'
+    caption: A full-body front-view standing/sitting portrait of Jiny the cat, an
+      adorable black-and-white bicolor tuxedo cat with in...
+  - filename: jiny_02.jpg
+    url: /assets/dataset/jiny/jiny_02.jpg
+    title: '02'
+    caption: A full-body side-profile view of Jiny the cat walking gracefully with
+      tail raised high, displaying his classic black-and...
+  - filename: jiny_03.jpg
+    url: /assets/dataset/jiny/jiny_03.jpg
+    title: '03'
+    caption: A close-up headshot portrait of Jiny the cat, showing his large intelligent
+      olive-green eyes, soft baby pink nose, and f...
+  - filename: jiny_04.jpg
+    url: /assets/dataset/jiny/jiny_04.jpg
+    title: '04'
+    caption: A full-body three-quarter portrait of Jiny the cat seated with tail curled
+      neatly around his paws, wearing tiny round gl...
+  - filename: jiny_05.jpg
+    url: /assets/dataset/jiny/jiny_05.jpg
+    title: '05'
+    caption: Jiny the cat tucked comfortably into a perfect bread-loaf pose with front
+      paws folded under his white chest, wearing his...
+  - filename: jiny_06.jpg
+    url: /assets/dataset/jiny/jiny_06.jpg
+    title: '06'
+    caption: Jiny the cat sleeping peacefully curled up atop an open engineering textbook
+      on a sunny wooden laboratory workbench, wit...
+  - filename: jiny_07.jpg
+    url: /assets/dataset/jiny/jiny_07.jpg
+    title: '07'
+    caption: Jiny the cat tilting his head inquisitively with one white front paw
+      raised to display soft pink paw pads, wearing his i...
+  - filename: jiny_08.jpg
+    url: /assets/dataset/jiny/jiny_08.jpg
+    title: 08
+    caption: Jiny the cat sitting playfully on a computer keyboard in front of monitors
+      glowing with Python code, glancing back with ...
+  - filename: jiny_09.jpg
+    url: /assets/dataset/jiny/jiny_09.jpg
+    title: 09
+    caption: Jiny the cat acting as a genius lab assistant, wearing tiny round glasses
+      and delicately guiding a green jumper wire int...
+  - filename: jiny_10.jpg
+    url: /assets/dataset/jiny/jiny_10.jpg
+    title: '10'
+    caption: Jiny the cat sitting up straight and proud wearing his official research
+      assistant credentials and scholarly round glass...
+  - filename: jiny_11.jpg
+    url: /assets/dataset/jiny/jiny_11.jpg
+    title: '11'
+    caption: Jiny the cat performing a deep, satisfying stretch with back arched and
+      front paws reached forward, displaying his grace...
+  - filename: jiny_12.jpg
+    url: /assets/dataset/jiny/jiny_12.jpg
+    title: '12'
+    caption: Jiny the cat peeking curiously around the side of a large computer monitor
+      in the AI research lab with bright, inquisiti...
+  - filename: jiny_13.jpg
+    url: /assets/dataset/jiny/jiny_13.jpg
+    title: '13'
+    caption: Jiny the cat happily snuggled inside a cozy cardboard box marked 'AI
+      LAB' on a lab table, resting his chin and front paw...
+  - filename: jiny_14.jpg
+    url: /assets/dataset/jiny/jiny_14.jpg
+    title: '14'
+    caption: Jiny the cat lying playfully on his back on a pure white background,
+      showing his fluffy white belly and all four soft pi...
+  - filename: jiny_15.jpg
+    url: /assets/dataset/jiny/jiny_15.jpg
+    title: '15'
+    caption: Jiny the cat sitting calmly by a sun-drenched laboratory window next
+      to a steaming mug, gazing out at the campus garden ...
+  - filename: jiny_16.jpg
+    url: /assets/dataset/jiny/jiny_16.jpg
+    title: '16'
+    caption: Jiny the cat crouched low on the workshop floor, gently tapping an autonomous
+      Arduino robot car with his white front paw...
+  - filename: jiny_17.jpg
+    url: /assets/dataset/jiny/jiny_17.jpg
+    title: '17'
+    caption: Jiny the cat sitting neatly and grooming himself, delicately licking
+      a front white paw with tiny pink tongue on a clean ...
+  - filename: jiny_18.jpg
+    url: /assets/dataset/jiny/jiny_18.jpg
+    title: '18'
+    caption: An atmospheric close-up of Jiny the cat carefully sniffing a glowing
+      blue LED on a green circuit board, with blue light ...
+  - filename: jiny_19.jpg
+    url: /assets/dataset/jiny/jiny_19.jpg
+    title: '19'
+    caption: Jiny the cat intently monitoring a machine learning training loss curve
+      on a glowing monitor at twilight, exemplifying h...
+  - filename: jiny_20.jpg
+    url: /assets/dataset/jiny/jiny_20.jpg
+    title: '20'
+    caption: Jiny the cat captured mid-leap in a dynamic, high-energy jump with paws
+      outstretched and pink pads visible, set against ...
+  - filename: jiny_21.jpg
+    url: /assets/dataset/jiny/jiny_21.jpg
+    title: '21'
+    caption: The canonical master hero profile portrait of Jiny the cat, standing
+      with dignified elegance wearing his iconic red coll...
+  - filename: jiny_22.jpg
+    url: /assets/dataset/jiny/jiny_22.jpg
+    title: '22'
+    caption: The canonical master laboratory assistant scene featuring Jiny the cat
+      wearing round scholarly glasses on his nose, anal...
+  - filename: jiny_23.jpg
+    url: /assets/dataset/jiny/jiny_23.jpg
+    title: '23'
+    caption: The official 16:9 master character model turnaround sheet for Jiny the
+      cat, displaying front, side, and 3/4 sitting view...
+  - filename: jiny_character_sheet.jpg
+    url: /assets/dataset/jiny/jiny_character_sheet.jpg
+    title: character sheet
+    caption: The official 16:9 master character model turnaround sheet for Jiny the
+      cat, displaying front, side, and 3/4 sitting view...
+  - filename: jiny_lab_assistant.jpg
+    url: /assets/dataset/jiny/jiny_lab_assistant.jpg
+    title: lab assistant
+    caption: The canonical master laboratory assistant scene featuring Jiny the cat
+      wearing round scholarly glasses on his nose, anal...
+  - filename: jiny_profile.jpg
+    url: /assets/dataset/jiny/jiny_profile.jpg
+    title: profile
+    caption: The canonical master hero profile portrait of Jiny the cat, standing
+      with dignified elegance wearing his iconic red coll...
+- id: toto
+  folder: toto
+  name: 토토
+  en_name: Toto (메이커 서포터)
+  role: 하드웨어 & 메이커 서포터
+  role_badge: bg-info text-dark
+  theme_color: '#0d9488'
+  quote: 멍멍! 저기 굴러간 220옴 저항은 내가 찾아왔어! 힘내, 도로시!
+  description: 하늘색 반다나를 목에 두르고 부품과 전선을 챙겨주며 연구실의 사기를 북돋우는 도로시의 단짝 비숑-말티즈 강아지입니다.
+  traits:
+  - 밀크 화이트 강아지
+  - 스카이블루 반다나
+  - 초롱초롱한 눈망울
+  - 부품 전달 & 서포트
+  - 팀 활력소
+  profile_url: /character/toto/
+  avatar: /assets/img/toto_profile.jpg
+  image_count: 22
+  images:
+  - filename: toto_01.jpg
+    url: /assets/dataset/toto/toto_01.jpg
+    title: '01'
+    caption: A full-body front-view standing portrait of Toto the dog, an adorable
+      fluffy cream-white puppy (bichon-maltese mix) with...
+  - filename: toto_02.jpg
+    url: /assets/dataset/toto/toto_02.jpg
+    title: '02'
+    caption: A full-body side-profile view of Toto the puppy walking happily with
+      his plumey tail curled up high, showing his uniform...
+  - filename: toto_03.jpg
+    url: /assets/dataset/toto/toto_03.jpg
+    title: '03'
+    caption: A charming close-up headshot portrait of Toto the puppy, featuring sparkling
+      round black button eyes, a shiny black butt...
+  - filename: toto_04.jpg
+    url: /assets/dataset/toto/toto_04.jpg
+    title: '04'
+    caption: A three-quarter sitting portrait of Toto the puppy with his front paws
+      neatly side by side and tail curled gently, weari...
+  - filename: toto_05.jpg
+    url: /assets/dataset/toto/toto_05.jpg
+    title: '05'
+    caption: Toto the puppy lying down comfortably with his fluffy chin resting on
+      his front paws, looking relaxed and sleepy with a ...
+  - filename: toto_06.jpg
+    url: /assets/dataset/toto/toto_06.jpg
+    title: '06'
+    caption: Toto the puppy caught mid-bound running enthusiastically with ears flying
+      in the wind, a joyful open-mouthed smile, and ...
+  - filename: toto_07.jpg
+    url: /assets/dataset/toto/toto_07.jpg
+    title: '07'
+    caption: Toto the puppy acting as Dorothy's adorable maker helper, sitting on
+      a wooden workbench holding colorful jumper wires in...
+  - filename: toto_08.jpg
+    url: /assets/dataset/toto/toto_08.jpg
+    title: 08
+    caption: Toto the puppy sitting cutely with tiny yellow maker goggles resting
+      on his forehead beside a prototype wooden robot, sm...
+  - filename: toto_09.jpg
+    url: /assets/dataset/toto/toto_09.jpg
+    title: 09
+    caption: Toto the puppy tilting his head cutely to the side in curiosity with
+      large glistening black eyes, expressing inquisitive...
+  - filename: toto_10.jpg
+    url: /assets/dataset/toto/toto_10.jpg
+    title: '10'
+    caption: Toto the puppy in a classic play-bow posture with front chest lowered
+      and rear wagging in the air, playfully inviting Do...
+  - filename: toto_11.jpg
+    url: /assets/dataset/toto/toto_11.jpg
+    title: '11'
+    caption: Toto the puppy equipped with a tiny leather maker utility harness holding
+      miniature tools, sitting up proud as Dorothy's...
+  - filename: toto_12.jpg
+    url: /assets/dataset/toto/toto_12.jpg
+    title: '12'
+    caption: Toto the puppy happily raising one fluffy front paw in a friendly high-five
+      gesture with a wide cheerful smile on a pure...
+  - filename: toto_13.jpg
+    url: /assets/dataset/toto/toto_13.jpg
+    title: '13'
+    caption: Toto the puppy curled up in a fluffy round ball peacefully napping on
+      the wooden lab floor next to Dorothy's red sneaker...
+  - filename: toto_14.jpg
+    url: /assets/dataset/toto/toto_14.jpg
+    title: '14'
+    caption: Toto the puppy perched curiously on a wooden stool, watching a 3D printer
+      fabricate a prototype robot gear with fascinat...
+  - filename: toto_15.jpg
+    url: /assets/dataset/toto/toto_15.jpg
+    title: '15'
+    caption: Toto the puppy singing a celebratory, joyful bark with head thrown back,
+      tail wagging, and eyes happily squeezed shut on...
+  - filename: toto_16.jpg
+    url: /assets/dataset/toto/toto_16.jpg
+    title: '16'
+    caption: Toto the puppy tucked snugly inside Dorothy's green canvas explorer backpack,
+      resting his front paws over the rim with a...
+  - filename: toto_17.jpg
+    url: /assets/dataset/toto/toto_17.jpg
+    title: '17'
+    caption: The official master hero standing profile portrait of Toto the puppy,
+      displaying his uniform cream-white fluffy coat, si...
+  - filename: toto_18.jpg
+    url: /assets/dataset/toto/toto_18.jpg
+    title: '18'
+    caption: The official master maker helper scene featuring Toto the puppy sitting
+      proudly atop a laboratory workbench holding colo...
+  - filename: toto_19.jpg
+    url: /assets/dataset/toto/toto_19.jpg
+    title: '19'
+    caption: The official 16:9 master character model turnaround sheet for Toto the
+      puppy, presenting front, side, and 3/4 sitting vi...
+  - filename: toto_character_sheet.jpg
+    url: /assets/dataset/toto/toto_character_sheet.jpg
+    title: character sheet
+    caption: The official 16:9 master character model turnaround sheet for Toto the
+      puppy, presenting front, side, and 3/4 sitting vi...
+  - filename: toto_maker_helper.jpg
+    url: /assets/dataset/toto/toto_maker_helper.jpg
+    title: maker helper
+    caption: The official master maker helper scene featuring Toto the puppy sitting
+      proudly atop a laboratory workbench holding colo...
+  - filename: toto_profile.jpg
+    url: /assets/dataset/toto/toto_profile.jpg
+    title: profile
+    caption: The official master hero standing profile portrait of Toto the puppy,
+      displaying his uniform cream-white fluffy coat, si...
+- id: tinny
+  folder: robot
+  name: 티니 로봇
+  en_name: Tinny (스마트 로봇)
+  role: 데스크톱 계측 & 인터랙션 로봇
+  role_badge: bg-secondary
+  theme_color: '#475569'
+  quote: 전압 5.02V 정상 감지. I2C 버스 통신 동기화 완료! 다음 패킷을 전송합니다, 삐릭!
+  description: 모니터 헤드의 블루 디지털 표정과 상단 전구 안테나로 회로의 전압, 전류, 통신 상태를 실시간 시각화해 주는 스마트 로봇입니다.
+  traits:
+  - 컴팩트 큐브형 로봇
+  - CRT 모니터 표정 디스플레이
+  - 상단 알림 전구 안테나
+  - 센서 데이터 실시간 계측
+  - 피지컬 AI 인터페이스
+  profile_url: /character/tinny/
+  avatar: /assets/img/robot_tinny_profile.jpg
+  image_count: 22
+  images:
+  - filename: robot_01.jpg
+    url: /assets/dataset/robot/robot_01.jpg
+    title: '01'
+    caption: A full-body front-view standing portrait of Tinny, an adorable humanoid
+      AI maker robot with a matte silver chassis, warm...
+  - filename: robot_02.jpg
+    url: /assets/dataset/robot/robot_02.jpg
+    title: '02'
+    caption: A full-body side-profile view of Tinny the humanoid robot mid-stride
+      in a walking pose, showcasing his articulated brass...
+  - filename: robot_03.jpg
+    url: /assets/dataset/robot/robot_03.jpg
+    title: '03'
+    caption: A charming close-up portrait of Tinny's retro monitor head, featuring
+      expressive glowing sky-blue dot-matrix LED eyes, a...
+  - filename: robot_04.jpg
+    url: /assets/dataset/robot/robot_04.jpg
+    title: '04'
+    caption: An intricate close-up of Tinny's glowing physical AI heart core, showing
+      interlocking brass and copper cogs rotating gen...
+  - filename: robot_05.jpg
+    url: /assets/dataset/robot/robot_05.jpg
+    title: '05'
+    caption: Tinny the humanoid robot tilting his head curiously with one mechanical
+      hand on his chin, his glowing cyan LED screen di...
+  - filename: robot_06.jpg
+    url: /assets/dataset/robot/robot_06.jpg
+    title: '06'
+    caption: Tinny the humanoid robot happily waving one three-fingered mechanical
+      hand in a warm welcoming greeting with smiling cre...
+  - filename: robot_07.jpg
+    url: /assets/dataset/robot/robot_07.jpg
+    title: '07'
+    caption: An isolated full-view illustration of a 6-axis articulated collaborative
+      robot arm with white and silver segments and br...
+  - filename: robot_08.jpg
+    url: /assets/dataset/robot/robot_08.jpg
+    title: 08
+    caption: A 6-axis collaborative robotic arm holding a marker pen and drawing a
+      neural network diagram with precise trajectory con...
+  - filename: robot_09.jpg
+    url: /assets/dataset/robot/robot_09.jpg
+    title: 09
+    caption: A precision robotic arm equipped with a 3D depth camera and LiDAR sensor
+      projecting a soft scanning beam for spatial env...
+  - filename: robot_10.jpg
+    url: /assets/dataset/robot/robot_10.jpg
+    title: '10'
+    caption: A collaborative robotic arm acting as a maker assistant, steadily holding
+      a soldering iron beside an electronics breadbo...
+  - filename: robot_11.jpg
+    url: /assets/dataset/robot/robot_11.jpg
+    title: '11'
+    caption: An inspiring collaborative robotics scene where a 6-axis articulated
+      robot arm gracefully hands an electronic sensor mod...
+  - filename: robot_12.jpg
+    url: /assets/dataset/robot/robot_12.jpg
+    title: '12'
+    caption: A high-precision 3-axis Cartesian gantry robot with orthogonal linear
+      rails and timing belts, picking and placing microc...
+  - filename: robot_13.jpg
+    url: /assets/dataset/robot/robot_13.jpg
+    title: '13'
+    caption: A desktop Cartesian 3D printer gantry system fabricating a miniature
+      robot chassis layer by layer with glowing extruder ...
+  - filename: robot_14.jpg
+    url: /assets/dataset/robot/robot_14.jpg
+    title: '14'
+    caption: An engineering close-up of a Cartesian robot's linear slide carriage,
+      showing optical endstop sensors, stepper motor, an...
+  - filename: robot_15.jpg
+    url: /assets/dataset/robot/robot_15.jpg
+    title: '15'
+    caption: An automated Cartesian circuit testing robot with fine probe needles
+      inspecting golden PCB contact pads beside an oscill...
+  - filename: robot_16.jpg
+    url: /assets/dataset/robot/robot_16.jpg
+    title: '16'
+    caption: An isolated clean 2D anime illustration of a high-speed SCARA assembly
+      robot arm with cylindrical base, dual horizontal ...
+  - filename: robot_17.jpg
+    url: /assets/dataset/robot/robot_17.jpg
+    title: '17'
+    caption: A SCARA robot arm rapidly sorting and placing microcontrollers onto an
+      assembly conveyor belt with dynamic speed and pre...
+  - filename: robot_18.jpg
+    url: /assets/dataset/robot/robot_18.jpg
+    title: '18'
+    caption: A detailed mechanical close-up of a SCARA robot's elbow joint and precision
+      ball screw shaft with brass fasteners and op...
+  - filename: robot_19.jpg
+    url: /assets/dataset/robot/robot_19.jpg
+    title: '19'
+    caption: A SCARA laboratory robot arm precisely dispensing liquid reagents into
+      a multi-well test plate with a micro-pipette in a...
+  - filename: robot_20.jpg
+    url: /assets/dataset/robot/robot_20.jpg
+    title: '20'
+    caption: The complete Physical AI robotics ecosystem in a sun-drenched university
+      maker lab, featuring Tinny the humanoid robot, ...
+  - filename: robot_21.jpg
+    url: /assets/dataset/robot/robot_21.jpg
+    title: '21'
+    caption: A heartwarming robotic maker scene where Professor Hojin in his plain
+      navy polo shirt and young Dorothy in her denim ove...
+  - filename: robot_22.jpg
+    url: /assets/dataset/robot/robot_22.jpg
+    title: '22'
+    caption: An educational robotics lecture scene where Professor Hojin and Dorothy
+      program and calibrate a 6-axis articulated robot...
