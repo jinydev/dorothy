@@ -169,6 +169,81 @@ characters:
     title: thumbs up
     caption: portrait, professor hojin, youthful 40s friendly korean professor, parted
       salt and pepper hair, thin wire glasses, encou...
+  prompt: Professor Hojin, a handsome and youthful Asian man in his early 40s, smooth
+    skin without wrinkles, neat salt-and-pepper short hair with stylish side part,
+    thin silver round wire-rimmed glasses, gentle warm inspiring smile. Wearing a
+    solid dark navy blue collared polo shirt, classic blue denim jeans, gray sneakers.
+    Clean dark espresso line art (#26211E), soft warm 2D cel shading, Studio Ghibli
+    anime aesthetic, pure solid white background.
+  palette:
+  - area: 인체
+    item: 피부 밑색
+    name: Warm Ivory Peach
+    hex: '#FEEFE6'
+  - area: 인체
+    item: 피부 그림자
+    name: Soft Peach Amber
+    hex: '#F5CEBA'
+  - area: 인체
+    item: 머리카락 (흑발)
+    name: Dark Charcoal Black
+    hex: '#2C2D30'
+  - area: 인체
+    item: 머리카락 (은빛)
+    name: Silver Gray Slate
+    hex: '#8C9098'
+  - area: 인체
+    item: 눈동자
+    name: Deep Espresso Brown
+    hex: '#422A1D'
+  - area: 의상
+    item: 네이비 폴로셔츠
+    name: Solid Deep Navy
+    hex: '#1D2430'
+  - area: 의상
+    item: 블루 데님 팬츠
+    name: Medium Blue Denim
+    hex: '#3B5B82'
+  - area: 의상
+    item: 스니커즈
+    name: Classic Suede Gray
+    hex: '#8E9399'
+  anatomy:
+  - part: 신체 비율
+    detail: '**정확한 6.5 ~ 7.0등신 성인 2D 애니메이션 비율**
+
+      • 두부(Head): 전체 신장의 약 14.5%
+
+      • 상체 및 몸통(Torso): 약 2.5단위 (단정하고 곧은 체형, 과도한 근육질이나 왜소함 배제)
+
+      • 하체 및 다리(Legs): 약 3.0단위 (자연스러운 스트레이트 핏 데님 실루엣)
+
+      • 도로시(4.5등신)와 나란히 섰을 때 든든하고 신뢰감을 주는 멘토의 황금 대비'
+  - part: 연령 & 인상
+    detail: '**40대 초반(Early 40s) 동안(Youthful Face)**
+
+      • **피부:** 잔주름이나 깊은 팔자주름, 눈가 처짐(Eye bags)이 전혀 없는 매끄럽고 건강한 피부결 (`smooth skin`,
+      `youthful`)
+
+      • **인상:** 지적이고 총명하며, 학생들에게 언제나 친절하고 격려를 아끼지 않는 따뜻한 온화함'
+  - part: 헤어스타일
+    detail: '**세련된 7:3 가르마 숏 컷 (Stylishly Parted Short Hair)**
+
+      • 기장: 귀 위쪽이 깔끔하게 정돈되고 이마가 훤히 드러나 신뢰감을 주는 스마트 숏헤어
+
+      • 색상: 자연스러운 다크 차콜 흑발 베이스에 은빛/그레이 톤이 섞인 **솔트앤페퍼 (Salt-and-Pepper Gray Hair)**'
+  - part: 안경 (Glasses)
+    detail: '**스티브 잡스 스타일 라운드 메탈 와이어테 (Minimalist Round Wire Glasses)**
+
+      • 프레임: 매우 얇고 슬림한 원형 실버 메탈 테 (`thin metal wire-rim`)
+
+      • 렌즈: 눈동자를 가리지 않는 투명한 렌즈 투과율'
+  - part: 시그니처 착장
+    detail: '• 상의: 단정한 **다크 차콜 네이비 단색 카라 반팔 폴로 셔츠 (`#1D2430`, 무지)**
+
+      • 하의: 리바이스 501 모티브 **클래식 미디엄 블루 스트레이트 데님 팬츠 (`#3B5B82`)**
+
+      • 신발: 뉴발란스 99X 모티브 **그레이 클래식 스니커즈 (`#8E9399`)**'
 - id: dorothy
   folder: dorothy
   name: 도로시
@@ -398,6 +473,77 @@ characters:
     title: three quarter view
     caption: dorothy, 1girl, solo, child, 9 years old, brown hair, wavy twin pigtails,
       colorful bead hair ties, bangs, amber eyes, br...
+  prompt: Dorothy, an adorable 9-year-old anime girl, 4.5 heads tall junior proportions,
+    wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute
+    bangs, warm amber-brown eyes, rosy cheeks, cheerful bright smile. Wearing classic
+    medium blue denim overalls with rolled cuffs and a 'STEM HERO' round patch on
+    the chest, orange and yellow horizontal striped t-shirt underneath, white ankle
+    socks, vibrant ruby red canvas sneakers. Clean dark brown line art (#26211E),
+    soft warm 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
+  palette:
+  - area: 인체
+    item: 피부 밑색
+    name: Milky Warm Peach
+    hex: '#FDF0E7'
+  - area: 인체
+    item: 피부 그림자
+    name: Soft Apricot Shade
+    hex: '#F5D6C6'
+  - area: 인체
+    item: 머리카락
+    name: Warm Chestnut Brown
+    hex: '#5C3624'
+  - area: 인체
+    item: 눈동자
+    name: Honey Amber Brown
+    hex: '#9B5628'
+  - area: 의상
+    item: 줄무늬 티셔츠 (주황)
+    name: Coral Orange
+    hex: '#E87A38'
+  - area: 의상
+    item: 줄무늬 티셔츠 (노랑)
+    name: Mustard Yellow
+    hex: '#F5C242'
+  - area: 의상
+    item: 데님 멜빵바지
+    name: Classic Denim Blue
+    hex: '#3B6B99'
+  - area: 의상
+    item: 시그니처 운동화
+    name: Ruby Red Canvas
+    hex: '#C93B3B'
+  anatomy:
+  - part: 신체 비율
+    detail: '**정확한 4.5등신 치비/주니어 2D 애니메이션 비율**
+
+      • 두부(Head): 전체 신장의 약 22% (1단위)
+
+      • 상체 및 몸통(Torso): 약 1.5단위
+
+      • 하체 및 다리(Legs): 약 2.0단위 (무릎 아래가 튼튼하고 통통한 어린이다운 체형)'
+  - part: 얼굴 윤곽
+    detail: '• 턱선: 날카롭지 않고 부드럽게 둥글려진 통통한 볼살(U-shape chubby cheeks)
+
+      • 볼터치: 양쪽 뺨 중앙에 수채화처럼 번지는 소프트 피치 핑크 홍조 + 얇은 3줄 빗금 (`///`)'
+  - part: 눈 (Eyes)
+    detail: '• 얼굴 세로 중심선 아래에 위치하는 **대형 호박 갈색(Warm Amber-Brown) 눈망울**
+
+      • 홍채: 상단 에스프레소 브라운, 하단 맑은 꿀색 앰버 그라데이션
+
+      • 하이라이트: 10시 방향에 큼직한 원형 반사광 1개 + 4시 방향에 작은 보조 반사광 1개 필수'
+  - part: 헤어스타일
+    detail: '• 밤색 웨이브 양갈래 머리(Chestnut Brown Twin Pigtails)
+
+      • 방울 머리끈: 알록달록한 구슬 방울(빨강, 노랑, 파랑, 보라)
+
+      • 앞머리: 눈썹을 살짝 덮는 부드러운 일자 뱅(Bangs) 헤어'
+  - part: 시그니처 착장
+    detail: '• 상의: 주황/노랑 가로 줄무늬 반팔 라운드 티셔츠 (`#E87A38`, `#F5C242`)
+
+      • 하의: 클래식 미디엄 블루 데님 멜빵바지 (가슴에 원형 **''STEM HERO''** 뱃지)
+
+      • 신발: **새빨간 루비 레드 캔버스 운동화 (`#C93B3B`, 흰색 앞코)**'
 - id: jiny
   folder: jiny
   name: 지니
@@ -547,6 +693,64 @@ characters:
     title: profile
     caption: The canonical master hero profile portrait of Jiny the cat, standing
       with dignified elegance wearing his iconic red coll...
+  prompt: Jiny the tuxedo cat, an elegant black tuxedo Korean shorthair cat, sleek
+    glossy black coat on back, pure white chest, belly, and four white sock paws,
+    intelligent green-gold eyes, soft pink nose. Wearing a tiny starry dark purple
+    wizard cape with a golden bell collar. Sitting smartly, clean dark brown line
+    art (#26211E), soft 2D flat cel shading, Studio Ghibli anime aesthetic, pure solid
+    white background.
+  palette:
+  - area: 신체
+    item: 흑색 털 (몸통)
+    name: Obsidian Tuxedo Black
+    hex: '#1C1E24'
+  - area: 신체
+    item: 백색 털 (가슴/양말)
+    name: Pure Solid White
+    hex: '#FFFFFF'
+  - area: 신체
+    item: 눈동자
+    name: Luminous Green Gold
+    hex: '#88B04B'
+  - area: 신체
+    item: 코/발바닥 젤리
+    name: Soft Baby Pink
+    hex: '#F7CAD0'
+  - area: 소품
+    item: 마법사 망토
+    name: Midnight Star Purple
+    hex: '#3A1C71'
+  - area: 소품
+    item: 방울 목걸이
+    name: Golden Bell Yellow
+    hex: '#F5C242'
+  anatomy:
+  - part: 품종 및 체형
+    detail: '**한국 단모종 코리안 숏헤어 (Korean Shorthair) 블랙 턱시도**
+
+      • 성묘 기준 약 2.5 ~ 3.0등신 귀엽고 단정한 체형
+
+      • 매끄러운 흑백 배색: 턱, 가슴, 배 전체와 네 발 끝부분은 순백색(#FFFFFF), 등과 꼬리는 짙은 흑색'
+  - part: 얼굴 & 수염
+    detail: '• 코: 앙증맞은 연분홍빛 젤리 코 (Soft Pink Nose, `#F7CAD0`)
+
+      • 수염: 양 볼 옆에 각각 깔끔한 3가닥의 흰 수염선
+
+      • 귀: 쫑긋 서 있는 삼각형 귀, 안쪽 귓바퀴는 살구빛 핑크'
+  - part: 눈 (Eyes)
+    detail: '• 총명하게 빛나는 **에메랄드 황금빛 눈동자 (Green-Gold Eyes, `#88B04B`)**
+
+      • 동공: 낮에는 둥글고 지적인 타원형, 집중할 때는 얇은 세로 슬릿으로 날카롭게 변함'
+  - part: 발 & 젤리
+    detail: '• 네 발 모두 하얀 양말을 신은 형태 (Pure White Socks Paw)
+
+      • 발바닥 젤리: 말랑말랑한 핑크빛 포도젤리 패드'
+  - part: 시그니처 소품
+    detail: '• 망토: 별빛 패턴 자수가 놓인 **미드나잇 퍼플 마법사 망토 (`#3A1C71`)**
+
+      • 목걸이: 딸랑거리는 작은 황금 방울 목걸이 (`#F5C242`)
+
+      • 고글 (선택): 회로 분석 시 착용하는 초소형 스마트 테크 와이어 고글'
 - id: toto
   folder: toto
   name: 토토
@@ -676,6 +880,53 @@ characters:
     title: profile
     caption: The official master hero standing profile portrait of Toto the puppy,
       displaying his uniform cream-white fluffy coat, si...
+  prompt: Toto the puppy, an adorable fluffy solid warm milk-white cream puppy (no
+    spots), black button nose, black shiny button eyes, happy cheerful panting expression
+    with tongue out, wagging tail. Wearing a vibrant sky-blue bandana around neck.
+    Clean dark espresso line art (#26211E), soft warm 2D flat cel shading, Studio
+    Ghibli anime aesthetic, pure solid white background.
+  palette:
+  - area: 신체
+    item: 털 밑색
+    name: Warm Milk White
+    hex: '#FBF6EB'
+  - area: 신체
+    item: 털 그림자
+    name: Soft Warm Beige
+    hex: '#F0E5D3'
+  - area: 신체
+    item: 단추 눈/코
+    name: Jet Black Button
+    hex: '#1E1E1E'
+  - area: 신체
+    item: 혀 (Tongue)
+    name: Cheerful Rose Pink
+    hex: '#F28D9E'
+  - area: 소품
+    item: 시그니처 반다나
+    name: Sky Blue Bandana
+    hex: '#2D9CDB'
+  anatomy:
+  - part: 품종 및 체형
+    detail: '**귀엽고 통통한 믹스견/말티푸 모티브 2.5등신 주니어 강아지**
+
+      • 복슬복슬하고 부드러운 웜 밀크 화이트/크림 단색 모질 (얼룩점 일체 배제)
+
+      • 짧고 탄탄한 네 다리와 기분 좋게 말려 올라간 복슬복슬한 꼬리'
+  - part: 얼굴 & 코
+    detail: '• 코: 윤기 흐르는 까만 단추 코 (Black Button Nose, `#1E1E1E`)
+
+      • 눈: 반짝이는 동그란 까만 단추 눈과 눈꼬리의 맑은 반사광
+
+      • 입: 혀를 살짝 내밀고 활짝 웃는 해맑은 팬팅(Panting) 미소선'
+  - part: 귀 (Ears)
+    detail: '• 볼 옆으로 자연스럽게 늘어진 부드러운 플로피 이어 (Floppy Ears)
+
+      • 귓가 털이 둥글고 풍성하여 온화한 인상 유지'
+  - part: 시그니처 소품
+    detail: '• 반다나: 목에 정갈하게 둘러맨 **선명한 스카이블루 삼각형 스카프 (`#2D9CDB`)**
+
+      • 물고 다니는 소품: 알록달록한 점퍼 와이어, 220옴 저항 밴드, 부품 상자'
 - id: tinny
   folder: robot
   name: 티니 로봇
@@ -805,3 +1056,57 @@ characters:
     title: '22'
     caption: An educational robotics lecture scene where Professor Hojin and Dorothy
       program and calibrate a 6-axis articulated robot...
+  prompt: Tinny the robot, a friendly and cute retro-modern desktop assistant robot,
+    waist-height, matte white rounded cube monitor head with a dark screen, glowing
+    cyan digital eyes, an antenna with a glowing warm yellow lightbulb tip on top
+    of head, jointed metallic arms and legs, glowing amber heart cogwheel visible
+    on chest. Clean dark brown line art (#26211E), soft 2D cel shading, Studio Ghibli
+    anime aesthetic, pure solid white background.
+  palette:
+  - area: 외장
+    item: 세라믹 바디 밑색
+    name: Matte Ceramic White
+    hex: '#F1F5F9'
+  - area: 외장
+    item: 바디 그림자
+    name: Slate Gray Shade
+    hex: '#CBD5E1'
+  - area: 외장
+    item: 페이스 글래스
+    name: Dark Obsidian Screen
+    hex: '#1E293B'
+  - area: 발광
+    item: 디지털 아이 LED
+    name: Glowing Cyan Blue
+    hex: '#38BDF8'
+  - area: 발광
+    item: 전구 안테나
+    name: Radiant Warm Yellow
+    hex: '#FCD34D'
+  - area: 발광
+    item: 가슴 하트 코그휠
+    name: Amber Gold Heart
+    hex: '#F59E0B'
+  anatomy:
+  - part: 신체 비율
+    detail: '**약 2.5 ~ 3.0등신 레트로 모던 데스크톱 컴패니언 로봇**
+
+      • 도로시 키의 약 허리 높이(약 55~60cm 상당)로 책상 위나 옆에 자연스럽게 배치
+
+      • 과도한 밀리터리 기계미를 배제하고, 둥글둥글하고 친근한 곡선 위주의 백색 외장재'
+  - part: 모니터 헤드
+    detail: '• 형태: 모서리가 부드럽게 라운딩된 CRT/모던 디스플레이 큐브 헤드 (`#E8ECEF`)
+
+      • 안테나: 정수리 중앙에 솟아오른 얇은 황동 와이어 안테나 + **빛나는 노란색 미니 전구 팁 (`#FCD34D`)**'
+  - part: 디지털 페이스
+    detail: '• 디스플레이: 짙은 다크 차콜 글래스 화면 (`#1E293B`)
+
+      • 디지털 아이: **발광하는 밝은 시안 블루 LED 눈 (`#38BDF8`)** (상태에 따라 하트, 윙크, 느낌표로 감정 표현)'
+  - part: 흉부 코어 (Heart)
+    detail: '• 가슴 중앙에 장착된 투명 유리 돔 윈도우
+
+      • 내부: 따뜻한 호박색으로 맥동(Pulsing)하며 회전하는 **황금색 하트 코그휠 기어 (`#F59E0B`)**'
+  - part: 관절 & 팔다리
+    detail: '• 볼 조인트(Ball-joint)와 피벗 힌지로 연결된 3자유도 관절 팔과 탄탄한 다리
+
+      • 손: 작은 전자 부품이나 핀셋을 정밀하게 잡을 수 있는 3지 핑거 엔드이펙터'

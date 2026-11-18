@@ -1,9 +1,23 @@
 ---
-layout: docs
+layout: home
 title: "지니 (Jiny) - 캐릭터 프로필 & 스타일 가이드"
 description: "AI 및 소프트웨어 수석 테크 코치 지니(고양이)의 공식 디자인 규격, 컬러 팔레트 및 데이터셋 갤러리"
 permalink: /character/jiny/
 ---
+
+<div class="container py-4">
+  <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2 border-bottom pb-3">
+    <a href="/character/#tab-jiny" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium px-3">
+      ← 캐릭터 포털로 돌아가기
+    </a>
+    <div class="d-flex flex-wrap gap-1">
+      <a href="/character/hojin/" class="btn btn-sm rounded-pill btn-light border">👨‍🏫 교수님</a>
+      <a href="/character/dorothy/" class="btn btn-sm rounded-pill btn-light border">👧 도로시</a>
+      <a href="/character/jiny/" class="btn btn-sm rounded-pill btn-dark">🐱 지니</a>
+      <a href="/character/toto/" class="btn btn-sm rounded-pill btn-light border">🐶 토토</a>
+      <a href="/character/tinny/" class="btn btn-sm rounded-pill btn-light border">🤖 티니</a>
+    </div>
+  </div>
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%); border-left: 6px solid #4f46e5;">
@@ -69,15 +83,60 @@ permalink: /character/jiny/
 
 `data/dataset/jiny/` 디렉토리에 구축된 고해상도 학습 데이터셋의 대표 컷입니다.
 
-<div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+<style>
+  .dataset-thumbnail-card {
+    transition: all 0.2s ease;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+  }
+  .dataset-thumbnail-card:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+    border-color: #3b82f6 !important;
+  }
+  .dataset-img-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    background: #f8fafc;
+    border-radius: 0.65rem 0.65rem 0 0;
+  }
+  .dataset-img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .dataset-thumbnail-card:hover .dataset-img-wrap img {
+    transform: scale(1.06);
+  }
+</style>
+
+{% assign current_char = site.data.characters.characters | where: "id", "jiny" | first %}
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 my-4">
+  {% for img in current_char.images %}
   <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/jiny/jiny_01.jpg' | relative_url }}" alt="지니 01" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">jiny_01: 단정한 정면 착석 컷</h6>
-        <p class="small text-muted mb-0"><code>sitting gracefully, tuxedo cat, purple cape</code></p>
+    <a href="{{ img.url | relative_url }}" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+      <div class="card h-100 dataset-thumbnail-card shadow-sm rounded-3 overflow-hidden">
+        <div class="dataset-img-wrap">
+          <img src="{{ img.url | relative_url }}"
+               alt="{{ current_char.name }} - {{ img.title }}"
+               loading="lazy">
+        </div>
+        <div class="p-2 text-center bg-white">
+          <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="{{ img.title }}">
+            {{ img.title }}
+          </div>
+        </div>
       </div>
-    </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
   </div>
 
   <div class="col">
@@ -138,4 +197,4 @@ permalink: /character/jiny/
 ```text
 Jiny the tuxedo cat, an elegant black tuxedo Korean shorthair cat, sleek glossy black coat on back, pure white chest, belly, and four white sock paws, intelligent green-gold eyes, soft pink nose. Wearing a tiny starry dark purple wizard cape with a golden bell collar. Sitting smartly, clean dark brown line art (#26211E), soft 2D flat cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
-
+</div>
