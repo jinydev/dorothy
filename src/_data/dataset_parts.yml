@@ -171,28 +171,28 @@ categories:
   en_name: Tech & Language Mascot Emblems
   icon: 🎨
   badge: bg-info text-dark
-  desc: Python, C++, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL, GitHub
-    Octocat 등의 지브리 2D 애니메이션 감성 마스코트
-  count: 15
+  desc: Python, C, C++, GCC, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL
+    등의 지브리 2D 애니메이션 감성 마스코트
+  count: 18
   images:
   - filename: logo_01_python.jpg
     url: /assets/dataset/parts/05_logos/logo_01_python.jpg
-    title: 파이썬 (Python Mascot)
+    title: 파이썬 마스코트 (Python Snake)
     caption: logo, python programming language logo, cute intertwined blue and yellow
       snakes, ghibli anime style, clean line art, soft cel shading, pure ...
   - filename: logo_02_c_cpp.jpg
     url: /assets/dataset/parts/05_logos/logo_02_c_cpp.jpg
-    title: C / C++ (Brass Gear Emblem)
+    title: C & C++ 브라스 기어 (C/C++ Gear)
     caption: logo, c and c++ programming language emblem, brass gear cogwheel with
       c++ inscription, glowing blue core, ghibli anime style, clean line art...
   - filename: logo_03_java.jpg
     url: /assets/dataset/parts/05_logos/logo_03_java.jpg
-    title: 자바 (Java Coffee Cup)
+    title: 자바 커피컵 엠블럼 (Java Coffee)
     caption: logo, java programming language logo, ceramic coffee mug, aromatic steam
       forming java coffee cup emblem, roasted coffee beans, ghibli anime ...
   - filename: logo_04_php.jpg
     url: /assets/dataset/parts/05_logos/logo_04_php.jpg
-    title: PHP (Elephant Mascot)
+    title: PHP 엘리펀트 (PHP Elephant)
     caption: logo, php programming language mascot, cute purple elephant elephpant,
       ghibli anime style, soft cel shading, pure white background
   - filename: logo_05_js_ts.jpg
@@ -202,35 +202,35 @@ categories:
       azure blue ts pin, ghibli anime style, clean line art, pure white b...
   - filename: logo_06_rust.jpg
     url: /assets/dataset/parts/05_logos/logo_06_rust.jpg
-    title: 러스트 (Rust Gear & Crab)
+    title: 러스트 크랩 & 기어 (Rust Crab)
     caption: logo, rust programming language mascot, cute orange crab ferris wearing
       aviator goggles holding gear cog with r letter, ghibli anime style, ...
   - filename: logo_07_linux.jpg
     url: /assets/dataset/parts/05_logos/logo_07_linux.jpg
-    title: 리눅스 (Linux Tux Penguin)
+    title: 리눅스 턱스 펭귄 (Linux Tux)
     caption: logo, linux tux penguin mascot holding brass wrench, cute scarf, ghibli
       anime style, soft cel shading, pure white background
   - filename: logo_08_arduino.jpg
     url: /assets/dataset/parts/05_logos/logo_08_arduino.jpg
-    title: 아두이노 (Arduino Infinity Board)
+    title: 아두이노 인피니티 (Arduino Infinity)
     caption: logo, arduino hardware platform logo, teal infinity circuit board with
       glowing led, plus minus signs, ghibli anime style, clean line art, pu...
   - filename: logo_09_pytorch.jpg
     url: /assets/dataset/parts/05_logos/logo_09_pytorch.jpg
-    title: 파이토치 (PyTorch Flame)
+    title: 파이토치 플레임 (PyTorch Flame)
     caption: logo, pytorch deep learning framework logo, warm glowing calcifer style
       flame emblem with node, ghibli anime style, warm cel shading, pure w...
   - filename: logo_10_docker.jpg
     url: /assets/dataset/parts/05_logos/logo_10_docker.jpg
-    title: 도커 (Docker Whale)
+    title: 도커 웨일 (Docker Whale)
     caption: ''
   - filename: logo_11_reinforcement_learning.jpg
     url: /assets/dataset/parts/05_logos/logo_11_reinforcement_learning.jpg
-    title: 강화학습 에이전트 (RL Robot)
+    title: 강화학습 로봇 에이전트 (RL Robot)
     caption: Reinforcement learning agent mascot navigating an intelligent maze.
   - filename: logo_12_git.jpg
     url: /assets/dataset/parts/05_logos/logo_12_git.jpg
-    title: 깃 & 브랜칭 (Git Branching)
+    title: 깃 & 브랜칭 트리 (Git Branching)
     caption: Git version control branching mascot with glowing commit nodes.
   - filename: logo_13_postgresql.jpg
     url: /assets/dataset/parts/05_logos/logo_13_postgresql.jpg
@@ -243,7 +243,22 @@ categories:
       gracefully above gentle stylized splash ripples on a pure white ...
   - filename: logo_15_octocat.jpg
     url: /assets/dataset/parts/05_logos/logo_15_octocat.jpg
-    title: 깃 & 깃허브 옥토캣 (GitHub Octocat Mona)
+    title: 깃 & 깃허브 옥토캣 (GitHub Octocat)
     caption: A charming Studio Ghibli 2D anime-style GitHub Octocat mascot with cheerful
       cat ears and five curling octopus tentacles on a pure white back...
-total_count: 41
+  - filename: logo_16_c.jpg
+    url: /assets/dataset/parts/05_logos/logo_16_c.jpg
+    title: C 언어 클래식 크레스트 (C Language Crest)
+    caption: A charming Studio Ghibli 2D anime-style C programming language emblem
+      with a deep navy blue circular crest, ivory 'C' insignia, and delicate...
+  - filename: logo_17_cpp.jpg
+    url: /assets/dataset/parts/05_logos/logo_17_cpp.jpg
+    title: C++ 언어 헥사곤 엠블럼 (C++ Hexagon Emblem)
+    caption: A dynamic Studio Ghibli 2D anime-style C++ programming language mascot
+      emblem featuring a royal blue and cyan hexagonal shield with ivory 'C...
+  - filename: logo_18_gcc.jpg
+    url: /assets/dataset/parts/05_logos/logo_18_gcc.jpg
+    title: GCC GNU 누 마스코트 (GCC Gnu Mascot)
+    caption: A cute Studio Ghibli 2D anime-style GCC GNU mascot head with curved golden
+      horns, professor wire glasses, and a tiny brass gear collar pin o...
+total_count: 44
