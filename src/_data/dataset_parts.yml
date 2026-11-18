@@ -171,9 +171,9 @@ categories:
   en_name: Tech & Language Mascot Emblems
   icon: 🎨
   badge: bg-info text-dark
-  desc: Python, C, C++, GCC, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL
-    등의 지브리 2D 애니메이션 감성 마스코트
-  count: 18
+  desc: Python, C, C++, GCC, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL,
+    Octocat, Android, Swift, Laravel, Spring, Django 등의 지브리 2D 애니메이션 감성 마스코트
+  count: 23
   images:
   - filename: logo_01_python.jpg
     url: /assets/dataset/parts/05_logos/logo_01_python.jpg
@@ -261,4 +261,29 @@ categories:
     title: GCC GNU 누 마스코트 (GCC Gnu Mascot)
     caption: A cute Studio Ghibli 2D anime-style GCC GNU mascot head with curved golden
       horns, professor wire glasses, and a tiny brass gear collar pin o...
-total_count: 44
+  - filename: logo_19_android.jpg
+    url: /assets/dataset/parts/05_logos/logo_19_android.jpg
+    title: 안드로이드 버그드로이드 (Android Bugdroid)
+    caption: A cute Studio Ghibli 2D anime-style Android Bugdroid robot mascot waving
+      cheerfully on a pure white background.
+  - filename: logo_20_swift.jpg
+    url: /assets/dataset/parts/05_logos/logo_20_swift.jpg
+    title: 스위프트 오렌지 버드 (Apple Swift Bird)
+    caption: A graceful Studio Ghibli 2D anime-style Swift bird soaring upward in
+      warm sunset orange and amber gold on a pure white background.
+  - filename: logo_21_laravel.jpg
+    url: /assets/dataset/parts/05_logos/logo_21_laravel.jpg
+    title: 라라벨 큐브 & 오리가미 (Laravel Cube & Bird)
+    caption: A charming Studio Ghibli 2D anime-style Laravel web framework geometric
+      coral-red crest with a tiny brass gear origami bird on a pure white ...
+  - filename: logo_22_spring.jpg
+    url: /assets/dataset/parts/05_logos/logo_22_spring.jpg
+    title: 스프링 부트 에메랄드 새싹 (Spring Boot Sprout)
+    caption: A fresh Studio Ghibli 2D anime-style Spring Boot botanical sprout emblem
+      in rich emerald and lime green on a pure white background.
+  - filename: logo_23_django.jpg
+    url: /assets/dataset/parts/05_logos/logo_23_django.jpg
+    title: 장고 포레스트 실드 & 스피릿 (Django Shield & Spirit)
+    caption: An elegant Studio Ghibli 2D anime-style Django web framework forest green
+      shield emblem with an embossed 'D' and a gentle forest spirit comp...
+total_count: 49

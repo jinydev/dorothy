@@ -1,0 +1,3 @@
+logo, laravel php framework mascot emblem, geometric coral red origami cube, tiny mechanical bird, ghibli anime style, clean line art (#26211E), soft cel shading, pure white background
+
+A charming Studio Ghibli 2D anime-style Laravel web framework geometric coral-red crest with a tiny brass gear origami bird on a pure white background.
