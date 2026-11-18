@@ -46,7 +46,7 @@ categories:
   badge: bg-warning text-dark
   desc: CPU, DDR5 RAM, NVMe/SATA SSD, 메인보드, GPU 및 서버랙, 웨어러블, 아두이노/라즈베리파이 등 피지컬 컴퓨팅
     장비
-  count: 37
+  count: 43
   images:
   - filename: hw_01_arduino_uno.jpg
     url: /assets/dataset/parts/02_hardware/hw_01_arduino_uno.jpg
@@ -286,6 +286,52 @@ categories:
       pcie expansion slots, vrm heatsinks, rear i/o ports, clean dark espresso line
       art, soft warm 2d cel shading, studio ghibli anime aesthetic, pure solid white
       background.
+  - filename: hw_38_fast_charger.jpg
+    url: /assets/dataset/parts/02_hardware/hw_38_fast_charger.jpg
+    title: 65W GaN 고속 충전기 (USB-C Fast Charger)
+    caption: compact gan fast wall charger power adapter, folded prongs, dual usb-c
+      ports, single usb-a port, turquoise led power indicator, 65w gan badge, rounded
+      ergonomic corners, clean dark espresso line art, soft warm 2d cel shading, studio
+      ghibli anime aesthetic, pure solid white background.
+  - filename: hw_39_audio_headset.jpg
+    url: /assets/dataset/parts/02_hardware/hw_39_audio_headset.jpg
+    title: 스튜디오 모니터링 헤드셋 (Studio Audio Headset)
+    caption: over-ear studio monitor headset headphones, padded memory foam headband,
+      soft slate-gray oval ear cushions, brushed silver aluminum swivel hinges, flexible
+      slim boom microphone with foam windscreen, braided audio cable with gold-plated
+      3.5mm jack, clean dark espresso line art, soft warm 2d cel shading, studio ghibli
+      anime aesthetic, pure solid white background.
+  - filename: hw_40_internal_hdd.jpg
+    url: /assets/dataset/parts/02_hardware/hw_40_internal_hdd.jpg
+    title: 3.5인치 하드디스크 내부 (Exposed Internal HDD)
+    caption: exposed 3.5-inch mechanical hard disk drive hdd with top cover removed,
+      gleaming circular magnetic platter disk, central spindle hub, actuator arm with
+      read write slider head, voice coil magnet bracket, cast aluminum base chassis,
+      clean dark espresso line art, soft warm 2d cel shading, studio ghibli anime aesthetic,
+      pure solid white background.
+  - filename: hw_41_precision_screwdriver.jpg
+    url: /assets/dataset/parts/02_hardware/hw_41_precision_screwdriver.jpg
+    title: 전자 정밀 드라이버 공구 세트 (Precision Screwdriver Set)
+    caption: electronics precision screwdriver tool set, knurled aluminum handle screwdriver
+      with swivel cap, magnetic bit holder chuck, compact tray holding interchangeable
+      phillips flathead torx hex micro bits, antistatic precision tweezers, clean dark
+      espresso line art, soft warm 2d cel shading, studio ghibli anime aesthetic, pure
+      solid white background.
+  - filename: hw_42_3d_printer.jpg
+    url: /assets/dataset/parts/02_hardware/hw_42_3d_printer.jpg
+    title: 데스크톱 FDM 3D 프린터 (Desktop 3D Printer)
+    caption: desktop fdm 3d printer, black aluminum extrusion frame, top-mounted teal-cyan
+      pla filament spool, ptfe guide tube, heated textured glass build plate with golden
+      leveling thumbscrews, hotend assembly with brass nozzle printing a tiny geometric
+      model, front mini lcd knob screen, clean dark espresso line art, soft warm 2d cel
+      shading, studio ghibli anime aesthetic, pure solid white background.
+  - filename: hw_43_smart_tv.jpg
+    url: /assets/dataset/parts/02_hardware/hw_43_smart_tv.jpg
+    title: 슬림 스마트 TV 디스플레이 (Smart TV Display)
+    caption: large widescreen flat-panel smart tv display, razor-thin bezel, minimalist
+      dual branch metallic legs stand, screen displaying soft warm sunrise sky landscape,
+      small black smart remote control beside stand, clean dark espresso line art, soft
+      warm 2d cel shading, studio ghibli anime aesthetic, pure solid white background.
 - id: software
   folder: 03_software
   name: 소프트웨어 & 시스템 아키텍처
