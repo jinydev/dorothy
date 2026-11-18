@@ -230,8 +230,9 @@ categories:
     caption: Reinforcement learning agent mascot navigating an intelligent maze.
   - filename: logo_12_git.jpg
     url: /assets/dataset/parts/05_logos/logo_12_git.jpg
-    title: 깃 & 브랜칭 트리 (Git Branching)
-    caption: Git version control branching mascot with glowing commit nodes.
+    title: 깃 다이아몬드 브랜치 트리 (Git Branch Tree)
+    caption: The iconic Git tilted orange-red diamond emblem reimagined in Studio
+      Ghibli 2D anime style, featuring clean ivory commit branch nodes on a p...
   - filename: logo_13_postgresql.jpg
     url: /assets/dataset/parts/05_logos/logo_13_postgresql.jpg
     title: PostgreSQL 슬로닉 코끼리 (PostgreSQL Elephant)
@@ -243,9 +244,9 @@ categories:
       gracefully above gentle stylized splash ripples on a pure white ...
   - filename: logo_15_octocat.jpg
     url: /assets/dataset/parts/05_logos/logo_15_octocat.jpg
-    title: 깃 & 깃허브 옥토캣 (GitHub Octocat)
-    caption: A charming Studio Ghibli 2D anime-style GitHub Octocat mascot with cheerful
-      cat ears and five curling octopus tentacles on a pure white back...
+    title: 깃허브 치비 옥토캣 (GitHub Chibi Octocat)
+    caption: A super cute Studio Ghibli 2D anime-style chibi GitHub Octocat kitten
+      with sparkling wonder-filled eyes and chubby baby octopus tentacles on...
   - filename: logo_16_c.jpg
     url: /assets/dataset/parts/05_logos/logo_16_c.jpg
     title: C 언어 클래식 크레스트 (C Language Crest)
