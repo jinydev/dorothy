@@ -40,12 +40,12 @@ categories:
       background, paved pathway, sunny day, wildflowers, blue sky, outdoor t...
 - id: hardware
   folder: 02_hardware
-  name: 컴퓨팅 디바이스 & 하드웨어
+  name: 컴퓨팅 디바이스 & 인프라 하드웨어
   en_name: Computing Devices & Embedded Hardware
   icon: 🔌
   badge: bg-warning text-dark
-  desc: 노트북, 맥북, 모니터, 데스크탑 PC, 맥스튜디오, 스마트폰, GPU 및 임베디드 아두이노/라즈베리파이 등 실습 장비
-  count: 17
+  desc: 아이패드, 서버랙, 1U·2U·4U 서버, 마우스, 키보드, 프린터, 스캐너, 스피커, 마이크 및 노트북·PC·아두이노 등 실습 장비
+  count: 28
   images:
   - filename: hw_01_arduino_uno.jpg
     url: /assets/dataset/parts/02_hardware/hw_01_arduino_uno.jpg
@@ -150,6 +150,79 @@ categories:
       cable, blue usb 3.0 type-a ports, usb-c pd port, sd card slot, hdmi output,
       plugged flash drive, clean espresso line art, soft 2d cel shading, studio ghibli
       anime aesthetic, isolated on pure white background.
+  - filename: hw_18_ipad_tablet.jpg
+    url: /assets/dataset/parts/02_hardware/hw_18_ipad_tablet.jpg
+    title: 아이패드 프로 태블릿 (Apple iPad Pro)
+    caption: apple ipad pro tablet, stylus pencil, digital tablet, circuit schematic
+      on display, thin bezels, aluminum unibody, clean dark espresso line art, soft
+      warm 2d cel shading, studio ghibli anime aesthetic, pure solid white background.
+  - filename: hw_19_server_rack_cabinet.jpg
+    url: /assets/dataset/parts/02_hardware/hw_19_server_rack_cabinet.jpg
+    title: 42U 데이터센터 서버랙 (Server Rack Cabinet)
+    caption: datacenter server rack cabinet, 42u full-height server rack, black steel
+      enclosure, perforated mesh door, stacked servers, ethernet patch cables, blinking
+      led lights, clean dark espresso line art, soft warm 2d cel shading, studio ghibli
+      anime aesthetic, pure solid white background.
+  - filename: hw_20_server_1u.jpg
+    url: /assets/dataset/parts/02_hardware/hw_20_server_1u.jpg
+    title: 1U 엔터프라이즈 랙 서버 (1U Rack Server)
+    caption: 1u rackmount server, enterprise slim rack server, 2.5-inch hot-swap drive
+      bays, led indicators, ventilation honeycomb grilles, rack mounting ears, clean
+      dark espresso line art, soft warm 2d cel shading, studio ghibli anime aesthetic,
+      pure solid white background.
+  - filename: hw_21_server_2u.jpg
+    url: /assets/dataset/parts/02_hardware/hw_21_server_2u.jpg
+    title: 2U 스토리지 랙 서버 (2U Rack Server)
+    caption: 2u rackmount server, standard enterprise server unit, eight 3.5-inch
+      drive bays, status leds, usb ports, lcd diagnostics panel, rack ears, clean
+      dark espresso line art, soft warm 2d cel shading, studio ghibli anime aesthetic,
+      pure solid white background.
+  - filename: hw_22_server_4u.jpg
+    url: /assets/dataset/parts/02_hardware/hw_22_server_4u.jpg
+    title: 4U GPU AI 딥러닝 서버 (4U GPU Server)
+    caption: 4u gpu server, heavy-duty deep learning ai server chassis, high-airflow
+      cooling fans, high-density storage bays, rugged rackmount handles, clean dark
+      espresso line art, soft warm 2d cel shading, studio ghibli anime aesthetic,
+      pure solid white background.
+  - filename: hw_23_mouse.jpg
+    url: /assets/dataset/parts/02_hardware/hw_23_mouse.jpg
+    title: 인체공학 무선 마우스 (Ergonomic Mouse)
+    caption: ergonomic computer mouse, wireless mouse, thumb rest, metal scroll wheel,
+      side navigation buttons, optical sensor glow, clean dark espresso line art,
+      soft warm 2d cel shading, studio ghibli anime aesthetic, pure solid white background.
+  - filename: hw_24_keyboard.jpg
+    url: /assets/dataset/parts/02_hardware/hw_24_keyboard.jpg
+    title: 커스텀 기계식 키보드 (Mechanical Keyboard)
+    caption: compact mechanical keyboard, retro-pastel keycaps, aluminum frame, aviator
+      coiled usb-c cable, status leds, clean dark espresso line art, soft warm 2d
+      cel shading, studio ghibli anime aesthetic, pure solid white background.
+  - filename: hw_25_printer.jpg
+    url: /assets/dataset/parts/02_hardware/hw_25_printer.jpg
+    title: 데스크탑 레이저 프린터 (Laser Printer)
+    caption: desktop laser printer, multi-function office printer, paper input tray,
+      printed page with circuit diagram, control panel buttons, clean dark espresso
+      line art, soft warm 2d cel shading, studio ghibli anime aesthetic, pure solid
+      white background.
+  - filename: hw_26_scanner.jpg
+    url: /assets/dataset/parts/02_hardware/hw_26_scanner.jpg
+    title: 플랫베드 문서 & 도면 스캐너 (Flatbed Scanner)
+    caption: flatbed document scanner, glass platen, glowing scan light bar, propped
+      lid, blueprint diagram being scanned, quick-action buttons, clean dark espresso
+      line art, soft warm 2d cel shading, studio ghibli anime aesthetic, pure solid
+      white background.
+  - filename: hw_27_speaker.jpg
+    url: /assets/dataset/parts/02_hardware/hw_27_speaker.jpg
+    title: 스튜디오 모니터 스피커 (Studio Speakers)
+    caption: desktop studio monitor speakers, pair of audio monitors, yellow kevlar
+      woofer cones, dome tweeters, bass reflex ports, volume dial, clean dark espresso
+      line art, soft warm 2d cel shading, studio ghibli anime aesthetic, pure solid
+      white background.
+  - filename: hw_28_microphone.jpg
+    url: /assets/dataset/parts/02_hardware/hw_28_microphone.jpg
+    title: 스튜디오 레코딩 마이크 (Condenser Mic)
+    caption: studio condenser microphone, recording mic on boom arm, shock mount,
+      circular mesh pop filter, metallic capsule, clean dark espresso line art, soft
+      warm 2d cel shading, studio ghibli anime aesthetic, pure solid white background.
 - id: software
   folder: 03_software
   name: 소프트웨어 & 시스템 아키텍처
