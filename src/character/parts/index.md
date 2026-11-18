@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "공학 모험 연구실 파츠 & 배경 에셋 데이터셋 (61컷)"
-description: "연구실 환경, 컴퓨팅 디바이스 & 하드웨어 장비, 소프트웨어/IDE, AI/수학 이론 도식, 개발 로고 엠블럼 등 5대 카테고리 61종의 공식 에셋 데이터셋"
+title: "공학 모험 연구실 파츠 & 배경 에셋 데이터셋 (67컷)"
+description: "연구실 환경, 컴퓨팅 디바이스 & 하드웨어 장비, 소프트웨어/IDE, AI/수학 이론 도식, 개발 로고 엠블럼 등 5대 카테고리 67종의 공식 에셋 데이터셋"
 permalink: /character/parts/
 ---
 
@@ -87,10 +87,10 @@ permalink: /character/parts/
       <span>Laboratory Parts & Assets Dataset</span>
     </div>
     <h1 class="parts-hero-title mb-3">
-      공학 모험 연구실 파츠 & 배경 에셋 (61컷)
+      공학 모험 연구실 파츠 & 배경 에셋 (67컷)
     </h1>
     <p class="parts-hero-subtitle">
-      캐릭터뿐만 아니라, 캐릭터가 머무는 <strong>연구실 환경, 노트북·맥북·모니터·PC·GPU 등 하드웨어 디바이스, IDE/코드 비주얼, 시그모이드·ReLU 등 AI/수학 이론 도식, 개발 기술 로고</strong>까지 완벽한 세계관 일관성을 유지할 수 있도록 정교하게 조형된 <strong>61컷의 공식 보조 데이터셋</strong>입니다.
+      캐릭터뿐만 아니라, 캐릭터가 머무는 <strong>연구실 환경, 노트북·맥북·모니터·PC·GPU 등 하드웨어 디바이스, IDE/코드 비주얼, 시그모이드·ReLU 및 시그마·적분·나블라 등 AI/수학 기호 엠블럼, 개발 기술 로고</strong>까지 완벽한 세계관 일관성을 유지할 수 있도록 정교하게 조형된 <strong>67컷의 공식 보조 데이터셋</strong>입니다.
     </p>
 
     <!-- 빠른 카테고리 이동 앵커 바 -->
@@ -98,7 +98,7 @@ permalink: /character/parts/
       <a href="#environments" class="category-anchor-pill shadow-sm">🏛️ 연구실 & 캠퍼스 환경 (6컷)</a>
       <a href="#hardware" class="category-anchor-pill shadow-sm">⚡ 컴퓨팅 디바이스 & 하드웨어 (17컷)</a>
       <a href="#software" class="category-anchor-pill shadow-sm">💻 소프트웨어 & IDE 코드 (6컷)</a>
-      <a href="#ai_theory" class="category-anchor-pill shadow-sm">🧠 AI & 수학 이론 도식 (8컷)</a>
+      <a href="#ai_theory" class="category-anchor-pill shadow-sm">🧠 AI & 수학 이론 도식 (14컷)</a>
       <a href="#logos" class="category-anchor-pill shadow-sm">🛡️ 기술 로고 & 엠블럼 (24컷)</a>
     </div>
   </div>

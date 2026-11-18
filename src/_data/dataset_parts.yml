@@ -191,12 +191,12 @@ categories:
       requests, json data payloads with curly brackets, api endpoints, cl...
 - id: ai_theory
   folder: 04_ai_theory
-  name: 인공지능 & 딥러닝 이론 다이어그램
+  name: AI 수학 & 딥러닝 이론 다이어그램
   en_name: AI & Deep Learning Theory Visualizations
   icon: 🧠
   badge: bg-danger
-  desc: 다층 퍼셉트론, CNN, 강화학습 MDP, 벨만 방정식, 연합학습, 손실 곡선 및 시그모이드/ReLU 활성화 함수 도식
-  count: 8
+  desc: 신경망 역전파, CNN, 강화학습, 활성화 함수 곡선 및 시그마·적분·나블라 등 6대 핵심 수학 기호 엠블럼
+  count: 14
   images:
   - filename: ai_01_neural_network_mlp.jpg
     url: /assets/dataset/parts/04_ai_theory/ai_01_neural_network_mlp.jpg
@@ -242,6 +242,42 @@ categories:
       curve, piecewise linear, mathematical formula f(x) = max(0, x), zero along negative
       x-axis, 45 degree slope along positive x-axis, coordinate grid, anime academic
       style, white background
+  - filename: ai_09_math_sigma_summation.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_09_math_sigma_summation.jpg
+    title: 시그마 총합 기호 (Sigma Summation Σ)
+    caption: mathematical symbol emblem, capital sigma summation symbol, index notation
+      i=1 to n, warm cream card, golden amber cel shading, clean dark espresso line
+      art, studio ghibli academic aesthetic, pure white background.
+  - filename: ai_10_math_integral_calculus.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_10_math_integral_calculus.jpg
+    title: 인테그럴 미적분 기호 (Integral Calculus ∫)
+    caption: mathematical symbol emblem, calculus integral sign, limits from a to
+      b, f(x)dx notation, warm cream card, royal teal bronze cel shading, clean dark
+      espresso line art, studio ghibli academic aesthetic, pure white background.
+  - filename: ai_11_math_nabla_gradient.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_11_math_nabla_gradient.jpg
+    title: 나블라 그래디언트 & 편미분 (Nabla ∇ & ∂)
+    caption: mathematical symbol emblem, gradient vector nabla inverted triangle and
+      partial derivative del, vector calculus, emerald copper cel shading, clean dark
+      espresso line art, studio ghibli academic aesthetic, pure white background.
+  - filename: ai_12_math_pi_constant.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_12_math_pi_constant.jpg
+    title: 원주율 파이 엠블럼 (Pi Constant π)
+    caption: mathematical symbol emblem, greek letter pi constant, geometric circle
+      arcs, 3.14159 inscription, warm cream card, terracotta amber cel shading, clean
+      dark espresso line art, studio ghibli academic aesthetic, pure white background.
+  - filename: ai_13_math_infinity_loop.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_13_math_infinity_loop.jpg
+    title: 무한대 인피니티 루프 (Infinity Symbol ∞)
+    caption: mathematical symbol emblem, infinity symbol lemniscate loop, mobius ribbon,
+      warm cream card, cyan azure lavender cel shading, clean dark espresso line art,
+      studio ghibli academic aesthetic, pure white background.
+  - filename: ai_14_math_square_root.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_14_math_square_root.jpg
+    title: 제곱근 루트 근호 (Square Root Radical √x)
+    caption: mathematical symbol emblem, square root radical symbol with vinculum
+      bar over x, warm cream card, golden saffron ruby cel shading, clean dark espresso
+      line art, studio ghibli academic aesthetic, pure white background.
 - id: logos
   folder: 05_logos
   name: 테크 & 프로그래밍 언어 로고
