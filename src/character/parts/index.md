@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "공학 모험 연구실 파츠 & 배경 에셋 데이터셋 (93컷)"
-description: "연구실 환경, 컴퓨팅·반도체 & 하드웨어 장비, 3D프린터·공구, 소프트웨어/IDE, AI/수학 이론 도식, 개발 로고 엠블럼 등 5대 카테고리 93종의 공식 에셋 데이터셋"
+title: "공학 모험 연구실 파츠 & 배경 에셋 데이터셋 (108컷)"
+description: "연구실 환경, 아두이노·센서 키트, 컴퓨팅·반도체 & 하드웨어 장비, 3D프린터·공구, 소프트웨어/IDE, AI/수학 이론 도식, 개발 로고 엠블럼 등 5대 카테고리 108종의 공식 에셋 데이터셋"
 permalink: /character/parts/
 ---
 
@@ -87,16 +87,16 @@ permalink: /character/parts/
       <span>Laboratory Parts & Assets Dataset</span>
     </div>
     <h1 class="parts-hero-title mb-3">
-      공학 모험 연구실 파츠 & 배경 에셋 (93컷)
+      공학 모험 연구실 파츠 & 배경 에셋 (108컷)
     </h1>
     <p class="parts-hero-subtitle">
-      캐릭터뿐만 아니라, 캐릭터가 머무는 <strong>연구실 환경, CPU·RAM·SSD·메인보드 등 반도체 부품, 3D 프린터, TV, 헤드셋, 충전기, 정밀공구, 웨어러블 디바이스, IDE/코드 비주얼, 시그모이드·ReLU 및 AI/수학 기호, 개발 기술 로고</strong>까지 완벽한 세계관 일관성을 유지할 수 있도록 정교하게 조형된 <strong>93컷의 공식 보조 데이터셋</strong>입니다.
+      캐릭터뿐만 아니라, 캐릭터가 머무는 <strong>연구실 환경, 아두이노(우노·나노·메가) 및 16종 센서·액추에이터 실습 키트, CPU·RAM·SSD·메인보드 등 반도체 부품, 3D 프린터, TV, 헤드셋, 충전기, 정밀공구, 웨어러블 디바이스, IDE/코드 비주얼, 시그모이드·ReLU 및 AI/수학 기호, 개발 기술 로고</strong>까지 완벽한 세계관 일관성을 유지할 수 있도록 정교하게 조형된 <strong>108컷의 공식 보조 데이터셋</strong>입니다.
     </p>
 
     <!-- 빠른 카테고리 이동 앵커 바 -->
     <div class="d-flex flex-wrap justify-content-center gap-2 pt-2">
       <a href="#environments" class="category-anchor-pill shadow-sm">🏛️ 연구실 & 캠퍼스 환경 (6컷)</a>
-      <a href="#hardware" class="category-anchor-pill shadow-sm">⚡ 컴퓨팅·반도체 & 하드웨어 (43컷)</a>
+      <a href="#hardware" class="category-anchor-pill shadow-sm">⚡ 컴퓨팅·반도체 & 하드웨어 (58컷)</a>
       <a href="#software" class="category-anchor-pill shadow-sm">💻 소프트웨어 & IDE 코드 (6컷)</a>
       <a href="#ai_theory" class="category-anchor-pill shadow-sm">🧠 AI & 수학 이론 도식 (14컷)</a>
       <a href="#logos" class="category-anchor-pill shadow-sm">🛡️ 기술 로고 & 엠블럼 (24컷)</a>
