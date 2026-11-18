@@ -40,12 +40,12 @@ categories:
       background, paved pathway, sunny day, wildflowers, blue sky, outdoor t...
 - id: hardware
   folder: 02_hardware
-  name: 피지컬 컴퓨팅 & 하드웨어
-  en_name: Physical Computing & Embedded Hardware
+  name: 컴퓨팅 디바이스 & 하드웨어
+  en_name: Computing Devices & Embedded Hardware
   icon: 🔌
   badge: bg-warning text-dark
-  desc: 아두이노 우노, 라즈베리 파이 4, 브레드보드, 센서 및 액추에이터 등 피지컬 AI 실습 핵심 부품
-  count: 8
+  desc: 노트북, 맥북, 모니터, 데스크탑 PC, 맥스튜디오, 스마트폰, GPU 및 임베디드 아두이노/라즈베리파이 등 실습 장비
+  count: 17
   images:
   - filename: hw_01_arduino_uno.jpg
     url: /assets/dataset/parts/02_hardware/hw_01_arduino_uno.jpg
@@ -87,6 +87,69 @@ categories:
     title: 자율주행 RC카 섀시 (Smart Car Chassis)
     caption: still life, 2-wheel robot car chassis, transparent clear acrylic plate,
       two wheels, caster ball wheel, battery compartment, miniature autono...
+  - filename: hw_09_laptop.jpg
+    url: /assets/dataset/parts/02_hardware/hw_09_laptop.jpg
+    title: 모던 엔지니어링 노트북 (Engineering Laptop)
+    caption: still life, modern engineering laptop, open screen displaying terminal
+      CLI with green code lines, dark charcoal casing, glowing backlit keyboard, trackpad,
+      ports, clean espresso line art, soft 2d cel shading, studio ghibli anime aesthetic,
+      isolated on pure white background.
+  - filename: hw_10_macbook.jpg
+    url: /assets/dataset/parts/02_hardware/hw_10_macbook.jpg
+    title: 알루미늄 맥북 프로 (Apple MacBook)
+    caption: still life, apple macbook laptop, unibody aluminum design, thin black
+      bezels, code editor on screen, black chiclet keyboard, force-touch trackpad,
+      magsafe thunderbolt ports, clean espresso line art, soft 2d cel shading, studio
+      ghibli anime aesthetic, isolated on pure white background.
+  - filename: hw_11_monitor.jpg
+    url: /assets/dataset/parts/02_hardware/hw_11_monitor.jpg
+    title: 초슬림 데스크탑 모니터 (Desktop Monitor)
+    caption: still life, ultra-slim borderless desktop monitor, metallic ergonomic
+      stand, vibrant code editor and system metrics on display, power indicator led,
+      clean espresso line art, soft 2d cel shading, studio ghibli anime aesthetic,
+      isolated on pure white background.
+  - filename: hw_12_desktop_pc.jpg
+    url: /assets/dataset/parts/02_hardware/hw_12_desktop_pc.jpg
+    title: 고성능 데스크탑 타워 PC (Desktop Tower PC)
+    caption: still life, high-performance desktop pc tower, tinted tempered glass
+      side panel, glowing internal rgb motherboard, ram modules, liquid cpu cooling
+      tubes, front power button, top usb ports, clean espresso line art, soft 2d cel
+      shading, studio ghibli anime aesthetic, isolated on pure white background.
+  - filename: hw_13_mac_studio.jpg
+    url: /assets/dataset/parts/02_hardware/hw_13_mac_studio.jpg
+    title: 컴팩트 맥 스튜디오 (Apple Mac Studio)
+    caption: still life, apple mac studio desktop, compact extruded aluminum cubic
+      casing, rounded corners, dual front usb-c thunderbolt ports, sdxc card slot,
+      circular air intake base, clean espresso line art, soft 2d cel shading, studio
+      ghibli anime aesthetic, isolated on pure white background.
+  - filename: hw_14_iphone.jpg
+    url: /assets/dataset/parts/02_hardware/hw_14_iphone.jpg
+    title: 플래그십 아이폰 스마트폰 (Apple iPhone)
+    caption: still life, apple iphone smartphone, sleek titanium edges, edge-to-edge
+      oled screen with dynamic island pill cutout, distinctive rear triple camera
+      array with glass circular lenses, clean espresso line art, soft 2d cel shading,
+      studio ghibli anime aesthetic, isolated on pure white background.
+  - filename: hw_15_galaxy_phone.jpg
+    url: /assets/dataset/parts/02_hardware/hw_15_galaxy_phone.jpg
+    title: 플래그십 갤럭시 스마트폰 (Galaxy Smartphone)
+    caption: still life, samsung galaxy android smartphone, ultra-thin bezels, tiny
+      punch-hole selfie camera, android widgets and code notes, floating vertical
+      triple camera lenses, clean espresso line art, soft 2d cel shading, studio ghibli
+      anime aesthetic, isolated on pure white background.
+  - filename: hw_16_gpu_graphics_card.jpg
+    url: /assets/dataset/parts/02_hardware/hw_16_gpu_graphics_card.jpg
+    title: 고성능 3팬 그래픽카드 (GPU Graphics Card)
+    caption: still life, graphics processing unit gpu, high-performance graphics card,
+      triple cooling fans, copper heatpipes, pcie golden connector pins, metal backplate,
+      hdmi displayport bracket, clean espresso line art, soft 2d cel shading, studio
+      ghibli anime aesthetic, isolated on pure white background.
+  - filename: hw_17_usb_hub_ports.jpg
+    url: /assets/dataset/parts/02_hardware/hw_17_usb_hub_ports.jpg
+    title: 멀티포트 USB-C 허브 & 포트 (USB Hub & Ports)
+    caption: still life, multi-port usb-c hub and adapter, aluminum bar body, braided
+      cable, blue usb 3.0 type-a ports, usb-c pd port, sd card slot, hdmi output,
+      plugged flash drive, clean espresso line art, soft 2d cel shading, studio ghibli
+      anime aesthetic, isolated on pure white background.
 - id: software
   folder: 03_software
   name: 소프트웨어 & 시스템 아키텍처
