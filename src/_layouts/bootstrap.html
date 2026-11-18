@@ -293,10 +293,12 @@
             {% endif %}
             <li class="nav-item">
               <a class="nav-link py-2 px-0 px-lg-2 {% if is_active %}active{% endif %}"
-                href="{{ item.url }}" {% if item.external %}target="_blank" rel="noopener"{% endif %}>
+                href="{{ item.url }}" {% if item.target or item.external %}target="{{ item.target | default: '_blank' }}" rel="noopener"{% endif %}>
                 {{ item.title }}
-                {% if item.external %}
+                {% if item.portal %}
                   <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-1 py-0 ms-1" style="font-size: 0.65rem;">포털</span>
+                {% elsif item.badge %}
+                  <span class="badge rounded-pill bg-primary-subtle text-primary border border-primary-subtle px-1 py-0 ms-1" style="font-size: 0.65rem;">{{ item.badge }}</span>
                 {% endif %}
               </a>
             </li>
