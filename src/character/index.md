@@ -152,8 +152,8 @@ permalink: /character/
 
     <!-- 부가 정보 배지 -->
     <div class="d-flex flex-wrap justify-content-center gap-2">
-      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🌟 총 5개 핵심 캐릭터</span>
-      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🖼️ 총 142컷 고해상도 LoRA 데이터셋</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🌟 총 5개 핵심 캐릭터 (142컷)</span>
+      <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">🧩 총 5대 파츠 & 환경 에셋 (36컷)</span>
       <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 fw-medium">📐 조형 비례 & 컬러 팔레트 완비</span>
     </div>
   </div>
@@ -200,10 +200,10 @@ permalink: /character/
       </button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="tab-btn-all" data-bs-toggle="pill" data-bs-target="#tab-all" type="button" role="tab" aria-controls="tab-all" aria-selected="false">
-        <span>🌐</span>
-        <span>전체 한눈에 보기</span>
-        <span class="char-tab-badge">142컷</span>
+      <button class="nav-link" id="tab-btn-parts" data-bs-toggle="pill" data-bs-target="#tab-parts" type="button" role="tab" aria-controls="tab-parts" aria-selected="false">
+        <span>🧩</span>
+        <span>파츠 & 배경 에셋</span>
+        <span class="char-tab-badge">36컷</span>
       </button>
     </li>
   </ul>
@@ -387,33 +387,73 @@ permalink: /character/
     </div>
     {% endfor %}
 
-    <!-- 6번째 탭: 전체 캐릭터 한눈에 보기 -->
-    <div class="tab-pane fade" id="tab-all" role="tabpanel" aria-labelledby="tab-btn-all">
-      {% for char in site.data.characters.characters %}
-      <div class="char-profile-banner mb-5" style="border-top: 5px solid {{ char.theme_color }};">
-        <div class="p-4 bg-light border-bottom d-flex flex-wrap align-items-center justify-content-between">
+    <!-- 6번째 탭: 파츠 & 배경 에셋 데이터셋 (assets/dataset/parts) -->
+    <div class="tab-pane fade" id="tab-parts" role="tabpanel" aria-labelledby="tab-btn-parts">
+      <!-- 상단 인트로 헤더 -->
+      <div class="char-profile-banner p-4 p-md-5 mb-5" style="border-top: 6px solid #6366f1;">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+          <div>
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge rounded-pill bg-indigo text-white px-3 py-1 fw-bold" style="background-color: #6366f1;">Concept & Parts Dataset</span>
+              <span class="badge rounded-pill bg-light text-dark border px-2 py-1 small">
+                총 5개 카테고리 · 36컷 완비
+              </span>
+            </div>
+            <h2 class="display-6 fw-bold text-dark mb-2" style="letter-spacing: -0.02em;">
+              🧩 연구실 환경 · 하드웨어 · 소프트웨어 · AI 이론 · 로고 에셋
+            </h2>
+            <p class="text-secondary mb-0 leading-relaxed" style="max-width: 780px;">
+              연구실의 주 무대가 되는 숲속 캠퍼스 배경부터 피지컬 아두이노/라즈베리파이 부품, 소프트웨어 시스템 아키텍처, 딥러닝 이론 다이어그램, 지브리 감성 테크 로고 엠블럼까지 세밀하게 구축된 공식 비주얼 에셋 모음입니다.
+            </p>
+          </div>
+          <!-- 카테고리 퀵 점프 링크 -->
+          <div class="d-flex flex-wrap gap-2">
+            {% for cat in site.data.dataset_parts.categories %}
+            <a href="#part-{{ cat.id }}" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium">
+              <span>{{ cat.icon }}</span>
+              <span>{{ cat.name }} ({{ cat.count }})</span>
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- 5개 파츠 카테고리별 섹션 -->
+      {% for cat in site.data.dataset_parts.categories %}
+      <div class="char-profile-banner mb-5" id="part-{{ cat.id }}">
+        <!-- 카테고리 헤더 -->
+        <div class="p-4 bg-light border-bottom d-flex flex-wrap align-items-center justify-content-between gap-2">
           <div class="d-flex align-items-center gap-3">
-            <img src="{{ char.avatar | relative_url }}" alt="{{ char.name }}" class="rounded-circle border" width="48" height="48" style="object-fit: cover;">
+            <span class="fs-2">{{ cat.icon }}</span>
             <div>
-              <h3 class="fs-5 fw-bold text-dark mb-0">{{ char.name }}</h3>
-              <span class="text-muted small">{{ char.role }} · {{ char.image_count }}컷</span>
+              <div class="d-flex align-items-center gap-2">
+                <h3 class="fs-5 fw-bold text-dark mb-0">{{ cat.name }}</h3>
+                <span class="badge rounded-pill {{ cat.badge }} small">{{ cat.en_name }}</span>
+              </div>
+              <p class="text-secondary small mb-0 mt-1">{{ cat.desc }}</p>
             </div>
           </div>
-          <a href="{{ char.profile_url }}" class="btn btn-outline-dark btn-sm rounded-pill fw-medium px-3 mt-2 mt-sm-0">
-            상세 페이지 ➔
-          </a>
+          <span class="badge rounded-pill bg-white text-secondary border px-3 py-2 small shadow-sm">
+            총 {{ cat.count }}장
+          </span>
         </div>
-        <div class="p-4">
+
+        <!-- 썸네일 그리드 -->
+        <div class="p-4 p-md-5">
           <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
-            {% for img in char.images %}
+            {% for img in cat.images %}
             <div class="col">
-              <a href="{{ img.url | relative_url }}" target="_blank" rel="noopener" class="text-decoration-none">
+              <a href="{{ img.url | relative_url }}" target="_blank" rel="noopener" class="text-decoration-none text-dark">
                 <div class="card h-100 dataset-thumbnail-card shadow-sm rounded-3 overflow-hidden">
                   <div class="dataset-img-wrap">
-                    <img src="{{ img.url | relative_url }}" alt="{{ char.name }}" loading="lazy">
+                    <img src="{{ img.url | relative_url }}"
+                         alt="{{ img.title }}"
+                         loading="lazy">
                   </div>
                   <div class="p-2 text-center bg-white">
-                    <div class="text-truncate small text-muted" style="font-size: 0.75rem;">{{ img.title }}</div>
+                    <div class="text-truncate fw-semibold text-secondary" style="font-size: 0.78rem;" title="{{ img.title }}">
+                      {{ img.title }}
+                    </div>
                   </div>
                 </div>
               </a>

@@ -1,0 +1,226 @@
+categories:
+- id: environments
+  folder: 01_environments
+  name: 연구실 & 캠퍼스 환경
+  en_name: Laboratory & Campus Environments
+  icon: 🏛️
+  badge: bg-success
+  desc: 강의동, 메이커 워크숍, 팹랩, AI GPU 서버실 등 공학 모험의 주 무대가 되는 지브리풍 연구실 배경 원화
+  count: 6
+  images:
+  - filename: env_01_lecture_hall.jpg
+    url: /assets/dataset/parts/01_environments/env_01_lecture_hall.jpg
+    title: 대형 강의동 홀 (Lecture Hall)
+    caption: scenery, lecture hall, classroom, university amphitheater, tiered seating,
+      green chalkboard, smart projector screen, wooden desks, warm ambi...
+  - filename: env_02_maker_workshop.jpg
+    url: /assets/dataset/parts/01_environments/env_02_maker_workshop.jpg
+    title: 메이커 로봇 워크숍 (Maker Workshop)
+    caption: scenery, maker workshop, robotics laboratory, wooden workbench, tool
+      pegboard, parts drawers, soldering station, breadboard, oscilloscope, a...
+  - filename: env_03_coding_workstation.jpg
+    url: /assets/dataset/parts/01_environments/env_03_coding_workstation.jpg
+    title: 개발자 코딩 워크스테이션 (Coding Workstation)
+    caption: scenery, developer workstation, dual monitors, mechanical keyboard, dark
+      mode code editor, python code, coffee mug, open engineering books, ...
+  - filename: env_04_fablab_3d_printing.jpg
+    url: /assets/dataset/parts/01_environments/env_04_fablab_3d_printing.jpg
+    title: 팹랩 3D 프린팅 스튜디오 (FabLab)
+    caption: scenery, fablab, 3d printing room, prusa 3d printer, filament spools,
+      workbench, wooden robot models, acrylic gears, exhaust duct, maker wor...
+  - filename: env_05_ai_server_room.jpg
+    url: /assets/dataset/parts/01_environments/env_05_ai_server_room.jpg
+    title: AI GPU 랙 서버룸 (Server Room)
+    caption: scenery, edge ai server room, server rack, raspberry pi cluster, blinking
+      leds, blue ethernet cables, network switch, organized cables, clea...
+  - filename: env_06_campus_testing_ground.jpg
+    url: /assets/dataset/parts/01_environments/env_06_campus_testing_ground.jpg
+    title: 캠퍼스 자율주행 테스트 필드 (Testing Ground)
+    caption: scenery, university campus, green lawn, grassy meadow, brick building
+      background, paved pathway, sunny day, wildflowers, blue sky, outdoor t...
+- id: hardware
+  folder: 02_hardware
+  name: 피지컬 컴퓨팅 & 하드웨어
+  en_name: Physical Computing & Embedded Hardware
+  icon: 🔌
+  badge: bg-warning text-dark
+  desc: 아두이노 우노, 라즈베리 파이 4, 브레드보드, 센서 및 액추에이터 등 피지컬 AI 실습 핵심 부품
+  count: 8
+  images:
+  - filename: hw_01_arduino_uno.jpg
+    url: /assets/dataset/parts/02_hardware/hw_01_arduino_uno.jpg
+    title: 아두이노 우노 R3 (Arduino Uno)
+    caption: still life, arduino uno, microcontroller board, cyan blue pcb, atmega328p
+      chip, usb port, pin headers, crystal oscillator, electronic compon...
+  - filename: hw_02_raspberry_pi_4.jpg
+    url: /assets/dataset/parts/02_hardware/hw_02_raspberry_pi_4.jpg
+    title: 라즈베리 파이 4 (Raspberry Pi 4)
+    caption: still life, raspberry pi 4, single board computer, green pcb, cpu heatsink,
+      micro hdmi ports, usb 3.0 ports, ethernet port, 40-pin gpio head...
+  - filename: hw_03_breadboard_circuit.jpg
+    url: /assets/dataset/parts/02_hardware/hw_03_breadboard_circuit.jpg
+    title: 브레드보드 회로 배선 (Breadboard)
+    caption: still life, white solderless breadboard, colorful jumper wires, rainbow
+      wires, red led, green led, resistors, electronic circuit, prototypin...
+  - filename: hw_04_ultrasonic_sensor.jpg
+    url: /assets/dataset/parts/02_hardware/hw_04_ultrasonic_sensor.jpg
+    title: 초음파 거리 센서 (HC-SR04)
+    caption: still life, hc-sr04 ultrasonic distance sensor, two round transducer
+      eyes, blue pcb, 4-pin header, robotic sensor module, isolated, simple w...
+  - filename: hw_05_dht11_temp_sensor.jpg
+    url: /assets/dataset/parts/02_hardware/hw_05_dht11_temp_sensor.jpg
+    title: DHT11 온습도 센서 (DHT11)
+    caption: still life, dht11 sensor module, temperature and humidity sensor, blue
+      plastic housing with air grid vents, 3-pin interface, electronic modu...
+  - filename: hw_06_servo_motor_sg90.jpg
+    url: /assets/dataset/parts/02_hardware/hw_06_servo_motor_sg90.jpg
+    title: SG90 마이크로 서보모터 (Servo Motor)
+    caption: still life, sg90 micro servo motor, translucent blue casing, white horn
+      arm, three-color ribbon cable, miniature actuator, robotics part, is...
+  - filename: hw_07_dc_gear_motor_wheel.jpg
+    url: /assets/dataset/parts/02_hardware/hw_07_dc_gear_motor_wheel.jpg
+    title: DC 기어드 모터 & 휠 (DC Motor & Wheel)
+    caption: still life, yellow tt dc gear motor, rubber tire wheel, black tread,
+      mechanical robotics drive component, isolated, simple white background,...
+  - filename: hw_08_autonomous_car_chassis.jpg
+    url: /assets/dataset/parts/02_hardware/hw_08_autonomous_car_chassis.jpg
+    title: 자율주행 RC카 섀시 (Smart Car Chassis)
+    caption: still life, 2-wheel robot car chassis, transparent clear acrylic plate,
+      two wheels, caster ball wheel, battery compartment, miniature autono...
+- id: software
+  folder: 03_software
+  name: 소프트웨어 & 시스템 아키텍처
+  en_name: Software & System Architecture
+  icon: 💻
+  badge: bg-primary
+  desc: Java 객체지향, 웹 MVC 패턴, DB 스키마, Docker 컨테이너 및 REST API 데이터 파이프라인
+  count: 6
+  images:
+  - filename: sw_01_java_oop_architecture.jpg
+    url: /assets/dataset/parts/03_software/sw_01_java_oop_architecture.jpg
+    title: Java 객체지향 상속 구조 (OOP Architecture)
+    caption: diagram, educational graphic, java object oriented programming, inheritance
+      hierarchy, class diagram, interfaces, encapsulation, polymorphis...
+  - filename: sw_02_php_web_mvc.jpg
+    url: /assets/dataset/parts/03_software/sw_02_php_web_mvc.jpg
+    title: PHP 웹 애플리케이션 MVC (Web MVC Flow)
+    caption: diagram, educational graphic, php web server architecture, request response
+      cycle, mvc model view controller flow, cute purple elephant elep...
+  - filename: sw_03_database_erd_schema.jpg
+    url: /assets/dataset/parts/03_software/sw_03_database_erd_schema.jpg
+    title: 관계형 데이터베이스 ERD (Database ERD)
+    caption: diagram, educational graphic, database erd schema, entity relationship
+      diagram, relational tables, mysql and postgresql, primary keys, forei...
+  - filename: sw_04_docker_containerization.jpg
+    url: /assets/dataset/parts/03_software/sw_04_docker_containerization.jpg
+    title: 도커 컨테이너 가상화 (Docker Containers)
+    caption: diagram, educational graphic, docker containerization architecture, friendly
+      blue docker whale moby dock carrying containers, virtual machin...
+  - filename: sw_05_web_telemetry_dashboard.jpg
+    url: /assets/dataset/parts/03_software/sw_05_web_telemetry_dashboard.jpg
+    title: 웹 텔레메트리 대시보드 (Telemetry Dashboard)
+    caption: diagram, graphic interface, modern web telemetry dashboard, javascript
+      charts, live line graphs, speedometer dials, sensor gauges, dark mode...
+  - filename: sw_06_rest_api_json_flow.jpg
+    url: /assets/dataset/parts/03_software/sw_06_rest_api_json_flow.jpg
+    title: REST API & JSON 데이터 흐름 (REST API Flow)
+    caption: diagram, educational graphic, rest api client server flow, http get post
+      requests, json data payloads with curly brackets, api endpoints, cl...
+- id: ai_theory
+  folder: 04_ai_theory
+  name: 인공지능 & 딥러닝 이론 다이어그램
+  en_name: AI & Deep Learning Theory Visualizations
+  icon: 🧠
+  badge: bg-danger
+  desc: 다층 퍼셉트론(MLP), CNN 합성곱 신경망, 강화학습 벨만 방정식 및 연합학습 구조도
+  count: 6
+  images:
+  - filename: ai_01_neural_network_mlp.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_01_neural_network_mlp.jpg
+    title: 다층 퍼셉트론 신경망 (MLP Architecture)
+    caption: diagram, educational graphic, multilayer perceptron neural network, input
+      layer, hidden layers, output layer, interconnected circular nodes,...
+  - filename: ai_02_cnn_feature_extraction.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_02_cnn_feature_extraction.jpg
+    title: CNN 특징 추출 합성곱망 (CNN Feature Map)
+    caption: diagram, educational graphic, convolutional neural network, cnn architecture,
+      convolution filter kernels, pooling layers, feature maps, imag...
+  - filename: ai_03_reinforcement_learning_mdp.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_03_reinforcement_learning_mdp.jpg
+    title: 강화학습 마르코프 결정과정 (MDP Process)
+    caption: diagram, educational graphic, reinforcement learning, markov decision
+      process, mdp cycle, agent and environment feedback loop, state action ...
+  - filename: ai_04_bellman_equation_chalk.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_04_bellman_equation_chalk.jpg
+    title: 칠판 필기 벨만 최적방정식 (Bellman Equation)
+    caption: diagram, chalkboard close up, green blackboard, bellman optimality equation,
+      reinforcement learning value function, q-learning formula, neat...
+  - filename: ai_05_federated_learning_arch.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_05_federated_learning_arch.jpg
+    title: 분산 연합학습 아키텍처 (Federated Learning)
+    caption: diagram, educational graphic, federated learning architecture, central
+      aggregation server, distributed edge client nodes, raspberry pi icons...
+  - filename: ai_06_training_loss_metrics.jpg
+    url: /assets/dataset/parts/04_ai_theory/ai_06_training_loss_metrics.jpg
+    title: 신경망 손실 함수 수렴 곡선 (Loss Curve)
+    caption: diagram, educational graphic, machine learning training metrics graph,
+      epoch horizontal axis, training loss descending curve, validation acc...
+- id: logos
+  folder: 05_logos
+  name: 테크 & 프로그래밍 언어 로고
+  en_name: Tech & Language Mascot Emblems
+  icon: 🎨
+  badge: bg-info text-dark
+  desc: Python, C++, Java, PHP, Rust, Go, Linux, PyTorch, Docker 등의 2D 애니메이션 감성 엠블럼
+  count: 10
+  images:
+  - filename: logo_01_python.jpg
+    url: /assets/dataset/parts/05_logos/logo_01_python.jpg
+    title: 파이썬 (Python Mascot)
+    caption: logo, python programming language logo, cute intertwined blue and yellow
+      snakes, ghibli anime style, clean line art, soft cel shading, pure ...
+  - filename: logo_02_c_cpp.jpg
+    url: /assets/dataset/parts/05_logos/logo_02_c_cpp.jpg
+    title: C / C++ (Brass Gear Emblem)
+    caption: logo, c and c++ programming language emblem, brass gear cogwheel with
+      c++ inscription, glowing blue core, ghibli anime style, clean line art...
+  - filename: logo_03_java.jpg
+    url: /assets/dataset/parts/05_logos/logo_03_java.jpg
+    title: 자바 (Java Coffee Cup)
+    caption: logo, java programming language logo, ceramic coffee mug, aromatic steam
+      forming java coffee cup emblem, roasted coffee beans, ghibli anime ...
+  - filename: logo_04_php.jpg
+    url: /assets/dataset/parts/05_logos/logo_04_php.jpg
+    title: PHP (Elephant Mascot)
+    caption: logo, php programming language mascot, cute purple elephant elephpant,
+      ghibli anime style, soft cel shading, pure white background
+  - filename: logo_05_js_ts.jpg
+    url: /assets/dataset/parts/05_logos/logo_05_js_ts.jpg
+    title: 자바스크립트 / 타입스크립트 (JS / TS)
+    caption: logo, javascript and typescript enamel pin badges, golden yellow js pin,
+      azure blue ts pin, ghibli anime style, clean line art, pure white b...
+  - filename: logo_06_rust.jpg
+    url: /assets/dataset/parts/05_logos/logo_06_rust.jpg
+    title: 러스트 (Rust Gear & Crab)
+    caption: logo, rust programming language mascot, cute orange crab ferris wearing
+      aviator goggles holding gear cog with r letter, ghibli anime style, ...
+  - filename: logo_07_linux.jpg
+    url: /assets/dataset/parts/05_logos/logo_07_linux.jpg
+    title: logo 07 linux
+    caption: logo, linux tux penguin mascot holding brass wrench, cute scarf, ghibli
+      anime style, soft cel shading, pure white background
+  - filename: logo_08_arduino.jpg
+    url: /assets/dataset/parts/05_logos/logo_08_arduino.jpg
+    title: logo 08 arduino
+    caption: logo, arduino hardware platform logo, teal infinity circuit board with
+      glowing led, plus minus signs, ghibli anime style, clean line art, pu...
+  - filename: logo_09_pytorch.jpg
+    url: /assets/dataset/parts/05_logos/logo_09_pytorch.jpg
+    title: 파이토치 (PyTorch Flame)
+    caption: logo, pytorch deep learning framework logo, warm glowing calcifer style
+      flame emblem with node, ghibli anime style, warm cel shading, pure w...
+  - filename: logo_10_docker.jpg
+    url: /assets/dataset/parts/05_logos/logo_10_docker.jpg
+    title: 도커 (Docker Whale)
+    caption: ''
+total_count: 36
