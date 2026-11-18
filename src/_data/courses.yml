@@ -156,8 +156,8 @@ categories:
         url: "https://git.jiny.dev"
         badge: "개발자 필수"
         badge_color: "secondary"
-        icon: "🌿"
-        logo: "/assets/img/logos/logo_12_git.jpg"
+        icon: "🐙"
+        logo: "/assets/img/logos/logo_15_octocat.jpg"
         summary: "Git의 내부 저장소 원리, 브랜치 병합 충돌 해결, GitHub Actions를 통한 CI/CD 자동화까지 안전하고 효율적인 협업 체계를 구축합니다."
         tags: ["Git", "GitHub", "Branch 전략", "CI/CD"]
         mentor: "도로시 & 토토"

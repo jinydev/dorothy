@@ -171,9 +171,9 @@ categories:
   en_name: Tech & Language Mascot Emblems
   icon: 🎨
   badge: bg-info text-dark
-  desc: Python, C++, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL 등의 지브리
-    2D 애니메이션 감성 마스코트
-  count: 14
+  desc: Python, C++, Java, PHP, Rust, Go, Linux, PyTorch, Docker, Git, MySQL, GitHub
+    Octocat 등의 지브리 2D 애니메이션 감성 마스코트
+  count: 15
   images:
   - filename: logo_01_python.jpg
     url: /assets/dataset/parts/05_logos/logo_01_python.jpg
@@ -230,7 +230,7 @@ categories:
     caption: Reinforcement learning agent mascot navigating an intelligent maze.
   - filename: logo_12_git.jpg
     url: /assets/dataset/parts/05_logos/logo_12_git.jpg
-    title: 깃 & 깃허브 (Git Branching)
+    title: 깃 & 브랜칭 (Git Branching)
     caption: Git version control branching mascot with glowing commit nodes.
   - filename: logo_13_postgresql.jpg
     url: /assets/dataset/parts/05_logos/logo_13_postgresql.jpg
@@ -241,4 +241,9 @@ categories:
     title: MySQL 사킬라 돌고래 (MySQL Dolphin)
     caption: A charming Studio Ghibli 2D anime-style MySQL Sakila dolphin mascot leaping
       gracefully above gentle stylized splash ripples on a pure white ...
-total_count: 40
+  - filename: logo_15_octocat.jpg
+    url: /assets/dataset/parts/05_logos/logo_15_octocat.jpg
+    title: 깃 & 깃허브 옥토캣 (GitHub Octocat Mona)
+    caption: A charming Studio Ghibli 2D anime-style GitHub Octocat mascot with cheerful
+      cat ears and five curling octopus tentacles on a pure white back...
+total_count: 41
