@@ -6,18 +6,7 @@ permalink: /character/jiny/
 ---
 
 <div class="container py-4">
-  <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2 border-bottom pb-3">
-    <a href="/character/#tab-jiny" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium px-3">
-      ← 캐릭터 포털로 돌아가기
-    </a>
-    <div class="d-flex flex-wrap gap-1">
-      <a href="/character/hojin/" class="btn btn-sm rounded-pill btn-light border">👨‍🏫 교수님</a>
-      <a href="/character/dorothy/" class="btn btn-sm rounded-pill btn-light border">👧 도로시</a>
-      <a href="/character/jiny/" class="btn btn-sm rounded-pill btn-dark">🐱 지니</a>
-      <a href="/character/toto/" class="btn btn-sm rounded-pill btn-light border">🐶 토토</a>
-      <a href="/character/tinny/" class="btn btn-sm rounded-pill btn-light border">🤖 티니</a>
-    </div>
-  </div>
+  {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%); border-left: 6px solid #4f46e5;">
@@ -137,58 +126,6 @@ permalink: /character/jiny/
   </div>
   {% endfor %}
 </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/jiny/jiny_02.jpg' | relative_url }}" alt="지니 02" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">jiny_02: 키보드 위 타이핑 씬</h6>
-        <p class="small text-muted mb-0"><code>cat typing on laptop keyboard, coding</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/jiny/jiny_03.jpg' | relative_url }}" alt="지니 03" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">jiny_03: 스마트 테크 고글 착용</h6>
-        <p class="small text-muted mb-0"><code>wearing high-tech smart wire glasses</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/jiny/jiny_05.jpg' | relative_url }}" alt="지니 05" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">jiny_05: 회로 기판을 짚는 젤리 솜방망이</h6>
-        <p class="small text-muted mb-0"><code>paw pointing at circuit chip, smart coach</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/jiny/jiny_08.jpg' | relative_url }}" alt="지니 08" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">jiny_08: 도로시 어깨 위의 지니</h6>
-        <p class="small text-muted mb-0"><code>sitting on Dorothy shoulder, coaching</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/img/jiny_character_sheet.jpg' | relative_url }}" alt="지니 시트" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">jiny_character_sheet</h6>
-        <p class="small text-muted mb-0"><code>턴어라운드 및 다각도 표정 마스터 시트</code></p>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -197,4 +134,21 @@ permalink: /character/jiny/
 ```text
 Jiny the tuxedo cat, an elegant black tuxedo Korean shorthair cat, sleek glossy black coat on back, pure white chest, belly, and four white sock paws, intelligent green-gold eyes, soft pink nose. Wearing a tiny starry dark purple wizard cape with a golden bell collar. Sitting smartly, clean dark brown line art (#26211E), soft 2D flat cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+
+
+---
+
+<!-- 하단 캐릭터 간 이동 네비게이션 페이저 -->
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3 pt-4 border-top my-4">
+  <a href="/character/dorothy/" class="btn btn-outline-secondary rounded-pill px-4">
+    ← 이전: 도로시
+  </a>
+  <a href="/character/" class="btn btn-dark rounded-pill px-4">
+    📋 전체 캐릭터 목록
+  </a>
+  <a href="/character/toto/" class="btn btn-primary rounded-pill px-4">
+    다음: 토토 →
+  </a>
+</div>
+
 </div>

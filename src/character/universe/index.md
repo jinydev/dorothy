@@ -1,9 +1,12 @@
 ---
-layout: docs
+layout: home
 title: "공학 모험 세계관 & 교육 철학"
 description: "jiny.dev 세계관 배경 스토리, 인물 관계도 및 원리 우선주의 STEM 교육 철학"
 permalink: /character/universe/
 ---
+
+<div class="container py-4">
+  {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-left: 6px solid #2563eb;">
@@ -75,3 +78,13 @@ graph TD
 3. **소프트웨어와 하드웨어의 완전한 융합:**
    - 파이썬/C++ 기초 코딩이 아두이노와 센서로 이어지고, 이것이 라즈베리파이와 리눅스, 그리고 클라우드 도커와 인공지능 로보틱스로 끊김 없이 확장되도록 전 커리큘럼을 설계했습니다.
 
+<div class="d-flex justify-content-center gap-3 my-5">
+  <a href="{{ '/character/' | relative_url }}" class="btn btn-outline-dark rounded-pill px-4">
+    📋 캐릭터 포털 전체보기
+  </a>
+  <a href="{{ '/character/guide/' | relative_url }}" class="btn btn-primary rounded-pill px-4">
+    📐 제작 가이드 확인하기
+  </a>
+</div>
+
+</div>

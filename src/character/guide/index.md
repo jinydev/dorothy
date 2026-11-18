@@ -1,9 +1,12 @@
 ---
-layout: docs
+layout: home
 title: "캐릭터 제작 & AI 데이터셋 가이드"
 description: "139MB 공식 데이터셋 구성, Multi-Concept LoRA 훈련 규칙 및 AI 프롬프트 가이드"
 permalink: /character/guide/
 ---
+
+<div class="container py-4">
+  {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); border-left: 6px solid #a855f7;">
@@ -40,11 +43,12 @@ src/assets/dataset/
 ├── jiny/          # 🐱 지니 고양이 27장 (jiny_01.jpg + .txt ~ jiny_27.jpg)
 ├── toto/          # 🐶 토토 강아지 23장 (toto_01.jpg + .txt ~ toto_23.jpg)
 ├── robot/         # 🤖 티니 로봇 23장 (robot_01.jpg + .txt ~ robot_23.jpg)
-└── parts/         # 🔌 강의 환경/하드웨어 부품/소프트웨어 이론 그래픽 26종
-    ├── 01_environments/   # 강의실, 메이커 워크숍, 서버실 배경
-    ├── 02_hardware/       # 아두이노 우노, 라즈베리파이, 빵판, 센서, 모터
-    ├── 03_software/       # 자바 OOP, PHP MVC, DB 스키마, 도커 다이어그램
-    └── 05_logos/          # 파이썬, C++, 리눅스, 아두이노, 도커 로고
+└── parts/         # 🔌 강의 환경/하드웨어 부품/소프트웨어 이론 그래픽 50종
+    ├── 01_environments/   # 강의실, 메이커 워크숍, 서버실 배경 (6컷)
+    ├── 02_hardware/       # 아두이노, 라즈베리파이, 빵판, 센서, 모터 (11컷)
+    ├── 03_software/       # 자바 OOP, PHP MVC, DB 스키마, 도커 다이어그램 (9컷)
+    ├── 04_ai_theory/      # 신경망 역전파, CNN/RNN, 강화학습, 행렬 연산 (10컷)
+    └── 05_logos/          # 파이썬, C/C++, GCC, 안드로이드, 스위프트, 라즈베리파이 로고 (14컷)
 ```
 
 ---
@@ -70,3 +74,13 @@ src/assets/dataset/
 | **Learning Rate** | UNet: `1e-4`, Text Encoder: `5e-5` | 과적합 없이 지브리 2D 스타일과 캐릭터 특징 동시 학습 |
 | **Resolution** | `1024 × 1024` (Bucket Size: 512~1536) | 전신 및 흉상 컷의 고해상도 라인아트 디테일 보존 |
 
+<div class="d-flex justify-content-center gap-3 my-5">
+  <a href="{{ '/character/' | relative_url }}" class="btn btn-outline-dark rounded-pill px-4">
+    📋 캐릭터 포털 전체보기
+  </a>
+  <a href="{{ '/character/parts/' | relative_url }}" class="btn btn-primary rounded-pill px-4">
+    🧩 파츠 & 에셋 50컷 확인하기
+  </a>
+</div>
+
+</div>

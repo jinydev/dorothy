@@ -6,18 +6,7 @@ permalink: /character/dorothy/
 ---
 
 <div class="container py-4">
-  <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2 border-bottom pb-3">
-    <a href="/character/#tab-dorothy" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium px-3">
-      ← 캐릭터 포털로 돌아가기
-    </a>
-    <div class="d-flex flex-wrap gap-1">
-      <a href="/character/hojin/" class="btn btn-sm rounded-pill btn-light border">👨‍🏫 교수님</a>
-      <a href="/character/dorothy/" class="btn btn-sm rounded-pill btn-dark">👧 도로시</a>
-      <a href="/character/jiny/" class="btn btn-sm rounded-pill btn-light border">🐱 지니</a>
-      <a href="/character/toto/" class="btn btn-sm rounded-pill btn-light border">🐶 토토</a>
-      <a href="/character/tinny/" class="btn btn-sm rounded-pill btn-light border">🤖 티니</a>
-    </div>
-  </div>
+  {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-left: 6px solid #d97706;">
@@ -140,58 +129,6 @@ permalink: /character/dorothy/
   </div>
   {% endfor %}
 </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/dorothy/dorothy_02.jpg' | relative_url }}" alt="도로시 02" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_02: 브레드보드 회로 배선</h6>
-        <p class="small text-muted mb-0"><code>wiring breadboard, holding jumper wire</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/dorothy/dorothy_03.jpg' | relative_url }}" alt="도로시 03" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_03: 엄지 척 응원</h6>
-        <p class="small text-muted mb-0"><code>thumbs up, bright cheerful expression</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/dorothy/dorothy_05.jpg' | relative_url }}" alt="도로시 05" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_05: 호기심 가득한 질문</h6>
-        <p class="small text-muted mb-0"><code>curious questioning face, tilted head</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/dorothy/dorothy_08.jpg' | relative_url }}" alt="도로시 08" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_08: 노트북 코딩 실습</h6>
-        <p class="small text-muted mb-0"><code>coding on laptop, concentrated smile</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/img/dorothy_character_sheet.jpg' | relative_url }}" alt="도로시 시트" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_character_sheet</h6>
-        <p class="small text-muted mb-0"><code>턴어라운드 및 다각도 표정 마스터 시트</code></p>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -200,4 +137,21 @@ permalink: /character/dorothy/
 ```text
 Dorothy, an adorable 9-year-old anime girl, 4.5 heads tall junior proportions, wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute bangs, warm amber-brown eyes, rosy cheeks, cheerful bright smile. Wearing classic medium blue denim overalls with rolled cuffs and a 'STEM HERO' round patch on the chest, orange and yellow horizontal striped t-shirt underneath, white ankle socks, vibrant ruby red canvas sneakers. Clean dark brown line art (#26211E), soft warm 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+
+
+---
+
+<!-- 하단 캐릭터 간 이동 네비게이션 페이저 -->
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3 pt-4 border-top my-4">
+  <a href="/character/hojin/" class="btn btn-outline-secondary rounded-pill px-4">
+    ← 이전: 이호진 교수님
+  </a>
+  <a href="/character/" class="btn btn-dark rounded-pill px-4">
+    📋 전체 캐릭터 목록
+  </a>
+  <a href="/character/jiny/" class="btn btn-primary rounded-pill px-4">
+    다음: 지니 →
+  </a>
+</div>
+
 </div>

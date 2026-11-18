@@ -25,7 +25,7 @@
 
 
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="/assets/css/docs.css?v=1795020618" rel="stylesheet" />
+  <link href="/assets/css/docs.css?v=1795020778" rel="stylesheet" />
   <link href="/assets/css/highlight.css" rel="stylesheet" />
 
   <style>
@@ -385,18 +385,104 @@
 
   <div class="w-100 pb-5">
     <div class="container py-4">
-  <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2 border-bottom pb-3">
-    <a href="/character/#tab-dorothy" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium px-3">
-      ← 캐릭터 포털로 돌아가기
+  <nav class="character-subnav-container mb-4" aria-label="Character Sub Navigation">
+  <div class="d-flex flex-wrap align-items-center justify-content-center gap-2 p-2 rounded-4 bg-white border shadow-sm">
+    <a href="/character/" class="char-nav-pill ">
+      <span class="char-nav-icon">📋</span>
+      <span class="char-nav-label">전체 개요</span>
     </a>
-    <div class="d-flex flex-wrap gap-1">
-      <a href="/character/hojin/" class="btn btn-sm rounded-pill btn-light border">👨‍🏫 교수님</a>
-      <a href="/character/dorothy/" class="btn btn-sm rounded-pill btn-dark">👧 도로시</a>
-      <a href="/character/jiny/" class="btn btn-sm rounded-pill btn-light border">🐱 지니</a>
-      <a href="/character/toto/" class="btn btn-sm rounded-pill btn-light border">🐶 토토</a>
-      <a href="/character/tinny/" class="btn btn-sm rounded-pill btn-light border">🤖 티니</a>
-    </div>
+    <a href="/character/hojin/" class="char-nav-pill ">
+      <span class="char-nav-icon">👨‍🏫</span>
+      <span class="char-nav-label">이호진 교수님</span>
+      <span class="char-nav-badge">30컷</span>
+    </a>
+    <a href="/character/dorothy/" class="char-nav-pill active">
+      <span class="char-nav-icon">👧</span>
+      <span class="char-nav-label">도로시</span>
+      <span class="char-nav-badge">42컷</span>
+    </a>
+    <a href="/character/jiny/" class="char-nav-pill ">
+      <span class="char-nav-icon">🐱</span>
+      <span class="char-nav-label">지니</span>
+      <span class="char-nav-badge">26컷</span>
+    </a>
+    <a href="/character/toto/" class="char-nav-pill ">
+      <span class="char-nav-icon">🐶</span>
+      <span class="char-nav-label">토토</span>
+      <span class="char-nav-badge">22컷</span>
+    </a>
+    <a href="/character/tinny/" class="char-nav-pill ">
+      <span class="char-nav-icon">🤖</span>
+      <span class="char-nav-label">티니 로봇</span>
+      <span class="char-nav-badge">22컷</span>
+    </a>
+    <span class="vr mx-1 d-none d-lg-block opacity-25" style="height: 1.5rem;"></span>
+    <a href="/character/parts/" class="char-nav-pill ">
+      <span class="char-nav-icon">🧩</span>
+      <span class="char-nav-label">파츠 &amp; 에셋</span>
+      <span class="char-nav-badge">50컷</span>
+    </a>
+    <a href="/character/guide/" class="char-nav-pill ">
+      <span class="char-nav-icon">📐</span>
+      <span class="char-nav-label">제작 가이드</span>
+    </a>
+    <a href="/character/universe/" class="char-nav-pill ">
+      <span class="char-nav-icon">🌌</span>
+      <span class="char-nav-label">세계관</span>
+    </a>
   </div>
+</nav>
+
+<style>
+.character-subnav-container {
+  margin-top: -1.25rem;
+  margin-bottom: 2.5rem;
+}
+.char-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #475569;
+  text-decoration: none !important;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+.char-nav-pill:hover {
+  background: #f1f5f9;
+  color: #0f172a !important;
+  transform: translateY(-1px);
+}
+.char-nav-pill.active {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+}
+.char-nav-badge {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background: #e2e8f0;
+  color: #475569;
+  font-weight: 700;
+  line-height: 1;
+}
+.char-nav-pill.active .char-nav-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  .char-nav-pill {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+</style>
+
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-left: 6px solid #d97706;">
@@ -1132,66 +1218,32 @@
   </div>
   
 </div>
-  </div>
 
-<div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="/assets/dataset/dorothy/dorothy_02.jpg" alt="도로시 02" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;" />
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_02: 브레드보드 회로 배선</h6>
-        <p class="small text-muted mb-0"><code>wiring breadboard, holding jumper wire</code></p>
-      </div>
-    </div>
-  </div>
+---
 
-<div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="/assets/dataset/dorothy/dorothy_03.jpg" alt="도로시 03" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;" />
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_03: 엄지 척 응원</h6>
-        <p class="small text-muted mb-0"><code>thumbs up, bright cheerful expression</code></p>
-      </div>
-    </div>
-  </div>
+## 💡 5. 표준 AI 생성 프롬프트 블록 (Master Prompt Formula)
 
-<div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="/assets/dataset/dorothy/dorothy_05.jpg" alt="도로시 05" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;" />
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_05: 호기심 가득한 질문</h6>
-        <p class="small text-muted mb-0"><code>curious questioning face, tilted head</code></p>
-      </div>
-    </div>
-  </div>
+```text
+Dorothy, an adorable 9-year-old anime girl, 4.5 heads tall junior proportions, wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute bangs, warm amber-brown eyes, rosy cheeks, cheerful bright smile. Wearing classic medium blue denim overalls with rolled cuffs and a 'STEM HERO' round patch on the chest, orange and yellow horizontal striped t-shirt underneath, white ankle socks, vibrant ruby red canvas sneakers. Clean dark brown line art (#26211E), soft warm 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
+```
 
-<div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="/assets/dataset/dorothy/dorothy_08.jpg" alt="도로시 08" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;" />
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_08: 노트북 코딩 실습</h6>
-        <p class="small text-muted mb-0"><code>coding on laptop, concentrated smile</code></p>
-      </div>
-    </div>
-  </div>
 
-<div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="/assets/img/dorothy_character_sheet.jpg" alt="도로시 시트" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;" />
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">dorothy_character_sheet</h6>
-        <p class="small text-muted mb-0"><code>턴어라운드 및 다각도 표정 마스터 시트</code></p>
-      </div>
-    </div>
-  </div>
-<p>&lt;/div&gt;</p>
+---
 
-<hr />
+<!-- 하단 캐릭터 간 이동 네비게이션 페이저 -->
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3 pt-4 border-top my-4">
+  <a href="/character/hojin/" class="btn btn-outline-secondary rounded-pill px-4">
+    ← 이전: 이호진 교수님
+  </a>
+  <a href="/character/" class="btn btn-dark rounded-pill px-4">
+    📋 전체 캐릭터 목록
+  </a>
+  <a href="/character/jiny/" class="btn btn-primary rounded-pill px-4">
+    다음: 지니 →
+  </a>
+</div>
 
-<h2 id="-5-표준-ai-생성-프롬프트-블록-master-prompt-formula">💡 5. 표준 AI 생성 프롬프트 블록 (Master Prompt Formula)</h2>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dorothy, an adorable 9-year-old anime girl, 4.5 heads tall junior proportions, wavy chestnut brown hair in twin pigtails tied with colorful round beads, cute bangs, warm amber-brown eyes, rosy cheeks, cheerful bright smile. Wearing classic medium blue denim overalls with rolled cuffs and a 'STEM HERO' round patch on the chest, orange and yellow horizontal striped t-shirt underneath, white ankle socks, vibrant ruby red canvas sneakers. Clean dark brown line art (#26211E), soft warm 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
-</code></pre></div></div>
-<p>&lt;/div&gt;</p>
+</div>
 
 
     <div class="container mt-4">

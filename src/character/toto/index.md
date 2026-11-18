@@ -6,18 +6,7 @@ permalink: /character/toto/
 ---
 
 <div class="container py-4">
-  <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2 border-bottom pb-3">
-    <a href="/character/#tab-toto" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium px-3">
-      ← 캐릭터 포털로 돌아가기
-    </a>
-    <div class="d-flex flex-wrap gap-1">
-      <a href="/character/hojin/" class="btn btn-sm rounded-pill btn-light border">👨‍🏫 교수님</a>
-      <a href="/character/dorothy/" class="btn btn-sm rounded-pill btn-light border">👧 도로시</a>
-      <a href="/character/jiny/" class="btn btn-sm rounded-pill btn-light border">🐱 지니</a>
-      <a href="/character/toto/" class="btn btn-sm rounded-pill btn-dark">🐶 토토</a>
-      <a href="/character/tinny/" class="btn btn-sm rounded-pill btn-light border">🤖 티니</a>
-    </div>
-  </div>
+  {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%); border-left: 6px solid #0d9488;">
@@ -135,58 +124,6 @@ permalink: /character/toto/
   </div>
   {% endfor %}
 </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/toto/toto_02.jpg' | relative_url }}" alt="토토 02" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">toto_02: 점퍼선을 물고 오는 토토</h6>
-        <p class="small text-muted mb-0"><code>carrying jumper wire in mouth, helper</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/toto/toto_03.jpg' | relative_url }}" alt="토토 03" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">toto_03: 도로시 발밑에서 응원</h6>
-        <p class="small text-muted mb-0"><code>cheering Dorothy, loyal companion</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/toto/toto_05.jpg' | relative_url }}" alt="토토 05" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">toto_05: 고양이 지니와의 앙상블</h6>
-        <p class="small text-muted mb-0"><code>sitting together with Jiny the cat</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/toto/toto_08.jpg' | relative_url }}" alt="토토 08" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">toto_08: 아두이노 부품 상자 지키미</h6>
-        <p class="small text-muted mb-0"><code>guarding arduino parts box, proud look</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/img/toto_character_sheet.jpg' | relative_url }}" alt="토토 시트" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">toto_character_sheet</h6>
-        <p class="small text-muted mb-0"><code>턴어라운드 및 다각도 표정 마스터 시트</code></p>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -195,4 +132,21 @@ permalink: /character/toto/
 ```text
 Toto the puppy, an adorable fluffy solid warm milk-white cream puppy (no spots), black button nose, black shiny button eyes, happy cheerful panting expression with tongue out, wagging tail. Wearing a vibrant sky-blue bandana around neck. Clean dark espresso line art (#26211E), soft warm 2D flat cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+
+
+---
+
+<!-- 하단 캐릭터 간 이동 네비게이션 페이저 -->
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3 pt-4 border-top my-4">
+  <a href="/character/jiny/" class="btn btn-outline-secondary rounded-pill px-4">
+    ← 이전: 지니
+  </a>
+  <a href="/character/" class="btn btn-dark rounded-pill px-4">
+    📋 전체 캐릭터 목록
+  </a>
+  <a href="/character/tinny/" class="btn btn-primary rounded-pill px-4">
+    다음: 티니 로봇 →
+  </a>
+</div>
+
 </div>

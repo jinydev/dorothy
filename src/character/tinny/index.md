@@ -6,18 +6,7 @@ permalink: /character/tinny/
 ---
 
 <div class="container py-4">
-  <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2 border-bottom pb-3">
-    <a href="/character/#tab-tinny" class="btn btn-outline-secondary btn-sm rounded-pill fw-medium px-3">
-      ← 캐릭터 포털로 돌아가기
-    </a>
-    <div class="d-flex flex-wrap gap-1">
-      <a href="/character/hojin/" class="btn btn-sm rounded-pill btn-light border">👨‍🏫 교수님</a>
-      <a href="/character/dorothy/" class="btn btn-sm rounded-pill btn-light border">👧 도로시</a>
-      <a href="/character/jiny/" class="btn btn-sm rounded-pill btn-light border">🐱 지니</a>
-      <a href="/character/toto/" class="btn btn-sm rounded-pill btn-light border">🐶 토토</a>
-      <a href="/character/tinny/" class="btn btn-sm rounded-pill btn-dark">🤖 티니</a>
-    </div>
-  </div>
+  {% include character_nav_bar.html %}
 
 <!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); border-left: 6px solid #475569;">
@@ -137,58 +126,6 @@ permalink: /character/tinny/
   </div>
   {% endfor %}
 </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/robot/robot_02.jpg' | relative_url }}" alt="로봇 02" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">robot_02: 전구 안테나 발광 씬</h6>
-        <p class="small text-muted mb-0"><code>glowing yellow lightbulb antenna, idea found</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/robot/robot_03.jpg' | relative_url }}" alt="로봇 03" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">robot_03: 브레드보드 멀티미터 계측</h6>
-        <p class="small text-muted mb-0"><code>measuring circuit voltage, precision sensor</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/robot/robot_05.jpg' | relative_url }}" alt="로봇 05" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">robot_05: 산업용 코봇팔과의 데이터 통신</h6>
-        <p class="small text-muted mb-0"><code>communicating with cobot arm, ROS2 telemetry</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/dataset/robot/robot_08.jpg' | relative_url }}" alt="로봇 08" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">robot_08: 도로시와의 협업 컷</h6>
-        <p class="small text-muted mb-0"><code>working with Dorothy, desktop companion</code></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100 border rounded-4 p-2 shadow-sm bg-white">
-      <img src="{{ '/assets/img/robot_tinny_profile.jpg' | relative_url }}" alt="티니 프로필" class="img-fluid rounded-3 mb-2" style="height: 240px; object-fit: contain; background: #f8fafc;">
-      <div class="card-body p-2">
-        <h6 class="fw-bold mb-1">robot_tinny_profile</h6>
-        <p class="small text-muted mb-0"><code>마스터 렌더링 공식 3D 턴어라운드 컷</code></p>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -197,4 +134,21 @@ permalink: /character/tinny/
 ```text
 Tinny the robot, a friendly and cute retro-modern desktop assistant robot, waist-height, matte white rounded cube monitor head with a dark screen, glowing cyan digital eyes, an antenna with a glowing warm yellow lightbulb tip on top of head, jointed metallic arms and legs, glowing amber heart cogwheel visible on chest. Clean dark brown line art (#26211E), soft 2D cel shading, Studio Ghibli anime aesthetic, pure solid white background.
 ```
+
+
+---
+
+<!-- 하단 캐릭터 간 이동 네비게이션 페이저 -->
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-3 pt-4 border-top my-4">
+  <a href="/character/toto/" class="btn btn-outline-secondary rounded-pill px-4">
+    ← 이전: 토토
+  </a>
+  <a href="/character/" class="btn btn-dark rounded-pill px-4">
+    📋 전체 캐릭터 목록
+  </a>
+  <a href="/character/hojin/" class="btn btn-primary rounded-pill px-4">
+    다음: 이호진 교수님 →
+  </a>
+</div>
+
 </div>

@@ -1,0 +1,97 @@
+<nav class="character-subnav-container mb-4" aria-label="Character Sub Navigation">
+  <div class="d-flex flex-wrap align-items-center justify-content-center gap-2 p-2 rounded-4 bg-white border shadow-sm">
+    <a href="{{ '/character/' | relative_url }}" class="char-nav-pill {% if page.url == '/character/' or page.url == '/character/index.html' %}active{% endif %}">
+      <span class="char-nav-icon">📋</span>
+      <span class="char-nav-label">전체 개요</span>
+    </a>
+    <a href="{{ '/character/hojin/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/hojin/' %}active{% endif %}">
+      <span class="char-nav-icon">👨‍🏫</span>
+      <span class="char-nav-label">이호진 교수님</span>
+      <span class="char-nav-badge">30컷</span>
+    </a>
+    <a href="{{ '/character/dorothy/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/dorothy/' %}active{% endif %}">
+      <span class="char-nav-icon">👧</span>
+      <span class="char-nav-label">도로시</span>
+      <span class="char-nav-badge">42컷</span>
+    </a>
+    <a href="{{ '/character/jiny/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/jiny/' %}active{% endif %}">
+      <span class="char-nav-icon">🐱</span>
+      <span class="char-nav-label">지니</span>
+      <span class="char-nav-badge">26컷</span>
+    </a>
+    <a href="{{ '/character/toto/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/toto/' %}active{% endif %}">
+      <span class="char-nav-icon">🐶</span>
+      <span class="char-nav-label">토토</span>
+      <span class="char-nav-badge">22컷</span>
+    </a>
+    <a href="{{ '/character/tinny/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/tinny/' %}active{% endif %}">
+      <span class="char-nav-icon">🤖</span>
+      <span class="char-nav-label">티니 로봇</span>
+      <span class="char-nav-badge">22컷</span>
+    </a>
+    <span class="vr mx-1 d-none d-lg-block opacity-25" style="height: 1.5rem;"></span>
+    <a href="{{ '/character/parts/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/parts/' %}active{% endif %}">
+      <span class="char-nav-icon">🧩</span>
+      <span class="char-nav-label">파츠 & 에셋</span>
+      <span class="char-nav-badge">50컷</span>
+    </a>
+    <a href="{{ '/character/guide/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/guide/' %}active{% endif %}">
+      <span class="char-nav-icon">📐</span>
+      <span class="char-nav-label">제작 가이드</span>
+    </a>
+    <a href="{{ '/character/universe/' | relative_url }}" class="char-nav-pill {% if page.url contains '/character/universe/' %}active{% endif %}">
+      <span class="char-nav-icon">🌌</span>
+      <span class="char-nav-label">세계관</span>
+    </a>
+  </div>
+</nav>
+
+<style>
+.character-subnav-container {
+  margin-top: -1.25rem;
+  margin-bottom: 2.5rem;
+}
+.char-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: 9999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #475569;
+  text-decoration: none !important;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+.char-nav-pill:hover {
+  background: #f1f5f9;
+  color: #0f172a !important;
+  transform: translateY(-1px);
+}
+.char-nav-pill.active {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+}
+.char-nav-badge {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background: #e2e8f0;
+  color: #475569;
+  font-weight: 700;
+  line-height: 1;
+}
+.char-nav-pill.active .char-nav-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  .char-nav-pill {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+</style>

@@ -25,7 +25,7 @@
 
 
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="/assets/css/docs.css?v=1795020618" rel="stylesheet" />
+  <link href="/assets/css/docs.css?v=1795020778" rel="stylesheet" />
   <link href="/assets/css/highlight.css" rel="stylesheet" />
 
   <style>
@@ -383,287 +383,108 @@
     </nav>
   </header>
 
-  <div class="container bd-gutter mt-3 my-md-4 bd-layout">
-    <aside class="bd-sidebar scrollBar">
-        <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar"
-            aria-labelledby="bdSidebarOffcanvasLabel">
-            <div class="offcanvas-header border-bottom">
-                <h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">학습목차</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
-                    data-bs-target="#bdSidebar"></button>
-            </div>
+  <div class="w-100 pb-5">
+    <div class="container py-4">
+  <nav class="character-subnav-container mb-4" aria-label="Character Sub Navigation">
+  <div class="d-flex flex-wrap align-items-center justify-content-center gap-2 p-2 rounded-4 bg-white border shadow-sm">
+    <a href="/character/" class="char-nav-pill ">
+      <span class="char-nav-icon">📋</span>
+      <span class="char-nav-label">전체 개요</span>
+    </a>
+    <a href="/character/hojin/" class="char-nav-pill ">
+      <span class="char-nav-icon">👨‍🏫</span>
+      <span class="char-nav-label">이호진 교수님</span>
+      <span class="char-nav-badge">30컷</span>
+    </a>
+    <a href="/character/dorothy/" class="char-nav-pill ">
+      <span class="char-nav-icon">👧</span>
+      <span class="char-nav-label">도로시</span>
+      <span class="char-nav-badge">42컷</span>
+    </a>
+    <a href="/character/jiny/" class="char-nav-pill ">
+      <span class="char-nav-icon">🐱</span>
+      <span class="char-nav-label">지니</span>
+      <span class="char-nav-badge">26컷</span>
+    </a>
+    <a href="/character/toto/" class="char-nav-pill ">
+      <span class="char-nav-icon">🐶</span>
+      <span class="char-nav-label">토토</span>
+      <span class="char-nav-badge">22컷</span>
+    </a>
+    <a href="/character/tinny/" class="char-nav-pill ">
+      <span class="char-nav-icon">🤖</span>
+      <span class="char-nav-label">티니 로봇</span>
+      <span class="char-nav-badge">22컷</span>
+    </a>
+    <span class="vr mx-1 d-none d-lg-block opacity-25" style="height: 1.5rem;"></span>
+    <a href="/character/parts/" class="char-nav-pill ">
+      <span class="char-nav-icon">🧩</span>
+      <span class="char-nav-label">파츠 &amp; 에셋</span>
+      <span class="char-nav-badge">50컷</span>
+    </a>
+    <a href="/character/guide/" class="char-nav-pill ">
+      <span class="char-nav-icon">📐</span>
+      <span class="char-nav-label">제작 가이드</span>
+    </a>
+    <a href="/character/universe/" class="char-nav-pill active">
+      <span class="char-nav-icon">🌌</span>
+      <span class="char-nav-label">세계관</span>
+    </a>
+  </div>
+</nav>
 
-            <div class="offcanvas-body">
-                <!-- 네비게이션 -->
-                <style>
-.bd-sidebar-link {
-  color: #64748b;
-  padding: 0.45rem 0.75rem;
-  border-radius: 0 !important;
+<style>
+.character-subnav-container {
+  margin-top: -1.25rem;
+  margin-bottom: 2.5rem;
+}
+.char-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: 9999px;
   font-size: 0.92rem;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: all 0.15s ease-in-out;
-  line-height: 1.4;
-}
-.bd-sidebar-link:hover {
-  color: #0f172a;
-  background-color: #f1f5f9;
-  border-radius: 0 !important;
-}
-.bd-sidebar-link.is-active {
-  color: #0f172a !important;
-  font-weight: 700 !important;
-  background-color: #f8fafc !important;
-  border-left: 3px solid #0f172a !important;
-  border-radius: 0 !important;
-  padding-left: calc(0.75rem - 3px);
-}
-.bd-sidebar-subtitle {
-  font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #475569;
-  padding: 0.85rem 0.75rem 0.35rem 0.75rem;
-  margin-top: 0.25rem;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.01em;
-  border-bottom: 1px solid #f1f5f9;
-  margin-bottom: 0.3rem;
+  text-decoration: none !important;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
 }
-.sidebar-section-group:first-child .bd-sidebar-subtitle {
-  margin-top: 0;
-  padding-top: 0.15rem;
+.char-nav-pill:hover {
+  background: #f1f5f9;
+  color: #0f172a !important;
+  transform: translateY(-1px);
+}
+.char-nav-pill.active {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+}
+.char-nav-badge {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background: #e2e8f0;
+  color: #475569;
+  font-weight: 700;
+  line-height: 1;
+}
+.char-nav-pill.active .char-nav-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  .char-nav-pill {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+  }
 }
 </style>
 
-<nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
-  <ul class="bd-links-nav list-unstyled mb-0 pe-lg-2" style="padding-bottom: 12rem;">
-    <li class="bd-links-group py-2">
-      
 
-      
-
-      <!-- 메인 섹션 타이틀 헤더 -->
-      <a class="bd-links-heading d-flex justify-content-between align-items-center fw-bold fs-6 my-1 px-2 text-dark text-decoration-none"
-        href="/character/" style="letter-spacing: -0.01em;">
-        <span class="d-flex align-items-center">
-          <span class="text-primary me-2">🧭</span>
-          <span>캐릭터 소개</span>
-        </span>
-      </a>
-
-      <hr class="my-2 text-black-50">
-
-      
-        
-          <div class="sidebar-section-group mb-2">
-            
-              <div class="bd-sidebar-subtitle">
-                <span>연구실 5총사 상세 소개</span>
-              </div>
-            
-            <ul class="list-unstyled mb-1">
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">전체 캐릭터 개요</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/hojin/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">이호진 교수님 (Prof. Hojin)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/dorothy/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">도로시 (Dorothy)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/jiny/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">지니 (Jiny, 테크 코치)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/toto/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">토토 (Toto, 메이커 서포터)</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/tinny/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">티니 (Tinny, 데스크톱 로봇)</span>
-                    
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        
-          <div class="sidebar-section-group mb-2">
-            
-              <div class="bd-sidebar-subtitle">
-                <span>스타일 가이드 & 세계관</span>
-              </div>
-            
-            <ul class="list-unstyled mb-1">
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/guide/"
-                     class="bd-sidebar-link "
-                     >
-                    <span class="text-truncate">캐릭터 제작 & AI 가이드</span>
-                    
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li>
-                  <a href="/character/universe/"
-                     class="bd-sidebar-link is-active"
-                     >
-                    <span class="text-truncate">공학 모험의 세계관</span>
-                    
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        
-      
-    </li>
-  </ul>
-</nav>
-
-<script>
-(function() {
-  function scrollSidebarToActive() {
-    var activeItem = document.querySelector('.bd-sidebar .is-active, .bd-links .is-active, .bd-sidebar-link.is-active');
-    if (!activeItem) return;
-
-    var sidebar = document.querySelector('.bd-sidebar');
-    var offcanvas = document.querySelector('.bd-sidebar .offcanvas-body');
-
-    var container = null;
-    if (sidebar && sidebar.scrollHeight > sidebar.clientHeight) {
-      container = sidebar;
-    } else if (offcanvas && offcanvas.scrollHeight > offcanvas.clientHeight) {
-      container = offcanvas;
-    } else if (sidebar) {
-      container = sidebar;
-    }
-
-    if (container) {
-      var containerRect = container.getBoundingClientRect();
-      var itemRect = activeItem.getBoundingClientRect();
-
-      var relativeTop = itemRect.top - containerRect.top;
-      var targetScroll = container.scrollTop + relativeTop - (containerRect.height * 0.3);
-
-      container.scrollTop = Math.max(0, targetScroll);
-    }
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', scrollSidebarToActive);
-  } else {
-    scrollSidebarToActive();
-  }
-
-  window.addEventListener('load', function() {
-    setTimeout(scrollSidebarToActive, 50);
-  });
-})();
-</script>
-
-
-            </div>
-        </div>
-    </aside>
-
-    <main class="bd-main order-1">
-        <nav aria-label="breadcrumb" class="mt-3">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li class="breadcrumb-item"><a href="/character/">Character</a></li>
-        
-        
-        
-        
-        
-        
-        <li class="breadcrumb-item active" aria-current="page">공학 모험 세계관 & 교육 철학</li>
-        
-        
-        
-    </ol>
-</nav>
-
-        <div class="bd-content ps-lg-4">
-            <!-- 상단 헤더 배너 -->
+<!-- 상단 헤더 배너 -->
 <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-left: 6px solid #2563eb;">
   <div class="row align-items-center">
     <div class="col-lg-8">
@@ -685,28 +506,29 @@
   </div>
 </div>
 
-<hr />
+---
 
-<h2 id="️-1-세계관-스토리-universe-lore">🏛️ 1. 세계관 스토리 (Universe Lore)</h2>
+## 🏛️ 1. 세계관 스토리 (Universe Lore)
 
-<p>공학의 도시 한가운데 자리 잡은 이호진 교수님의 연구실은 항상 납땜 인두의 열기, 깜빡이는 오실로스코프 신호, 모터의 회전음으로 가득합니다.
-호기심 많은 9세 소녀 <strong>도로시</strong>는 전선과 센서가 어떻게 신호를 주고받는지 알고 싶어 매일 연구실 문을 두드립니다.</p>
+공학의 도시 한가운데 자리 잡은 이호진 교수님의 연구실은 항상 납땜 인두의 열기, 깜빡이는 오실로스코프 신호, 모터의 회전음으로 가득합니다.
+호기심 많은 9세 소녀 **도로시**는 전선과 센서가 어떻게 신호를 주고받는지 알고 싶어 매일 연구실 문을 두드립니다.
 
-<p>교수님은 어려운 학술 용어 대신, 빵판과 일상 비유로 도로시의 눈높이에 맞춰 원리를 설명해 줍니다.
-그 곁에서 똑똑한 턱시도 고양이 <strong>지니</strong>는 날카로운 눈빛으로 코드의 버그와 수식 오차를 짚어주고,
-활발한 강아지 <strong>토토</strong>는 부품 상자에서 필요한 저항과 점퍼선을 물어다 줍니다.
-책상 위 데스크톱 로봇 <strong>티니</strong>는 실시간으로 회로 전압을 측정하고 귀여운 표정으로 성공 신호를 보냅니다.</p>
+교수님은 어려운 학술 용어 대신, 빵판과 일상 비유로 도로시의 눈높이에 맞춰 원리를 설명해 줍니다.
+그 곁에서 똑똑한 턱시도 고양이 **지니**는 날카로운 눈빛으로 코드의 버그와 수식 오차를 짚어주고,
+활발한 강아지 **토토**는 부품 상자에서 필요한 저항과 점퍼선을 물어다 줍니다.
+책상 위 데스크톱 로봇 **티니**는 실시간으로 회로 전압을 측정하고 귀여운 표정으로 성공 신호를 보냅니다.
 
-<hr />
+---
 
-<h2 id="-2-등장인물-관계도-character-dynamics">🧭 2. 등장인물 관계도 (Character Dynamics)</h2>
+## 🧭 2. 등장인물 관계도 (Character Dynamics)
 
-<pre><code class="language-mermaid">graph TD
-    H["👨‍🏫 이호진 교수님&lt;br&gt;(총괄 멘토 / Hardware Architect)"]
-    D["👧 도로시&lt;br&gt;(9세 주니어 메이커 / 탐험가)"]
-    J["🐱 지니 고양이&lt;br&gt;(AI &amp; 소프트웨어 테크 코치)"]
-    T["🐶 토토 강아지&lt;br&gt;(하드웨어 부품 조달 서포터)"]
-    R["🤖 티니 로봇&lt;br&gt;(계측 &amp; 시각 피드백 비서)"]
+```mermaid
+graph TD
+    H["👨‍🏫 이호진 교수님<br />(총괄 멘토 / Hardware Architect)"]
+    D["👧 도로시<br />(9세 주니어 메이커 / 탐험가)"]
+    J["🐱 지니 고양이<br />(AI &amp; 소프트웨어 테크 코치)"]
+    T["🐶 토토 강아지<br />(하드웨어 부품 조달 서포터)"]
+    R["🤖 티니 로봇<br />(계측 &amp; 시각 피드백 비서)"]
 
     H -- "원리 지도 &amp; 격려" --&gt; D
     D -- "호기심 어린 질문" --&gt; H
@@ -716,85 +538,45 @@
     J -- "수식 계산 보조" --&gt; H
     R -- "전압/신호 실시간 계측" --&gt; D
     R -- "피드백 표시" --&gt; H
-</code></pre>
+```
 
-<hr />
+---
 
-<h2 id="-3-원리-우선주의-stem-교육-철학">🎯 3. 원리 우선주의 STEM 교육 철학</h2>
+## 🎯 3. 원리 우선주의 STEM 교육 철학
 
-<ol>
-  <li><strong>원리 우선주의 (First Principles Thinking):</strong>
-    <ul>
-      <li>무작정 복사-붙여넣기 코딩은 응용력을 기를 수 없습니다.</li>
-      <li>전자의 흐름, 옴의 법칙, 메모리 주소 체계, 운영체제 프로세스 격리 원리부터 차근차근 밝혀냅니다.</li>
-    </ul>
-  </li>
-  <li><strong>실습과 실패를 통한 학습 (Trial and Error):</strong>
-    <ul>
-      <li>도로시처럼 실수를 두려워하지 않고 직접 빵판에 꽂아보고, 에러 로그를 읽으며 스스로 해결하는 힘을 기릅니다.</li>
-    </ul>
-  </li>
-  <li><strong>소프트웨어와 하드웨어의 완전한 융합:</strong>
-    <ul>
-      <li>파이썬/C++ 기초 코딩이 아두이노와 센서로 이어지고, 이것이 라즈베리파이와 리눅스, 그리고 클라우드 도커와 인공지능 로보틱스로 끊김 없이 확장되도록 전 커리큘럼을 설계했습니다.</li>
-    </ul>
-  </li>
-</ol>
+1. **원리 우선주의 (First Principles Thinking):**
+   - 무작정 복사-붙여넣기 코딩은 응용력을 기를 수 없습니다.
+   - 전자의 흐름, 옴의 법칙, 메모리 주소 체계, 운영체제 프로세스 격리 원리부터 차근차근 밝혀냅니다.
 
+2. **실습과 실패를 통한 학습 (Trial and Error):**
+   - 도로시처럼 실수를 두려워하지 않고 직접 빵판에 꽂아보고, 에러 로그를 읽으며 스스로 해결하는 힘을 기릅니다.
 
+3. **소프트웨어와 하드웨어의 완전한 융합:**
+   - 파이썬/C++ 기초 코딩이 아두이노와 센서로 이어지고, 이것이 라즈베리파이와 리눅스, 그리고 클라우드 도커와 인공지능 로보틱스로 끊김 없이 확장되도록 전 커리큘럼을 설계했습니다.
 
-            <!-- 구글 애드센스 출력 -->
-            <div class="mt-5">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3321560028329475"
-    crossorigin="anonymous"></script>
-<!-- jinydev-java -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3321560028329475" data-ad-slot="9323221865"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-            </div>
-        </div>
-
-        <div class="bd-toc mt-3 mb-5 my-lg-0 ps-xl-3 mb-lg-5 text-body-secondary">
-
-  <button class="btn btn-link p-md-0 mb-2 mb-md-0 text-decoration-none bd-toc-toggle d-md-none" type="button"
-    data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false" aria-controls="tocContents">
-    서브목차
-    <svg class="bi d-md-none ms-2" aria-hidden="true">
-      <use xlink:href="#chevron-expand"></use>
-    </svg>
-  </button>
-
-  <strong class="d-none d-md-block h6 my-2">서브목차</strong>
-
-  <div class="collapse bd-toc-collapse" id="tocContents">
-    <nav id="TableOfContents">
-      <!--
-      <ul>
-        <li><a href="#quick-start">Quick start</a></li>
-        <li><a href="#cdn-links">CDN links</a></li>
-        <li><a href="#next-steps">Next steps</a></li>
-        <li><a href="#js-components">JS components</a></li>
-        <li><a href="#important-globals">Important globals</a>
-          <ul>
-            <li><a href="#html5-doctype">HTML5 doctype</a></li>
-            <li><a href="#responsive-meta-tag">Responsive meta tag</a></li>
-            <li><a href="#box-sizing">Box-sizing</a></li>
-            <li><a href="#reboot">Reboot</a></li>
-          </ul>
-        </li>
-        <li><a href="#community">Community</a></li>
-      </ul>
-      -->
-    </nav>
-  </div>
-</div>
-    </main>
+<div class="d-flex justify-content-center gap-3 my-5">
+  <a href="/character/" class="btn btn-outline-dark rounded-pill px-4">
+    📋 캐릭터 포털 전체보기
+  </a>
+  <a href="/character/guide/" class="btn btn-primary rounded-pill px-4">
+    📐 제작 가이드 확인하기
+  </a>
 </div>
 
-<!-- 공용 대화 오디오 플레이어 컨트롤러 스크립트 -->
-<script src="/assets/js/audio.js" defer></script>
+</div>
+
+
+    <div class="container mt-4">
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3321560028329475"
+            crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86"
+            data-ad-client="ca-pub-3321560028329475" data-ad-slot="6043271504"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
 
   <footer class="bd-footer py-4 py-md-5 mt-5 bg-light border-top">
   <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
